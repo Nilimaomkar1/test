@@ -1,0 +1,32 @@
+
+ul.sitemaplink   {
+  margin:10px 0px 0px;
+  padding:0px;
+  
+} 
+.sitemaplink li {
+  margin:15px 0px 15px;
+  list-style-type: none;
+  background: none; 
+}
+.sitemaplink li a {
+  font-size: 14px !important;
+  color:#54545d;
+  
+}
+ul.sitemap_inner  {
+  margin:0px 10px 15px;
+  padding:0px;
+  
+} 
+.sitemap_inner li {
+  margin:5px 15px 5px;
+  list-style-type:disc;
+  color:#c1c1c1;
+  background: none; 
+}
+.sitemap_inner li a {
+  font-size: 14px !important;
+  color:#969696;
+ font-family: "Kohinoor";
+}

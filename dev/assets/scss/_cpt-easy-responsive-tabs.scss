@@ -1,0 +1,319 @@
+.device-review-container {
+    ul.resp-tabs-list, p {
+        margin: 0px;
+        padding: 0px;
+    }
+    .techspecs {
+        margin: 0px;
+        padding: 0px;
+    }
+    .techspecs td:nth-child(1) {
+        border-bottom: 1px solid #ccc;
+        width: 50%;
+		color:#b7b7b9!important;
+		padding-top:10px;
+		padding-bottom:10px;
+    }
+    .techspecs td:nth-child(2) {
+        border-bottom: 1px solid #ccc;
+        width: 50%;
+		padding-top:10px;
+		padding-bottom:10px;
+		
+    }
+	
+	.techspecs td:nth-child(1) h3{
+	line-height:40px;
+	}
+	.key-feature-text{
+	   padding-top:13%;
+	}
+	
+
+    .in-the-box-cont {
+        padding:10px; 
+        background-image: url("../images/app-pro-bg.png")!important;
+        height: auto;
+        background-color: #f2f2f4;
+		
+    }
+    .progress-bar {
+        float: left;
+        height: 8px;
+		width:121px;
+        font-size: 12px;
+        line-height: 10px;
+        color: #fff;
+        text-align: center;
+         background-image: url("../images/progress-bar-background.png")!important;
+		 background-color:none!important;
+        
+    }
+    .progress {
+        height: 7px;
+		width:121px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        background-image: url("../images/progress-bar-bg.png")!important;
+       
+    }
+    .review-part1 {
+        padding-top: 10px;
+        background-image: url("../images/app-pro-bg.png")!important;
+        height: 110px;
+        background-color: #f2f2f4;
+    }
+    .review-part2 {
+        padding-top: 10px;
+        height: 110px;
+        background-color:#f9f9fb;
+    }
+	.review-part-btn-space {
+        padding-bottom: 30px;
+         
+    }
+    .progress-container {
+        border-left: 1px solid #bbbbbd;
+        padding-top: 10px;
+        height: 60px;
+    }
+	.first-progress-container {
+        border-left: 0px solid #bbbbbd;         
+    }
+    a {
+        color: #525252;
+        border-bottom: 2px solid #fcc200;
+        text-decoration: none;
+    }
+    .tabs-main-container {
+        background-color: #f9f9fb;
+        height: 100px;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    .resp-tabs-list li {
+        font-size: 24px;
+        display: inline-block;
+        padding: 13px 30px;
+        margin-top: 39px!important;
+        margin: 0;
+        list-style: none;
+        cursor: pointer;
+        float: left;
+        font-family: 'Kohinoor'!important;
+        background: none;
+        color: #929196;
+    }
+    .resp-tabs-container {
+        padding: 0px;
+        background-color: #fff;
+        clear: left;
+    }
+    h2.resp-accordion {
+        cursor: pointer;
+        padding: 5px;
+        display: none;
+    }
+    .resp-tab-content {
+        display: none;
+        padding: 15px;
+    }
+    .resp-tab-active {
+        border: 1px solid #e4e4e4;
+        border-bottom: none;
+        margin-bottom: -1px !important;
+        padding: 12px 14px 14px 14px !important;
+        background-color: #fff!important;
+		color:#fed200!important;
+    }
+    .resp-tab-active li {
+        color: red!important;
+    }
+    .resp-tab-active {
+        border-bottom: none;
+        background-color: #fff;
+    }
+    .resp-content-active,
+    .resp-accordion-active {
+        display: block;
+    }
+    .resp-tab-content {
+        border: none;
+    }
+    h2.resp-accordion {
+        font-size: 13px;
+        border: 1px solid #c1c1c1;
+        border-top: 0px solid #c1c1c1;
+        margin: 0px;
+        padding: 10px 15px;
+    }
+    h2.resp-tab-active {
+        border-bottom: 0px solid #c1c1c1 !important;
+        margin-bottom: 0px !important;
+        padding: 10px 15px !important;
+    }
+    h2.resp-tab-title:last-child {
+        border-bottom: 12px solid #c1c1c1 !important;
+        background: blue;
+    }
+    /*-----------Vertical tabs-----------*/
+    
+    .resp-vtabs ul.resp-tabs-list {
+        float: left;
+        width: 30%;
+    }
+    .resp-vtabs .resp-tabs-list li {
+        display: block;
+        padding: 15px 15px !important;
+        margin: 0;
+        cursor: pointer;
+        float: none;
+    }
+    .resp-vtabs .resp-tabs-container {
+        padding: 0px;
+        background-color: #fff;
+        border: 1px solid #c1c1c1;
+        float: left;
+        width: 68%;
+        min-height: 250px;
+        border-radius: 4px;
+        clear: none;
+    }
+    .resp-vtabs .resp-tab-content {
+        border: none;
+    }
+    .resp-vtabs li.resp-tab-active {
+        border: 1px solid #c1c1c1;
+        border-right: none;
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+        margin-right: -1px !important;
+        padding: 14px 15px 15px 14px !important;
+    }
+    .resp-arrow {
+        width:16px;
+        height: 16px;
+        float: right;
+		margin-top:20px;
+		background-image: url("../images/accordion-down.png") !important;
+		background-repeat: no-repeat;
+       
+    }
+    h2.resp-tab-active span.resp-arrow {
+        border: none;
+        background-image: url("../images/accordion-up.png") !important;
+		background-repeat: no-repeat;
+    }
+	
+.resp-tabs-container .tab-content {
+  margin-top:10px;
+  font-size: 16px !important;   
+  line-height: 24px !important;
+}
+    /*-----------Accordion styles-----------*/
+    
+    h2.resp-tab-active {
+        background: #fdfdfe !important;
+		
+    }
+    .resp-easy-accordion h2.resp-accordion {
+        display: block;
+    }
+    .resp-easy-accordion .resp-tab-content {
+        border: 1px solid #c1c1c1;
+    }
+    .resp-easy-accordion .resp-tab-content:last-child {
+        border-bottom: 1px solid #c1c1c1 !important;
+    }
+    .resp-jfit {
+        width: 100%;
+        margin: 0px;
+    }
+    .resp-tab-content-active {
+        display: block;
+    }
+    h2.resp-accordion:first-child {
+        border-top: 1px solid #c1c1c1 !important;
+    }
+    /*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+    
+    @media only screen and (max-width: 768px) {
+        h2 {
+            font-size: 1.8em !important;
+        }
+        .review-part1 {
+            height: 250px;
+        }
+        .review-part2 {
+            height: auto;
+			 
+        }
+        .tab-content-container {
+            padding: 0px;
+            margin: 0px;
+        }
+        .tabs-main-container {
+            background-color: none;
+            height: 0px;
+            border: none;
+        }
+        .progress-container {
+            border: none;
+            padding-top: 10px;
+            height: 60px;
+        }
+        ul.resp-tabs-list {
+            display: none;
+        }
+        h2.resp-accordion {
+            display: block;
+        }
+        h2.resp-accordion {
+            background: #f9f9fb;
+            border: none!important;
+            margin-bottom: 2px !important;
+            padding: 20px 15px !important;
+        }
+        h2.resp-tab-active {
+            border-bottom: 0px solid #c1c1c1 !important;
+            margin-bottom: 0px !important;
+            padding: 20px 15px !important;
+            font-family: 'Kohinoor'!important;
+        }
+		.resp-arrow {
+			margin-top:8px;
+		}
+        h2.resp-accordion:first-child {
+            border: none!important;
+        }
+        .resp-vtabs .resp-tab-content {
+            border: none;
+        }
+        .resp-vtabs .resp-tabs-container {
+            border: none;
+            float: none;
+            width: 100%;
+            min-height: initial;
+            clear: none;
+        }
+        .resp-accordion-closed {
+            display: none !important;
+        }
+		
+    }
+	
+	 @media only screen and (max-width: 640px) {
+        h2 {
+            font-size: 1.8em !important;
+        }
+		.resp-arrow {
+			margin-top:20px;
+		}
+	}
+	
+	 @media only screen and (max-width: 360px) {
+		.resp-arrow {
+			margin-top:8px;
+		}
+	}
+}

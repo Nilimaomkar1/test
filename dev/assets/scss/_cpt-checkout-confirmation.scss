@@ -1,0 +1,52 @@
+.checkout-confirmation-amount{ 	 
+	font-size:1.500em	 
+}
+ 
+ .checkout-confirmation-amount .bold { 
+	font-family: 'kohinoorbold';
+	
+} 
+.checkout-white_bg
+{
+background-color:#fff !important;
+padding-bottom:0px !important;
+} 
+.checkout-white_bg a { 
+color: #525252;
+border-bottom: 2px solid #fcc200;
+text-decoration: none;
+}
+.checkout-white_bg span
+{
+ font-family: 'kohinoorbold';
+} 
+.checkout-white_bg  p
+{
+line-height:30px !important;
+
+} 
+
+@media(max-width:640px){
+.checkout-white_bg .btn-filters
+{
+text-align:center;
+}
+.checkout-white_bg .btn-filters .load-more {
+background-color: transparent;
+color: #525252;
+border: 1px solid #c8c8ca;
+border-radius: 48px;
+font-size: 0.875em;
+font-family: 'kohinoorbold';
+padding: 8px 20px;
+text-transform: uppercase;
+margin-top: 0px;
+margin-bottom: 20px;
+background-image: url("../images/btn-down-arrow-small.png");
+background-repeat: no-repeat;
+background-position: right center;
+text-align: left;
+width: 200px;
+
+}
+}

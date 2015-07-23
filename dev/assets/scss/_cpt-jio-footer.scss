@@ -1,0 +1,192 @@
+
+.jio-footer li{
+	list-style: none;
+}
+.footer-city-txt { float: left; font-size:14px!important; border-right: 1px solid #E3E3E3!important; padding: 0px 0px 0px 0px; margin-right:22px;}
+.top-border-none
+{
+ border-top:none!important;
+}
+.footer-drop-box { margin-top: 10px;}
+#footer-txt {
+border-top: 1px solid #E3E3E3!important;
+border-bottom: 1px solid #E3E3E3!important;
+}  
+#footer-txt {
+    font-size: 12px!important;
+    color: #333333!important;
+    margin: 20px 0px 20px 0px!important;
+    line-height: 35px!important;
+}
+
+
+ul#footerlink li:first-child{
+	color: #8e8e8e !important;
+    font-family: kohinoorbold !important;
+    font-size: 14px !important;
+    line-height: 22px;
+}  
+
+ul#footerlink li a{
+	 color: #969696!important;
+    display: block!important;
+    line-height: 22px!important;
+    padding-right:5px!important;
+} 
+  
+ul#footerlink li a:hover{
+	text-decoration:underline; 
+	border-bottom:0px !important;
+	background-color: transparent!important;
+    color: #000!important;
+} 
+
+ul#social-links{
+	margin-top:0px!important;
+	margin-left:0px!important;
+	padding-left: 0px!important;
+}
+ul#social-links li {
+
+    list-style: none!important;
+    display: inline!important;
+	line-height: 55px;
+}
+
+ul#social-links{
+	margin-right:0px;
+}
+ul#social-links li{
+    list-style:none!important;
+ font-size:1em!important;
+ width: auto!important;
+  float: left!important;
+  display: inline!important;
+}
+
+ul#social-links img{
+    
+    margin-top: 0px!important;
+}
+
+ul#social-links li:first-child{
+	color: #8e8e8e !important;
+    font-family: kohinoorbold !important;
+    font-size: 14px !important;
+	margin-right: 10px;
+}
+.jio-footer .jio-content {
+    padding: 0px 20px 0px 0px;
+}
+.jio-footer .jio-content h2 {
+    margin:0px 0px 10px 0px !important;
+	font-size:32px !important;
+}
+
+ 
+
+
+
+
+.loyalty-orderlist { margin: 20px 20px 0px 0px; width:95%; }
+.loyalty-orderlist ul {margin: 0px 0px 0px 0px!important; padding: 0px 20px 0px 0px;}
+.loyalty-orderlist ul li {
+	padding: 5px 0px 5px 30px;
+	line-height: 20px;
+	font-size: 1em;
+	color: #2e2e33;
+	list-style-type: none;
+	background: url(../images/order-list-icon.jpg) no-repeat top left; 
+	
+}
+.loyalty-orderlist ul { margin-right: 5px; margin-top: 15px !important;}
+.loyalty-orderlist { margin: 40px 0px 0px 0px;}
+.jio-footer p.btn-div{ padding-top:20px !important;}
+
+// ---------------------------------------- Mobile Device Class for 1024 width ----------------------------------------
+
+@media (max-width: 1024px) {
+.loyalty-orderlist { margin: 20px 0px 0px 0px; width:100%; }
+.loyalty-orderlist ul li {
+	padding: 2px 0px;
+	line-height: 20px;
+	font-size: 1em;
+	color: #2e2e33;
+	
+}
+.loyalty-orderlist h5 { line-height:10px !important; }
+}
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+ul#social-links li {
+
+    list-style: none!important;
+    display: inline!important;
+	line-height: 34px;
+}
+.footer-drop-box {display: none;}
+.jio-footer .jio-img-hide {
+    display: none;
+}
+.reward-text {
+    display:block !important;
+	margin-top:40px!important;   
+}
+.reward-text .jio-content h2 {
+  padding: 0px 0px 0px 15px !important;
+  margin:10px 0px 8px 0px !important;
+  line-height:48px !important;
+}
+.reward-text .jio-content p {
+  padding: 0px 0px 0px 20px !important;
+} 
+}
+
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+@media (max-width: 640px) {
+ 
+.jio-footer {
+	margin-left: 0px;
+}
+.jio-footer .jio-content h2 {
+    margin:8px 0px 0px 4px !important;
+	font-size:24px !important;
+}
+.jio-footer .jio-content p {
+    width: 92%;
+}
+.loyalty-orderlist ul { margin: 0px 20px 0px 0px;}
+	.loyalty-orderlist ul li {
+	padding: 5px 0px 5px 30px;
+	line-height: 40px;
+	font-size: 1.8em;
+	background: url(../images/order-list-icon1.jpg) no-repeat top left; 
+}
+.loyalty-orderlist ul {margin-top: 20px !important;}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.loyalty-orderlist ul li {
+font-size: 1em;
+line-height: 22px;
+	padding: 5px 0px 5px 30px;
+	background: url(../images/order-list-icon.jpg) no-repeat top left; 
+}
+.jio-footer .jio-content h2 {
+    line-height:30px !important;
+	font-size:24px !important;
+}
+}

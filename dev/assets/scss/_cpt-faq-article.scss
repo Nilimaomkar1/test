@@ -1,0 +1,82 @@
+.faq-contant h4 {margin-bottom:10px !important;}
+.faq-contant p {font-size:1.5em !important; line-height:40px !important;}
+
+.border-none{border:solid 0px #fff !important;}
+.faq-lets-slove { background:#f9f9fa; padding: 25px;}  
+.faq-lets-slove p { font-size: 1.8em !important;}
+.faq-lets-btn {
+background-color: #fed200 !important;
+border: 2px solid #fed200;
+border-radius: 40px;
+color: #525252;
+font-family: "kohinoorbold";
+font-size: 1em;
+padding: 15px 35px;
+text-transform: uppercase;
+}
+.faq-yes-btn {
+background-color:transparent;
+border: 2px solid #c8c8ca;
+border-radius: 40px;
+color: #525252;
+font-family: "kohinoorbold";
+font-size: 1em;
+padding: 10px 65px 10px 50px;
+text-transform: uppercase;
+background-image:url(../images/yes-btn-icon.png);
+background-position:right;
+background-repeat:no-repeat;
+}
+.faq-no-btn {
+background-color:transparent;
+border: 2px solid #c8c8ca;
+border-radius: 40px;
+color: #525252;
+font-family: "kohinoorbold";
+font-size: 1em;
+padding: 10px 65px 10px 50px;
+text-transform: uppercase;
+background-image:url(../images/no-btn-icon.png);
+background-position:right;
+background-repeat:no-repeat;
+}
+.faq-related-question p {
+border-bottom: 1px solid #b2b2b5;
+padding-bottom: 15px !important;
+padding-top: 10px !important;
+}
+/* ###################### width 640px ####################### */
+
+@media(max-width:640px){
+.faq-yes-btn, .faq-no-btn { 
+margin-bottom:40px;
+ 
+}
+ .faq-contant p {
+font-size: 2em !important;
+font-weight: normal !important;
+line-height: 48px !important;
+}
+}
+
+/* ###################### width 480px ####################### */
+
+@media(max-width:480px){
+
+}
+
+/* ###################### width 400px ####################### */
+
+@media(max-width:400px){
+.faq-yes-btn, .faq-no-btn {
+ 
+padding: 10px 50px 10px 40px;
+margin-bottom:40px;
+ 
+}
+.faq-contant p {
+font-size: 1em !important;
+font-weight: normal !important;
+line-height: 24px !important;
+}
+}

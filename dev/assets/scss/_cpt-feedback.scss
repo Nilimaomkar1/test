@@ -1,0 +1,128 @@
+.feedback-header {
+	background-color:#f7f7f7;
+	margin-bottom:10px;
+}
+
+.feedback-header .heading {
+	font-size:18px;
+	color:#58585c;
+	padding:10px 0px 0px 20px;
+}
+ 
+.feedback-header .rating div {
+	display:inline-block;
+	margin-top:5px;	
+}
+.feedback-header .rating div span {
+	font-size:14px;
+	color:#a5a5a8;
+	text-transform:uppercase;
+	display:block;
+	padding:0px 5px;
+	text-align:center;
+}
+.changer img
+{
+	cursor:pointer
+}
+.feedback-txt {
+	display:none !important;
+}
+
+
+ 
+ 
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.feedback-header {
+background-color:#f7f7f7;
+margin:0px 5px 5px;
+}
+.feedback-header .heading {
+	font-size:16px;
+	padding-left:30px;
+	
+}	 
+	.feedback-header .rating
+{
+padding-left:30px;
+ 
+} 
+.feedback_textarea
+{
+ padding-left:30px;
+ }
+.feedback-header .rating div {
+	display:inline-block;
+	line-height:none !important;	
+		 
+}
+.feedback-header .rating div span:nth-child(2) {
+display:none; 
+	 
+}
+.feedback-txt {
+font-size:14px;
+	color:#a5a5a8;
+	text-transform:uppercase;
+	display:block !important;
+ }
+ 
+}
+
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------//
+
+@media(max-width:480px) {
+.feedback-header .heading{
+	font-size:16px;	 
+	padding:5px 0px 0px 40px;
+	 
+}
+.feedback-txt 
+{
+padding-left:5px;
+}
+ 	 
+	.feedback-header .rating
+{
+padding-left:40px;
+} 
+.feedback_textarea
+{
+ padding-left:40px;
+ }
+ .feedback_table td:nth-child(1) input[type=radio].css-checkbox + label.css-label
+{
+
+padding-left:0px !important;
+width:35px;
+}
+.feedback_table td:nth-child(2)
+{
+padding-bottom:10px !important;
+}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------//
+
+@media(max-width:400px) {
+.feedback-header .heading{
+	font-size:14px;	 
+	padding:5px 0px 0px 50px;
+	 
+}
+ 
+.feedback-header .rating
+{
+padding-left:50px;
+}
+ 
+.feedback_textarea
+{
+ padding-left:50px;
+ }
+ 
+}

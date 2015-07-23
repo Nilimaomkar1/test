@@ -1,0 +1,84 @@
+#feedback {
+    position: fixed;
+    right: -640px;
+    width: 640px;
+    bottom: 10%;
+    z-index: 999999999;
+	background-color:#FFF;
+	border:1px solid #c5c5c5;
+	border-right:none;
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+	padding:20px 10px;
+}
+#feedback a {
+    background: url("../images/Feedback-btn1.png") no-repeat center left transparent;
+    display: block !important;
+    width: 50px;
+    height: 165px;
+    float: left;
+    text-indent: -9999em;
+    position: absolute;
+    bottom: 0px;
+    right: 640px;
+    outline: none;
+}
+#feedback a:hover {
+    background: url("../images/Feedback-btn1-over.png") no-repeat center left transparent;
+}
+
+.feedback-clicked a {
+    background: url("../images/Feedback-btn2.png") no-repeat center left transparent !important;
+    width: 50px;
+    height: 165px;
+}
+
+.feedback-clicked a:hover {
+    background: url("../images/Feedback-btn2-over.png") no-repeat center left transparent !important;
+}
+#feedback .feedback-slider-header {
+	background-color:#f7f7f7;
+	margin-bottom:10px;
+}
+#feedback .feedback-slider-header .heading {
+	font-size:1em;
+	color:#58585c;
+	padding:5px 0px 0px 30px;
+}
+#feedback .feedback-slider-header .rating div {
+	display:inline-block;
+	margin-top:5px;	
+	padding-left:10px;
+}
+#feedback .feedback-slider-header .rating div span {
+	font-size:11px;
+	color:#a5a5a8;
+	text-transform:uppercase;
+	display:block;
+	padding:5px 5px 0px 5px;
+	text-align:center;
+}
+#feedback .feedback-slider-header .feedback-textarea-box {
+	border:1px solid #a7a6ab;
+	background-color:transparent;
+	padding:10px;
+	margin:0px 0px 15px 15px;
+	width:100%;
+}
+#feedback .btn-send {
+	font-family: 'kohinoorbold';
+    background-color: #fdcc00;
+    color: #525252;
+    border: 2px solid #fcc200;
+    border-radius: 40px;
+    font-size: 1em;
+    padding: 12px 40px;
+    text-transform: uppercase;
+	outline:none !important;
+}
+
+@media (max-width: 768px) {
+    #feedback {
+        display: none !important;
+    }
+}

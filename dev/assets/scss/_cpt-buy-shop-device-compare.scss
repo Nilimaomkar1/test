@@ -1,0 +1,140 @@
+.compare-device-list{
+	border:1px solid #cccccc;
+	padding:3px;
+	height:109px;
+	display:none;
+	position:relative;
+}
+.compare-device-list .compare-menu {
+	width:860px;
+	margin:0px;
+	padding:0px;
+}
+.compare-device-list .compare-menu ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.compare-device-list .compare-menu ul li {
+	float:left;
+	padding:10px;
+	position:relative;
+	margin-right:2px;
+	width:212px;
+	background:#fdf9fa;
+	border:1px solid #efedee;
+	height:100px;
+	display:none;
+}
+.compare-normal{
+	width:20px;
+	height:20px;
+	background:url('../images/compare-icon.png');
+	position:absolute;
+	position: absolute;
+	margin-left: 9px;
+	margin-top: -2px;
+}
+.compare-device-list .compare-menu .close-compare-icon{
+	background:url('../images/compare-close-icon.png');
+	width:24px;
+	height:23px;
+	position:absolute;
+	top:2px;
+	right:2px;
+	cursor:pointer;
+}
+.compare-device-list .compare-button-wrap {
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+.compare-device-list .compare-button-wrap .compare-container-close{
+	background:url('../images/compare-container-close.png');
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:1px;
+	right:2px;
+	cursor:pointer;
+}
+.compare-device-list .compare-button-wrap .compare-button{
+	background-color: #fed200 !important;
+	border: 2px solid #fcc200;
+	border-radius: 40px;
+	color: #525252;
+	font-family: "kohinoorbold";
+	font-size: 1em;
+	padding:12px 50px;
+	text-transform: uppercase;
+	margin-top:25px;
+}
+.device-compare.active{
+	color:#fcc200!important;
+}
+.device-compare.active .compare-normal {
+	background:url('../images/compare-icon-over.png');
+}
+
+@media(max-width:1024px){
+.compare-device-list .compare-menu {
+	width:760px;
+	margin-left:15px;
+}
+}
+
+@media(max-width:768px){
+.compare-device-list .compare-menu {
+	width:540px;
+}
+}
+
+@media(max-width:640px){
+.compare-device-list .compare-menu {
+	width:418px;
+}
+.compare-device-list .compare-menu ul li {
+	width:204px;
+}
+}
+
+@media(max-width:480px){
+.compare-device-list .compare-menu {
+	width:315px;
+}
+.compare-device-list .compare-button-wrap .compare-button{
+	border-radius: 40px;
+	padding:12px 20px;
+	margin-top:25px;
+}
+}
+
+@media(max-width:360px){
+.compare-device-list .compare-menu {
+	width:220px;
+}
+.compare-device-list .compare-button-wrap .compare-button{
+	border-radius: 20px;
+	padding:8px 10px;
+	margin-top:25px;
+	font-size: 0.8em;
+}
+.compare-device-list .compare-menu ul li {
+	width:140px;
+	font-size:12px;
+}
+}
+
+@media(max-width:320px){
+.compare-device-list{
+	padding:3px 0px;
+}
+.compare-device-list .compare-menu {
+	width:200px;
+	margin-left:10px;
+}
+.compare-device-list .compare-menu ul li {
+	width:130px;
+	font-size:12px;
+}
+}

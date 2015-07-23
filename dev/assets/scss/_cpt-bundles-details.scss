@@ -1,0 +1,128 @@
+.bundle-set-container .bundle-set{ color:#fff}
+
+.bundle-discription{
+
+}
+
+.bundle-set-container .bundle-set .bundle-offer h2, .bundle-set-container .bundle-set .bundle-discription h2{
+	font-size: 3.750em !important;	 
+	color:#fff !important;
+	padding-bottom:20px !important; 
+}
+
+
+ .bundle-set-container .bundle-set .bundle-discription h2{
+color: #fff !important;
+z-index:1!important;
+}
+.bundle-set-container .bundle-set .bundle-discription{position:absolute; top:60px; right:130px; width:30%;}
+
+.bundle-set-container .bundle-set .bundle-discription h1{
+	padding-bottom:0px !important;
+	color:#fff !important;
+}
+.bundle-discription h3{
+	padding-bottom:20px !important;
+	color:#fff !important;
+}
+.bundle-set-container .bundle-set .bundle-discription .discription-point{text-transform:uppercase; color:#a39f98; margin-top:25px;}
+.bundle-set-container .bundle-set .bundle-discription .products-name{ font-size:1.500em;}
+
+
+.bundle-set-container .bundle-set .bundle-offer{position:absolute; top:75px; left:40px; text-align:left;}
+.bundle-set-container .bundle-set .bundle-offer h1 {
+	padding-bottom:20px !important;
+	
+}
+.bundle-set-container .bundle-set .bundle-offer ul li{list-style-type:none; padding-bottom:15px;}
+.bundle-set-container .bundle-set .bundle-offer ul li span{ padding-right:15px;}
+
+
+/******bundles plan app details start******/
+.bundles-plan-app h2{ padding-top:30px; padding-bottom:30px;}
+.plan-app-data{ font-size:1.125em; margin-top:22px;}
+.bundles-plan-app  .plan-app-data img{ padding-bottom:15px;}
+/******bundles plan app details end******/
+.yellow_link a
+{color: #525252;
+border-bottom: 2px solid #fcc200;
+text-decoration: none;}
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+@media (max-width: 768px) {
+.bundle-set-container .bundle-set .bundle-discription{
+	  
+	width:40%; 
+	 right:0px; 
+	}	 
+}
+	
+@media (max-width: 640px) {
+.bundle-set-container .bundle-set .bundle-discription{
+    position:relative;  
+    width:100%; 
+    color:#2e2e33;  
+    top:0px; 
+    right:0px;
+    }
+
+.bundle-set-container .bundle-set .bundle-discription{position:relative;  width:100%;}
+.bundle-set-container .bundle-set .bundle-discription h2{
+color: #54545d!important;
+z-index:1!important;
+}
+.bundle-set-container .bundle-set .bundle-discription .products-name{ font-size:1.2em;}
+.bundle-set-container .bundle-set .bundle-discription  .discription-details{ margin-top:250px;}
+.bundle-set-container .bundle-set .bundle-discription .offer{background-color:#eeeeef; padding-bottom:15px; position:absolute; width:100%; top:0px;}
+.bundle-set-container .bundle-set .bundle-discription h1{color:#2e2e33 !important;}
+.bundle-discription h3{
+	color:#2e2e33 !important;
+}
+.bundle-set-container .bundle-set .bundle-discription .top-space-intro{text-align:center;}
+.bundle-set-container .bundle-set .bundle-offer{
+	position:absolute; 
+	top:45px; 
+	right:40px; 
+	left: initial; 	
+	text-align:left; 
+	}
+.plan-app-data{
+		font-size: 2em !important;
+		font-weight: normal !important;
+		line-height: 48px !important;
+	}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.bundle-offer{
+	position:absolute; 
+	top:5px !important; 
+	right:40px; 
+	left: initial; 
+	z-index:999; 
+	text-align:left;
+}
+	
+.bundle-set-container .bundle-set .bundle-offer h2{
+	font-size: 1.3em !important;
+	color:#fff !important;
+	line-height: 25px !important;
+}
+.bundle-set-container .bundle-set .bundle-offer ul li{
+	list-style-type:none; padding-bottom:0px; 
+}
+.bundle-set-container .bundle-set .bundle-offer h2, .bundle-set-container .bundle-set .bundle-discription h2{
+	font-size: 1.875em !important;	 
+	color:#fff !important;
+	line-height:36px !important;;
+	padding-bottom:10px !important;
+}
+
+}
+ 

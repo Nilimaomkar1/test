@@ -1,0 +1,392 @@
+.featuredapps-container {
+	margin: 0px auto;
+	padding:0px;
+}
+.featuredapps-container .pad-left {
+	padding: 0px 0px 0px 8px;
+}
+.featuredapps-container .pad-right {
+	padding: 0px 8px 0px 0px;
+}
+.featuredapps-container .pad-right {
+	padding: 0px 8px 0px 0px;
+}
+.featuredapps-container .txtinfo {
+	height:276px;
+}
+.featuredapps-container .left-space {
+	left:0px;
+}
+.featuredapps-tile-container {
+    color: #fff;
+    font-size: 18px;
+    margin:0px;
+    padding:0px;
+}
+
+.featuredapps-apps-container {
+	height:268px;
+	background-image: url(../images/app-grp-bg-icon.jpg);
+    background-repeat: repeat;
+	color: #fff;
+    font-size: 18px;
+    margin:0px;
+    padding:0px;
+}
+.device-product-container{
+	background-image:none;
+}
+.featuredapps-tile-pos-right {
+	right:-254px; 
+	position:absolute;
+}
+.featuredapps-tile-pos-left {
+	left:-254px; 
+	position:absolute;
+	top:-20px;
+}
+.featuredapps-container .hide-div {
+	display:block !important;
+}
+.graytxt { 
+	color:#54545d !important;
+}
+.graytxt-size { 
+	color:#54545d !important;
+	font-size:24px;
+}
+.featuredapps-right-p { 
+	padding-right: 16px;
+}
+.featuredapps-left-p { 
+	padding-left: 8px;
+}
+.col-padding-none {
+    margin: 0px -8px 0px 0px;
+}
+.featuredapps-container h3 { 
+	font-size: 24px !important; 
+	color: #54545d !important;
+	margin:15px 0px 5px 20px !important; 
+}
+.featuredapps-container p {
+	width: 80%;
+	margin-left: 23px !important;
+}
+.featuredapps-container h1 { 
+	margin-left: 23px !important;
+	margin-top: 0px !important;
+}
+.featuredapps-container .entertainment-apps p {
+	width: 80%;
+	margin-left: 20px !important;
+}
+.featuredapps-container .entertainment-apps h1 { 
+	margin-left: 46px !important;
+	margin-top: 20px !important;
+}
+
+.featuredapps-bottom-title {
+    font-size: 24px !important;
+	color:#fff !important;
+}
+.featuredapps-tile-container .featuredapps-top-cont, .featuredapps-apps-container .featuredapps-top-cont {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    text-align: left;
+}
+.featuredapps-tile-container .featuredapps-top-cont a, .featuredapps-apps-container .featuredapps-top-cont a {
+	padding: 0px 5px 0px 0px;
+}
+.featuredapps-center-title {  
+	position: absolute;
+    bottom: 40%; 
+	text-align: center; 
+	width: 100%;
+}	
+.featuredapps-center-vertical-title {
+	bottom: 30%; 
+	text-align: center;
+}
+.featuredapps-left-vertical-title{
+bottom: 30%; 
+	text-align: left;
+	left:5%;
+}
+.featuredapps-tile-container .featuredapps-bottom-title, .featuredapps-apps-container .featuredapps-bottom-title {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    /*z-index: 999999999999999999;*/
+    text-align: left;
+}
+.entertainment-apps .featuredapps-center-vertical-title {
+bottom: 25px !important;
+left: 25px !important;
+text-align: left !important; }
+
+.entertainment-apps .featuredapps-center-vertical-title1 {
+bottom: 25px;
+left: 25px;
+text-align: left; }
+
+
+.featuredapps-container feaureapps-title{
+	color: #54545d !important;
+    font-family: "kohinoor";
+    font-size: 2.25em!important;
+    line-height: 24px;
+	margin-left: 23px;
+}
+ 
+// ---------------------------------------- Mobile Device Class for 1024 width ----------------------------------------
+
+@media (max-width: 1024px) {
+.featuredapps-apps-container {
+	width:100%;
+}
+.featuredapps-container .left-space {
+	left:222px;
+}
+.featuredapps-container h1 { 
+	margin-left: 0px !important;
+}
+.featuredapps-container p {
+	margin-left: 0px !important;
+}
+.featuredapps-container .txtinfo {
+	height:220px;
+}
+.featuredapps-container .txtinfo-height {
+	height:auto !important;
+	padding-bottom:20px;
+}
+.featuredapps-container .pad-left {
+	padding: 8px 0px 0px 8px;
+}
+.featuredapps-container .pad-right {
+	padding: 8px 8px 0px 0px;
+}
+.featuredapps-tile-pos-right {
+	right:0px; 
+	position:relative;
+}
+.featuredapps-tile-pos-left {
+	left:0px; 
+	position:relative;
+}
+.featuredapps-container .hide-div {
+	display:none !important;
+}
+.featuredapps-container .feaureapps-title{
+	margin-left: 0px;
+}
+.featuredapps-tile-container .jio-beats
+{
+	height:500px;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+.featuredapps-container .left-space {
+	left:0px;
+}
+.featuredapps-tile-container .jio-beats
+{
+	height:auto;
+}	
+.featuredapps-apps-container{
+	height:343px;
+}
+.device-product-container{
+	height:auto;
+}
+
+}
+
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.featuredapps-container p {
+    margin-left: 0px !important;
+    width:80%;
+}
+.featuredapps-container p {
+	margin-left: 23px !important;
+}
+.featuredapps-container h1 { 
+	margin-left: 26px !important;
+	margin-top: 0px !important;
+}
+.featuredapps-container {
+	margin: 0px;
+	padding:0px 5px;
+}
+.featuredapps-container .txtinfo {
+	height:300px;
+}
+
+
+.featuredapps-container .txtinfo-height {
+	height:auto !important;
+	padding-bottom:30px;
+}
+.featuredapps-tile-pos-right {
+	right:0px; 
+	position:relative;
+}
+.featuredapps-tile-pos-left {
+	left:0px; 
+	position:relative;
+	top:0px;
+}
+.img-resp {
+	width:100%;
+	max-width:100%;
+	padding:0px;
+}
+.featuredapps-container .hide-div {
+	display:none !important;
+}
+.swift-right { 
+float:right; 
+position: absolute;
+right: 0;}
+.swift-left { float:left; padding-left: 0px !important;}
+
+ .featuredapps-container feaureapps-title{
+	 font-size: 3.0em!important;
+	 margin-left: 23px;
+}
+.featuredapps-container feaureapps-title {
+    margin-left: 20px!important;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 30px !important;
+	}
+ .featuredapps-container .entertainment-apps .padding-right-8 {  
+	 padding-right:0px !important;
+}
+ .feature-social-section-apps .featuredapps-top-cont {
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    z-index: 2;
+    text-align: left;  
+}
+.entertainment-apps .featuredapps-center-vertical-title1 {
+bottom:100px;
+left:0;
+text-align: center; }
+}
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+.featuredapps-container .txtinfo {
+	height:260px !important;
+}
+.featuredapps-container .txtinfo-height {
+	height:auto !important;
+	padding-bottom:30px;
+}
+#product-feature .key-feature {
+    margin-top: 0 !important;
+}
+.feature-social-section-apps .featuredapps-top-cont {
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    z-index: 2;
+    text-align: left;  
+}
+.entertainment-apps .featuredapps-center-vertical-title1 {
+bottom:60px;
+  }
+ 
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.featuredapps-apps-container {
+	height:140px;
+}
+.featuredapps-apps-container2 {
+	height:auto;
+}
+.featuredapps-container .txtinfo {
+	height:auto;
+}	
+.featuredapps-center-vertical-title {
+	bottom: 25%; 
+}
+
+.featuredapps-center-title img {  
+	width: 35%;
+}
+.feature-social-section-apps .featuredapps-center-title img {  
+	width: 25%;  
+}
+
+.featuredapps-bottom-title {
+    font-size: 18px !important;
+	color:#fff !important;
+}
+.featuredapps-tile-container .featuredapps-bottom-title {
+    bottom: 5px;
+    left: 10px;
+}
+.graytxt-size { 
+	color:#54545d !important;
+	font-size:18px;
+}
+.whitetxt-size { 
+	color:#fff !important;
+	font-size:18px;
+}
+
+.featuredapps-tile-container .featuredapps-top-cont img {
+    width:40%;
+}
+.featuredapps-container h1 { 
+	font-size: 1.875em !important;
+	margin-bottom: 10px !important;
+	margin-left: 5px !important;
+	line-height:30px !important; 
+}
+.featuredapps-container h3 { 
+	margin:15px 0px 5px 5px !important; 
+}
+.featuredapps-container p {
+	margin-left: 5px !important;
+}
+.featuredapps-container feaureapps-title{
+	font-size: 1.875em !important;
+	font-family: "kohinoor";
+	margin-left: 5px !important;
+}
+.featuredapps-container .entertainment-apps p {
+	width: 95%;
+	margin-left: 5px !important;
+}
+.feature-social-section-apps .featuredapps-top-cont {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    z-index: 2;
+    text-align: left;  
+}
+.entertainment-apps .featuredapps-center-vertical-title1 {
+bottom:35px;
+  }
+  .entertainment-apps .featuredapps-center-vertical-title1 img {
+width:25%;
+  }
+}

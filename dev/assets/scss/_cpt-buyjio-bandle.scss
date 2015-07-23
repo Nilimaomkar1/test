@@ -1,0 +1,280 @@
+.bundle-pro-list {
+    margin-top: 10px;
+}
+
+.bundle-pro-list  .app-pro-unit {
+    background-image: none;
+}
+
+.bundle-pro-list2  .app-pro-unit {
+    background-image: none;
+}
+.bundle-pro-list .price-bundle {
+    font-size: 1.300em;
+    color: #ababad;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.bundle-pro-list .bundle-pro-offer {
+    font-size: 1.300em;
+    margin-bottom: 5px;
+}
+
+.buy-jio-bundle-bg {
+    background-color: #f2f2f4;
+    padding: 50px 35px;
+    background-image: url("../images/app-pro-bg.png");
+}
+
+.buy-jio-bundle-bg h1 {
+    margin-top: 0px;
+    margin-bottom: 20px !important;
+}
+
+.buy-jio-bundle-bg p {
+    font-family:'kohinoorbold';
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+}
+
+.buy-jio-bundle-bg img.link-icon-images {
+    width: 2.8%;
+    margin-top: -2px;
+}
+
+.bundle-box {
+    width: 346px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.buy-jio-bundle-bg .bundle-tooltip-left {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+
+.buy-jio-bundle-bg .bundle-tooltip-right {
+    position: absolute;
+    top: 70px;
+    right: 70px;
+}
+
+.bundle-tooltip-cont-left {
+    position: absolute;
+    margin: 0px;
+    left: -249px;
+    top: 135px;
+}
+
+.bundle-tooltip-cont-right {
+    position: absolute;
+    margin: 0px;
+    right: -279px;
+    top: 34px;
+}
+
+span.bundle-tooltip-cont {
+    background: #ffe582;
+    width: 176px;
+    height: 61px;
+    display: block;
+}
+
+span.bundle-tooltip-cont .left {
+    float: left !important;
+
+}
+
+span.bundle-tooltip-cont span {
+    background: #fcc200;
+    min-width: 65px;
+    height: 61px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+	padding-top:15px;
+}
+
+span.bundle-tooltip-cont span p {
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+span.bundle-tooltip-cont h4 {
+    font-family:'kohinoorbold';
+    text-align: left;
+    padding: 10px 0px 0px 80px !important;
+}
+
+span.bundle-tooltip-cont h4.lighter {
+    font-weight: normal;
+}
+
+.buy-jio-bundle-bg .bundle-tooltip-users {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-left: 115px;
+}
+
+.buy-jio-bundle-bg .bundle-tooltip-users-left {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.buy-jio-bundle-bg .bundle-tooltip-users strong {
+    font-family: 'kohinoorbold';
+}
+
+.first {
+    display: table-header-group;
+    left: 0px;
+}
+
+.second {
+    display: table-footer-group;
+    left: 0px;
+}
+
+.mobile-div {
+    display: none;
+}
+.jio-bundle .jio-bundle-img{
+   position:relative;    
+   border-right:2px solid #FFF;
+   cursor:pointer;
+}
+.jio-bundle .jio-bundle-img .title{
+   position:absolute;
+   font-size:24px;
+   color: #FFF;	
+   top:25px;
+   left:25px;
+}
+.jio-bundle .jio-bundle-img .img{
+   position:absolute;
+   width:100%;    
+   height:254px;
+   line-height:254px;
+}
+// ---------------------------------------- Mobile Device Class for 1024 width ----------------------------------------
+
+@media (max-width: 1024px) {
+.jio-matrix {
+   position:relative;
+   margin-bottom:46px;
+}
+.jio-bundle .jio-bundle-img .back-image img{
+  height:254px; 
+}
+ 
+}
+
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width:768px) {
+    .buy-jio-bundle-bg .bundle-tooltip-left, .bundle-tooltip-right {
+        display: none;
+    }
+
+    .bundle-tooltip-cont-left, .bundle-tooltip-cont-right {
+        display: none;
+    }
+
+    .buy-jio-bundle-bg p.bundle-price {
+        display: none;
+    }
+
+    .buy-jio-bundle-bg {
+        margin: 10px 15px !important;
+    }
+	.jio-bundle{
+	margin-top:20px;
+    
+}
+.jio-bundle .jio-bundle-img .img{
+   height:350px;
+   line-height:350px;
+}
+ .jio-bundle .jio-bundle-img .img img{
+   width:70%;
+}
+.jio-bundle .jio-bundle-img .back-image img{
+  height:auto; 
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width:640px) {
+
+    .buy-jio-bundle-bg p.bundle-price {
+        display: none;
+    }
+
+    .buy-jio-bundle-bg .bundle-tooltip-left, .bundle-tooltip-right {
+        display: none;
+    }
+
+    .bundle-tooltip-cont-left, .bundle-tooltip-cont-right {
+        display: none;
+    }
+
+    .first {
+        display: table-footer-group;
+        background-color: #fff;
+    }
+
+    .second {
+        display: table-header-group;
+        background-image: none;
+        background-color: #f2f2f4;
+    }
+
+    .buy-jio-bundle-bg {
+        background-image: none;
+        padding: 10px !important;
+        background-color: #fff;
+        margin-top: 25px !important;
+    }
+
+    .mobile-div {
+        display: block;
+    }
+
+   
+.jio-bundle .jio-bundle-img .title{
+   font-size:24px;
+   top:25px;
+   left:25px;
+}
+.jio-bundle .jio-bundle-img .img{
+   height:300px;
+   line-height:300px;
+} 
+
+}
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+ @media (max-width: 400px) {
+ .jio-bundle .jio-bundle-img .title{
+   font-size:20px;
+   top:15px;
+   left:15px;
+}
+.jio-bundle .jio-bundle-img .img{
+   height:200px;
+   line-height:200px;
+}
+.jio-bundle .jio-bundle-img .title{
+   font-size:20px;
+   bottom:20px;
+   left:15px;
+}
+ }

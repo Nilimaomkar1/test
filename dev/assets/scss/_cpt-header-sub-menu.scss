@@ -1,0 +1,107 @@
+.header-sub-menu {
+	margin:10px 0px;
+	padding:0px;
+}
+
+.header-sub-menu ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+.header-sub-menu ul li {
+	width:150px;
+	height:100px;
+	background:#f2f2f4;
+	background-image: url("../images/menu-icon-bg.png");
+	background-repeat: repeat;
+	position:relative;
+	padding:0px 15px; 
+	cursor:pointer;
+	float:left;
+	margin:0px 15px 0px 0px;	
+}
+
+.sub-menu-active{
+	background:#fcc200!important;
+}
+
+.sub-menu-active  .sub-menu-title{
+	color:#fff!important;
+}
+
+.header-sub-menu ul li .sub-menu-title {
+	position:absolute;
+	bottom:3px;
+	left:15px;
+	font-size:16px;
+	color:#54545d;
+}
+
+.check-landing-page .submenu-slider li {
+right:1500px;
+}
+
+@media (max-width: 1024px) {
+.header-sub-menu ul li {
+	width:140px;
+}
+.header-sub-menu ul li .sub-menu-title {
+	left:8px;
+	font-size:14px;
+}
+}
+
+@media (max-width: 768px) {
+.header-sub-menu {
+	margin:20px 0px 14px 0px;
+	padding:0px;
+}
+.header-sub-menu ul li {
+	width:150px;
+	margin:0px 14px;
+}
+.header-sub-menu ul li .sub-menu-title {
+	left:15px;
+	font-size:16px;
+}
+}
+
+@media (max-width: 640px) {
+.header-sub-menu ul li {
+	width:140px;
+	margin:0px 8px;
+}
+.header-sub-menu ul li .sub-menu-title {
+	left:8px;
+	font-size:14px;
+}
+}
+
+@media (max-width: 360px) {
+.header-sub-menu ul li {
+	width:105px;
+	margin:0px 5px;
+}
+.header-sub-menu ul li img {
+	height:70%;
+}
+.header-sub-menu ul li .sub-menu-title {
+	left:8px;
+	font-size:12px;
+}
+}
+
+@media (max-width: 320px) {
+.header-sub-menu ul li {
+	width:92px;
+	height:70px;
+	margin:0px 5px;
+	padding:0px 10px; 
+}
+.header-sub-menu ul li .sub-menu-title {
+	left:8px;
+	font-size:12px;
+	line-height:12px;
+}
+}

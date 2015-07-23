@@ -1,0 +1,131 @@
+<!-- About me information -->
+
+<div class="quick-recharge-header">
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 ">
+      <h1>My bill</h1>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right usage-close" onClick="goBack()"> <img src="assets/images/close-btn.png"/> </div>
+  </div>
+</div>
+<div class="about-me-container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-space">
+      <div class="plan-recharge"> <span class="opacity">Select Period</span> &nbsp;&nbsp; <span>
+        <div class="dropdown plan-product">
+          <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">15May - 14June<span class="caret2"></span></div>
+          <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li><a  href="#" onClick="showProduct(1);">15May - 14June</a></li>
+          </ul>
+        </div>
+        </span>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <div class="margin-top-40"></div>
+  <div class="account-apps my-history-container margin-top-0 no-space">
+    <div id="accordion-container">
+      <div class="accordion-header">
+        <p>Bill Summary</p>
+      </div>
+      <div class="accordion-content">
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Bill Number </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> 400000000113 </div>
+        </div>
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Bill date </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> 15 Jun 2015 </div>
+        </div>
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Bill Period </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> 15 May - 14 Jun </div>
+        </div>
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Account Number </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> 110000047148 </div>
+        </div>
+      </div>
+      <div class="accordion-header">
+        <p>Account Statement</p>
+      </div>
+      <div class="accordion-content">
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Previous Balance</div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 29.40 </div>
+        </div>
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Last Payment </div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 0.00</div>
+        </div>
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Adjustment</div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 0.00</div>
+        </div>
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Total Outstanding </div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> -200.00 </div>
+        </div>
+		<div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Total Bill Amount Due </div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 146.25 </div>
+        </div>
+		<div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Payment After Due Date </div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 246.25 </div>
+        </div>
+      </div>
+      <div class="accordion-header">
+        <p>Monthly Charges</p>
+      </div>
+      <div class="accordion-content">
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Bill Period Charges</div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 104 </div>
+        </div>
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Usages Charges </div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 0.00</div>
+        </div>
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Other Charges</div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 0.00</div>
+        </div>
+        <div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Discount </div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 0.00 </div>
+        </div>
+		<div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Taxes </div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 12.85 </div>
+        </div>
+		<div class="row  txtcontent2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-space"> Total Invoice Amount </div>
+           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-space text-center"> - </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"> <span class="rupee">`</span> 116.85 </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-top-40 margin-bottom-20">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"> 
+  <input type="button" value="Download Invoice" class="btn-main">
+  </div>
+  </div>
+</div>

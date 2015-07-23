@@ -1,0 +1,72 @@
+.buyshop_cotent_heading
+{
+	font-size:48px; 
+	color:#54545d;
+} 
+.buyshop_cotent_main_heading
+{
+	font-size:60px; 
+	color:#54545d;
+} 
+.feature-devices .item{
+
+background-image: url("../images/app-pro-bg.png")!important;
+position: relative;
+height: 520px;
+background-color: #f2f2f4;
+}
+
+.feature-devices .full-item{
+
+background-image: url("../images/feature-device3.jpg")!important;
+position: relative;
+height: 520px;
+background-color: #f2f2f4;
+}
+
+h2.line-through {
+    text-decoration: line-through;
+}
+
+.shop_navbg{
+background-image: url("../images/app-pro-bg.png")!important; 
+padding:20px;
+background-color: #f2f2f4;
+margin-left:8px;
+}
+
+.shop_navbg.active{
+background-image: url("../images/App-05-active.jpg")!important; 
+padding:20px;
+background-color: #f2f2f4;
+margin-left:8px;
+color:#ffffff;
+}
+
+
+.shop_nav_heading
+{
+padding-top:10px;
+font-size:24px;
+}
+@media (max-width:640px){
+.shop_navbg{ 
+margin-bottom:8px;
+margin-right:8px; 
+}
+.feature-devices .item{ 
+height: 560px;
+}
+ .masonry .hi2 .img-h_new 
+{
+	width:60%;
+}
+}
+@media (max-width:400px){
+.buyshop_cotent_heading
+{
+	font-size: 28px !important;
+  line-height: 37px !important;
+}
+
+}

@@ -1,0 +1,222 @@
+/*---------------------------------------- Cart Page Class ----------------------------------------*/
+.jio-cart {
+	position:relative;
+}
+.jio-cart .successMessage3, .jio-cart .successMessage4, .jio-cart .successMessage5 { 
+    background-color: #ffe04c;
+    width:100%;
+    height:60px; 
+    line-height:60px; 
+    padding:0px 50px; 
+    color:#FFF; 
+    font-size:2em; 
+    top:0px;
+    left:0px;
+    display:none;
+	position:absolute;
+	z-index:1;
+} 
+#successMessage7 { 
+    background-color: #ffe04c;
+    width:97.4%;
+    height:60px; 
+    line-height:60px; 
+    padding:0px 50px; 
+    color:#FFF; 
+    font-size:2em; 
+    top:0px;
+    left:0px;
+	margin:0px 0px 0px 15px;
+    display:none;
+	position:absolute;
+		 
+	z-index:1;
+} 
+.jio-product{
+	position:relative;
+	border:1px solid #e3e3e3;
+}
+.jio-product .table-striped-odd{ 
+     background-color: #f9f9f9; 
+}
+.jio-product .table-striped-select{
+	background-color: #ffe04c;
+}
+.jio-product .step-1-product-header{
+     padding-top:8px!important;
+}
+.jio-product .step-1-product-header span.icons{ padding-right:10px; padding-left:5px;}
+.product-table span.rupee{
+	font-size: inherit;
+	color:#525252;
+}
+.jio-product  .cart-set .product-description {
+    border-bottom: 1px solid #e3e3e6;
+    font-size: 1.5em;
+    padding: 0 25px 5px;
+}
+.jio-product .cart-set .product-description .right {
+    float: right;
+   
+    text-align: left;
+}
+.jio-product .accordion-header {
+    background-color: #f2f2f4;
+    border-bottom: 1px solid #FFF;
+    color: #2e2e33;
+    cursor: pointer;
+    font-family: "Conv_Kohinoor-Book",sans-serif !important;
+    font-size: 1.5em;
+    min-height: 55px;
+    padding: 5px;
+    position: relative;
+    text-transform: none;
+} 
+.jio-product .active-header {
+      
+     background: url(../images/mines-icon.png) #f2f2f4;
+     background-position: 98.50% 12px!important;
+     background-repeat: no-repeat;
+     padding-left:2% !important;
+}
+.jio-product .active-header:hover {
+     background: url(../images/mines-icon.png) #f2f2f4;
+     background-repeat: no-repeat;
+     background-position: 98.50% 12px!important;
+     padding-left:2% !important;
+}
+.jio-product .inactive-header {
+     background: url(../images/add-btn.png) #f2f2f4;
+     background-repeat: no-repeat;
+     background-position: 99% 10px!important;
+     padding-left:2% !important;   
+}
+.jio-product .inactive-header:hover {
+     background: url(../images/add-btn.png) #f2f2f4;
+     background-repeat: no-repeat;
+     background-position: 99% 10px!important;
+     padding-left:2% !important;
+}
+.jio-product .accordion-content{
+ background: #fff!important;
+}
+.apps-plan, .accessories-plan{
+   background-color: #f2f2f4;
+    border-bottom: 1px solid #FFF;
+    color: #2e2e33;
+    cursor: pointer;
+    font-family: "Conv_Kohinoor-Book",sans-serif !important;
+    font-size: 1.5em;
+    min-height: 55px;
+    padding: 2px;
+    position: relative;
+    text-transform: none;
+	padding-left:20px;
+}
+.apps-plan:hover, .accessories-plan:hover{
+	background-color: #f2f2f4!important;
+}
+.app-checked, .accessories-checked{
+    float: right;
+    position: absolute;
+    right: 13px;
+    top: 10px;
+}
+.table2{
+    margin-top:-20px!important;
+}
+.cart-total {
+	font-size: 1.5em;
+	color: #2e2e33;
+	border-top:1px solid #e3e3e3;
+	margin-top:40px;
+	padding:10px 60px;
+}
+
+
+/* -------------------------------------------- Cart Review Page Class -----------------------------------------------*/
+
+.cart-review1{
+	border:1px solid #fdcc00;
+	background-color: #ffe04c;
+}
+.cart-review2{
+	border:1px solid #e3e3e3;
+}
+.cart-review-header {
+    background-color: #f2f2f4;
+    border-bottom: 1px solid #FFF;
+    color: #2e2e33;
+    font-family: "Conv_Kohinoor-Book",sans-serif !important;
+    font-size: 1.5em;
+    height: 55px;
+    padding: 5px 10px;
+    position: relative;
+    text-transform: none;
+} 
+.cart-review-total {
+    border-top: 1px solid #e3e3e3;
+    color: #2e2e33;
+    font-family: "Conv_Kohinoor-Book",sans-serif !important;
+    font-size: 1.5em;
+    height: 55px;
+    padding: 10px;
+	margin-top:40px;
+}
+
+
+/* ---------------------------------------- Mobile Device Class for 1280 width ----------------------------------------*/
+@media (min-width: 1280px) {
+ .jio-product .step-1-product-header{
+  	margin-left:-5px;
+}
+}
+
+
+/*---------------------------------------- Mobile Device Class for 768 width ----------------------------------------*/
+
+@media (max-width: 768px) {
+    .cart-review-header {
+   
+    height: auto;
+   
+} 
+#successMessage7 {    
+    width:96%;
+} 
+
+}
+
+/* ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------*/
+
+@media (max-width: 640px) {
+    .cart-review-header {
+   
+    height: auto;
+   
+} 
+#successMessage7 {     
+    width:95%;
+} 
+
+}
+
+
+/* ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------*/
+
+@media (max-width: 480px) {
+#successMessage7 {     
+    width:94%;   
+} 
+}
+
+
+/* ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------*/
+
+@media (max-width:400px) { 
+#successMessage7 {    
+    width:90%;
+    font-size:1.0em; 	 
+	z-index:9999;   
+} 
+}

@@ -1,0 +1,169 @@
+#self-help-section{
+	display:none;
+}
+
+.selp-help-input input[type=text] {
+	font-size: 1.25em;
+	margin-top: 8px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #9a9394 !important;
+	width: 100%;
+}
+.selp-help-filter .btn-cancel {
+	background-color: transparent;
+	color: #525252;
+	border: 1px solid #c8c8ca;
+	border-radius: 40px;
+	font-size: 1em;
+	font-family: 'kohinoorbold';
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 40px;
+	text-transform: uppercase;
+}
+.selp-help-filter .btn-save {
+	background-color: #fdcc00;
+	color: #525252;
+	border: 1px solid #fcc200;
+	border-radius: 40px;
+	font-size: 16px;
+	font-family: 'kohinoorbold';
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.self-help-section h2 span {
+	font-family: 'kohinoorbold';
+	color: #fcc200;
+}
+.self-help-section .p_top_0 {
+	margin-top: -8px !important;
+}
+.parental-controls {
+	padding: 8px 0px 0px 0px;
+	position: relative;
+}
+.parental-controls-txt {
+	position: absolute;
+	top: 0px;
+	padding: 25px;
+}
+.parental-controls-txt p {
+	font-size: 1.8em!important;
+}
+.parental-controls-txt span {
+	font-size: 1.2em!important;
+	color: #000;
+}
+.self-help-section .blacktxt {
+	color: #2e2e33 !important;
+}
+.self-help-section .post-cont {
+	padding: 25px;
+	margin-bottom: 20px;
+	background: #f9f9f9;
+}
+.self-help-section .post-cont p {
+	font-size: 1.8em !important;
+	line-height: 33px!important;
+}
+.padding-r-8 {
+	padding-right: 8px;
+}
+.padding-l-8 {
+	padding-left: 8px;
+}
+.parental-controls img {
+	height: 270px;
+}
+.search-suggestion  p{ position:absolute; top: 0px; font-size: 1.8em !important; color:#fff !important; padding: 25px !important;}
+.search-suggestion a {text-decoration:none;}
+.search-suggestion p span {color: #2e2e33 !important;}
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------//  
+ @media(max-width:640px) {
+.padding-t-r-8 {
+	padding-top: 8px;
+	padding-right: 8px;
+}
+.padding-l-8 {
+	padding-left: 0px;
+}
+.self-help-section .post-cont {
+	padding: 25px;
+	margin-bottom: 0px;
+	background: #f9f9f9;
+	height: 458px;
+}
+.parental-controls img {
+	height: 295px;
+}
+.search-suggestion  p{ font-size: 1.2em !important; padding: 10px 10px 10px !important;}
+}
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+ @media(max-width:480px) {
+.self-help-section .post-cont {
+	height: auto;
+	margin-bottom: 8px;
+}
+.parental-controls
+{
+padding-top:0px;
+}
+.parental-controls img {
+	height: 216px;
+}
+.self-help-section .post-cont p {
+	font-size: 1.4em !important;
+	line-height: 27px !important;
+}
+.everything-img img
+{
+height:220px;
+}
+ 
+.parental-controls-txt p {
+	font-size: 1.2em!important;
+	 
+}
+.parental-controls-txt span {
+	font-size: 1.0em!important;
+	 
+}
+.padding-t-r-8 {
+	padding-top: 0px;
+	padding-right: 8px;
+}
+.parental-controls-txt {
+	 
+	padding: 10px;
+}
+
+}
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+ @media(max-width:400px) {
+.self-help-section .post-cont {
+	height: auto;
+	margin-bottom: 8px;
+	padding: 15px;
+	height: 371px;
+}
+.parental-controls img {
+	height: 216px;
+}
+.self-help-section .post-cont p {
+	font-size: 1.00em !important;
+	line-height:18px !important;
+}
+.post-cont table img
+{
+display:none;
+}
+.parental-controls img {
+	height: 136px;
+}
+}

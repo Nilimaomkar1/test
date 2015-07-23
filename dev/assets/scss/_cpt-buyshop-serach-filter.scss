@@ -1,0 +1,192 @@
+.buyshop_search { 
+	background-color: #f2f2f4 !important;
+	width: 100%;
+	padding: 10px 20px;
+	margin-bottom:5px;
+	font-size:1.25em;
+}
+
+.buyshop_search .content_left
+{
+float:left;
+}
+.buyshop_search .content_right
+{
+float:right;
+}
+.buyshop_search2 { 
+	background-color: #f9f9fb !important;
+	width: 100%;
+	padding: 20px 20px;
+	margin-bottom:20px;
+}
+/* plan-finder details */
+
+.buyshop_filter .filter-dropdown {
+color: #2f2e33;
+border-bottom: solid 2px #54545c;
+background-image: url("../images/select-arrow.png");
+background-position: right center;
+background-repeat: no-repeat;
+cursor: pointer;
+padding-right:15px;
+margin-right:15px;
+}
+
+.buyshop_filter .dropdown-menu {
+position: absolute !important;
+z-index: 999;
+margin-top: 15px;
+width: 100%;
+margin-left: 7px;
+padding-left: 0px !important; 
+
+}
+
+.buyshop_filter input[type=text]{
+font-size: 1.6em;
+height: 51px;
+margin-top: 8px;
+background:none;
+border:none;
+border-bottom:2px solid #54545c !important;
+}
+
+.buyshop_filter span {
+float: left;
+font-size: 1.6em; 
+padding-right: 5px;
+}
+
+.buyshop_filter span {
+color: #2e2e33;
+}
+ 
+.buyshop_filter span.opacity {
+color: #939396;
+padding-right: 10px;
+}
+ 
+.dropdown-menu li a:hover
+{
+	background-color: #F7EB03 !important;	 
+}
+.buyshop_filter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.buyshop_filter li {
+    display: inline;
+	 
+}
+
+
+.sort-filter .filter-dropdown {
+color: #2f2e33;
+border-bottom: solid 2px #54545c;
+background-image: url("../images/select-arrow.png");
+background-position: right center;
+background-repeat: no-repeat;
+cursor: pointer;
+padding-right:15px;
+margin-right:15px;
+}
+
+.sort-filter .dropdown-menu {
+position: absolute !important;
+z-index: 999;
+margin-top: 15px;
+width: 100%;
+margin-left: 10px;
+padding-left: 0px !important; 
+
+}
+
+.sort-filter input[type=text]{
+font-size:1.0em !important; 
+height: 51px;
+margin-top: 8px;
+background:none;
+border:none;
+border-bottom:2px solid #54545c !important;
+}
+
+.sort-filter span {
+float: left;
+font-size:1.0em!important; 
+padding-right: 5px;
+}
+
+.sort-filter span {
+color: #2e2e33;
+}
+ 
+.sort-filter span.opacity {
+color: #939396;
+padding-right: 10px;
+}
+ 
+
+ 
+ 
+@media(max-width:640px){
+.buyshop_filter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.buyshop_filter li{
+    display: block;
+	float:left;
+	clear:left;
+	padding-left:10px;	 
+	padding-bottom:10px;
+}
+.buyshop_search .content_right
+{
+clear:left;
+float:left;
+margin-top:10px;
+}
+.buyshop_search2 { 
+	background-color: #f9f9fb !important;
+	width: 100%;
+	padding: 20px 10px;
+}
+}
+
+@media(max-width:480px){
+.buyshop_filter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.buyshop_filter li{
+    display: block;
+	float:left;
+	clear:left;
+	padding-left:10px;	 
+	padding-bottom:10px;
+}
+}
+
+@media(max-width:400px){
+
+.buyshop_search {
+	background-color: #f2f2f4 !important;
+	width: 100%;
+	padding: 20px 10px;
+}
+
+.buyshop_filter input[type=text]{
+font-size: 1.1em !important;
+ 
+}
+
+.buyshop_filter span { 
+font-size: 1.2em!important;
+ 
+}
+}

@@ -1,0 +1,228 @@
+ /* Accodion section */
+
+.support-ticket .filter-dropdown {
+color: #2e2e33;
+border-bottom: solid 2px #9a9394;
+background-image: url("../images/select-arrow.png");
+background-position: right center;
+background-repeat: no-repeat;
+cursor: pointer;
+padding-right:20px;
+}
+
+.support-ticket .dropdown-menu {
+position: absolute !important;
+z-index: 999;
+margin-top: 10px;
+width: 100%;
+margin-left: 7px;
+padding-left: 0px !important; 
+
+}
+
+.support-ticket input[type=text]{
+font-size: 2.000em;
+height: 51px;
+margin-top: 8px;
+background:none;
+border:none;
+border-bottom:2px solid #9a9394 !important;
+}
+
+.support-ticket span {
+float: left;
+font-size: 2.000em;
+}
+
+.support-ticket span {
+color: #fff;
+}
+ 
+
+.support-ticket span.opacity {
+color: #939396;
+padding-right: 5px;
+}
+
+
+.support-ticket .dropdown-menu li:hover
+{
+background: #F7EB03 !important;  
+}
+ 
+.account-apps .supporttext p{
+	border:none;	 
+	line-height:30px;
+	margin-top:10px;
+	width:75%;
+}
+.account-apps .supporttext h3{	 
+	 
+	margin-bottom:20px !important;
+	color:#b3b3b5 !important;
+	text-transform:uppercase;
+	 
+}
+.account-apps .supporttext p a {
+/*font-size: 1.125em;*/
+color: #525252;
+border-bottom: 2px solid #fcc200;
+text-decoration: none;
+}
+p a {
+color:#2e2e33;
+border-bottom: 2px solid #fcc200;
+text-decoration: none;
+}
+p a:hover {
+color:#2e2e33;
+text-decoration: none;
+}
+.support-description textarea {
+font-size: 1.5em; 
+margin-top: 8px;
+background: none;
+border: none;
+width:100%;
+border: 1px solid #9a9394 !important;
+
+}
+.account-apps .saparater
+{
+	border-top: 1px solid #dddddf;
+	padding-top:30px; 
+ 
+}
+.account-apps .support-heading {
+	font-size:24px;
+	color:#58585c;
+	padding-left:20px;
+}
+.account-apps .hide-content
+{
+display:none;
+}
+.account-apps .userimg
+{
+display:none;
+}
+.account-apps .username img {
+width: 40px;
+height: 40px;
+border-radius: 20px;
+margin-right:10px;
+}
+
+.account-apps .username span {
+font-size: 0.875em;
+color: #a5a5a8;
+display: block;
+margin-bottom: 5px;
+text-transform: uppercase;
+}
+
+.account-apps .username p {
+font-size: 1.5em !important;
+color: #58585c !important;
+}
+
+
+.account-apps .accordion-text {
+	padding:22px 0px 0px 0px;
+}
+.account-apps .accordion-text p {
+	font-size:28px !important;
+	color:#58585c !important;
+}
+.account-apps .accordion-text span {
+	font-size:14px;
+	color:#a5a5a8;
+	display:block;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+.accordion-padding
+{
+padding:40px;
+}
+.accordion-padding-left
+{
+padding-left:20px;
+}
+@media(max-width:640px){
+ 
+
+ .account-apps .support-text-heading
+ {
+ height:auto;
+ }
+.account-apps .userimg
+{
+display:block;
+}
+.account-apps .userimg2
+{
+display:none;
+}
+.account-apps .supporttext p{
+	border:none;	 
+	line-height:30px;
+	margin-top:10px;
+	width:100%;
+}
+.account-apps .support-heading {
+	padding-left:20px;
+	 
+}
+.account-apps .username p
+{
+	line-height:20px !important;
+}
+.account-apps .username img {
+ 
+	border-radius: 20px;
+	margin-left:10px;
+	}
+	
+	.account-apps .accordion-text {
+	padding:20px 0px 0px 0px;
+}
+.account-apps .accordion-text p {
+	font-size:20px !important;
+	color:#58585c !important;
+}
+.account-apps .accordion-text span {
+	font-size:14px;
+	 
+}
+.accordion-padding
+{
+padding:20px;
+}
+
+}
+
+
+@media(max-width:480px){
+
+.account-apps .username p {
+font-size:  1.00em !important;
+ 
+}
+
+
+}
+
+@media(max-width:400px){
+.support-description textarea {
+font-size: 1.00em; 
+}
+ .support-ticket input[type=text]{
+	font-size: 1.10em; 
+}
+
+.support-ticket span { 
+	font-size: 1.10em;
+} 
+ 
+}

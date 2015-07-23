@@ -1,0 +1,101 @@
+
+table.explore-topics-table td, table.explore-topics-table th {
+	text-align: left;
+	color: #969699;
+	font-weight: normal;
+}
+table.explore-topics-table td {
+	color: #2e2e33;
+	font-family: 'kohinoorbold';
+}
+table.explore-topics-table td img {
+	padding-right: 0px;
+	width: 61px !important;
+	height: 61px !important;
+	border-radius: 50px;
+	margin-right: 10px;
+}
+table.explore-topics-table th {
+	padding: 0px 50px 0px 0px;
+}
+.pic-story section + section {
+	padding-top: 10px;
+}
+.explore-topics .padding-8 {
+	padding: 0 4px;
+}
+.explore-topics .padding-8 h3 {
+	margin: 20px 0px 0px 10px !important;
+	font-size:24px !important;
+}
+.explore-topics .padding-8 h3 a {
+	color: #54545d;
+	border-bottom:2px solid #fbc509;
+	text-decoration:none;
+	font-size:24px !important;
+}
+.loyalty-rewards ul {margin: 0px 0px 0px 0px!important; padding: 0px 20px 0px 0px;}
+.loyalty-rewards ul li {
+	padding: 5px 0px 5px 30px;
+	line-height: 20px;
+	font-size: 1em;
+	color: #2e2e33;
+	list-style-type: none;
+	background: url(../images/order-list-icon.jpg) no-repeat top left; 	
+} 
+.jio-marathon h2{
+	line-height:44px !important;
+	font-size:36px !important;
+}
+.jio-marathon p{
+	padding:10px 0px 0px 0px !important;
+	margin-bottom:0px !important;
+}
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+.explore-topics .padding-8 h3 {
+	margin: 20px 0px 30px 10px !important;
+}
+.jio-marathon h2{
+	line-height:30px !important;
+	font-size:24px !important;
+}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.jio-marathon
+{
+padding-top:20px;
+}
+.explore-topics .padding-8 h3 {
+	margin: 20px 0px 50px 20px !important; 
+	font-size:2em !important;
+}
+.loyalty-rewards ul li {
+	 
+	background: url(../images/order-list-icon.jpg) no-repeat top 15px left; 	
+} 
+}
+
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.loyalty-rewards ul li {
+	 padding: 0px 0px 5px 30px;
+	line-height: 20px;
+	background: url(../images/order-list-icon.jpg) no-repeat top 15px left 20px ; 	
+} 
+}

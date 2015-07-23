@@ -1,0 +1,40 @@
+<% include includes/html-head.html %>
+<div id="wrap">
+   <!-- Wrap Starts -->
+       <div class="main-bg"> 
+     <% include includes/site-header.html %>   <!-- Includes Nav Menu for Desktop and Mobile -->
+	   <% include includes/breadcrumbs.html %>
+   </div> 
+   <div class="container">
+      <!-- Container Starts -->
+
+         <!-- Main Body Includes Starts --> 
+         <div class="body-container">
+         <div id="check-activator" class="activate-2"></div>
+         	<% include includes/menu-explore.html %>
+         </div>
+         <% include includes/jio-social-details-main.html %>
+       <div class="body-container">       	 
+		 <% include includes/apps-explore-jio.html %>
+         
+         <div class="row margin-top-80">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-space padding-left-4 padding-right-4">
+            	<% include includes/apps-details-stories1.html %>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-space padding-left-4 padding-right-4">
+            	<% include includes/apps-details-stories2.html %>
+            </div>
+            <div class="text-center margin-top-20">
+              <input type="button" value="VIEW MORE" class="btn-redirect" onclick="location.href=('explore-topics.html')" />
+         </div>
+         </div>
+         
+         <% include includes/apps-details-review.html %>
+         <!-- Main Body Includes Ends --> 
+         <% include includes/site-footer.html %> <!-- Includes footer links and Social media icons -->
+      </div>
+   </div>
+   <!-- container end -->
+</div>
+<!-- Wrap end -->
+<% include includes/html-footer.html %>

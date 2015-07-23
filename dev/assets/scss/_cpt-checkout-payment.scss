@@ -1,0 +1,69 @@
+#checkout-payment .payment-table { 
+	 margin:30px 0px 20px 0px; 
+}
+#checkout-payment .payment-table td:nth-child(1) { 
+	 width:15%;
+	  text-align:center;
+}
+#checkout-payment .payment-table td:nth-child(2) { 
+	 width:75%; 
+}
+#checkout-payment .payment-table td:nth-child(2) span { 
+	font-family: 'kohinoorbold' ;
+	text-transform:none;
+	 
+}
+ 
+#checkout-payment .payment-table td:nth-child(3) { 
+	 width:10%; 
+	 text-align:right;
+	 vertical-align:top;
+ }
+#checkout-payment .payment-table td { 
+	 padding: 15px 8px; 
+     border-top:none;
+	  
+	 color:#525252;  
+} 
+#checkout-payment .payment-table tr:nth-child(odd)
+{
+	background-color: #f9f9f9;
+}
+#checkout-payment .payment-table tr:hover{ 
+	 background-color:#ffe04c; 
+     cursor:pointer; 
+}
+#checkout-payment .payment-table tr:nth-child(odd):hover td, tbody tr.odd:hover td{ 
+	 background-color:#ffe04c; 
+     cursor:pointer; 
+}
+
+#recharge-table .product-table .left .text, #recharge-table .product-table .left img { float: left; margin-left: 5px;}
+
+
+@media(max-width:640px){
+#checkout-payment .payment-table td:nth-child(1) { 
+	display:none;
+}
+#checkout-payment .payment-table td:nth-child(2) { 
+	 width:90%; 
+}
+ 
+ 
+#checkout-payment .payment-table td:nth-child(3) { 
+	 width:10%; 
+	 text-align:right;
+	 vertical-align:top;
+ }
+ #recharge-table .product-table td { 
+	 padding: 15px 10px; 
+     border-top:none;
+	  
+	 color:#525252;  
+}
+
+
+
+
+}
+ 

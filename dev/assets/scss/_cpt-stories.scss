@@ -1,0 +1,64 @@
+.stories {
+    padding: 0px;
+	margin:0px;
+}
+.stories img {
+    width: 100%;
+}
+.stories section {
+    padding:24px 24px 0px 24px;
+}
+.stories story-title{
+	color: #54545d !important;
+    font-family: "kohinoor";
+    font-size: 2.25em;
+    line-height: 24px;
+}
+.stories section p {
+    padding-top:10px!important;
+}
+.stories-btn-spacing{
+	margin-top:10px;
+}
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+.stories {
+	margin-bottom:40px;
+}
+.stories-btn-spacing{
+	margin:0px 0px 24px 0px;
+}
+.stories section {
+    padding:24px 24px 0px 15px;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.stories story-title{
+    font-size: 1.875em !important;
+}
+.stories-btn-spacing{
+	margin:0px 0px 30px 0px;
+}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) { 
+
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.stories story-title{
+	font-size: 1.5em !important;
+	font-family: "kohinoor";
+}
+}

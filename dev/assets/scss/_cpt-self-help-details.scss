@@ -1,0 +1,216 @@
+.self-help-section {
+  margin: 0px 0px;
+}
+
+.self-help-section .desktop-search-box {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.self-help-section .email-box {
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  width: 160px;
+  padding: 15px 15px 15px 0px;
+  background-image: url(../images/yes-icon.jpg);
+  background-repeat: no-repeat;
+  background-position: 115px 7px;
+  text-transform: uppercase !important;
+  text-align: center;
+  font-family: 'kohinoorbold';
+  margin-bottom: 15px;
+}
+
+.self-help-section .email-box-no-pic {
+  background-image: url(../images/no-icon.jpg);
+}
+
+.self-help-section ul {
+  margin: 5px 0px 20px 0px;
+  padding: 0px;
+}
+
+.self-help-section ul li {
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+.self-help-section .forum-post-cont {
+  padding: 35px;
+  
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  max-height: 520px;
+}
+
+.self-help-section .forum-post-cont p {
+  font-size: 1.8em !important;
+  line-height: 33px!important;
+}
+
+.self-help-section .yes-no-cont {
+  border-top: 1px solid #e3e3e5;
+  padding: 20px 0px;
+}
+
+.self-help-section h3 {
+  margin: 20px 0px !important;
+}
+
+a.txtLink-yellow {
+  color: #525252 !important;
+  border-bottom: 2px solid #fcc200;
+  text-decoration: none;
+  
+}
+
+
+.switch-off-wifi {
+  margin-top: 8px;
+}
+
+.switch-off-wifi  p {
+  position: absolute;
+  top: 0px;
+  font-size: 1.8em !important;
+  color: #fff !important;
+  padding: 25px !important;
+}
+
+.yellow-cont-wth-txt {
+  background: #f2f2f4;
+  padding: 25px;
+  height: 417px;
+  top: 0px;
+  position: absolute;
+  left: 264px;
+}
+
+.yellow-cont-wth-txt p {
+  font-size: 1.8em !important;
+}
+
+.yellow-cont-wth-txt span {
+  font-size: 1.2em !important;
+  color: #b39827;
+}
+
+.yellow-cont-wth-txt p:nth-child(3) {
+  margin: 29px 0px 28px !important;
+  text-align: center;
+  width: 100%;
+}
+
+.self-help-section table.explore-topics-table th {
+  padding: 0 0px 0 0;
+}
+
+.self-help-section .hide-640 h2 {
+  margin-bottom: 10px !important;
+}
+	
+.problem-text{
+	display:none;
+}
+	
+.yellow-txt{
+	color:#fcc200;
+}
+
+
+
+//---------------------------------------- Mobile Device Class for 640 width ----------------------------------------//  
+@media (max-width:1024px) {
+  .yellow-cont-wth-txt{
+	left: 235px;
+}
+.level-title h2 {
+    font-size: 30px !important;
+    width: 196px;
+}
+}
+@media (max-width:768px) {
+	.problem-text{
+	display:block;
+
+}
+
+.trending-question1{
+	display:block;
+
+}
+	
+
+}
+
+@media (max-width:640px) {
+  .switch-off-wifi {
+    margin-top: 0px;
+  }
+
+  .self-help-section {
+    margin: 0px 8px;
+  }
+
+  .self-help-section .forum-post-cont {
+    margin: 10px 0px 0px 0px;
+    
+  }
+
+  .yellow-cont-wth-txt, .switch-off-wifi p {
+    padding: 20px;
+  }
+
+  .yellow-cont-wth-txt p, .switch-off-wifi p {
+    line-height: 27px !important;
+  }
+
+  .self-help-section .padding-right-8 {
+    padding-right: 0px !important;
+  }
+
+  p.comment-pic img {
+    margin: 17px 0px;
+  }
+
+  .hide-640 {
+    display: none;
+  }
+
+  .self-help-section h2.show-640 {
+    font-size: 1.8em!important;
+  }
+}
+
+//---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+
+
+@media (max-width:480px) {
+  .self-help-section .forum-post-cont p {
+font-size: 1.4em !important;
+  line-height: 27px !important;
+}
+
+.self-help-section .forum-post-cont {
+  min-height: 468px;
+}
+
+		}
+
+//---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width:400px) {
+
+.self-help-section .forum-post-cont {
+  margin: 8px 0px 0px 0px;
+  min-height: 200px;
+}
+
+.self-help-section .article-margin {
+  padding: 22px 0 0 22px !important;
+}
+	
+	
+	}

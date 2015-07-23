@@ -1,0 +1,584 @@
+
+/* my accout information */
+ 
+.my-account-info {
+    font-size: 1.125em;
+    color: #58585c;
+	display:inline-block;
+    padding: 10px 0px 10px 11px;
+}
+
+.my-account-info a {
+color: #525252;
+border-bottom: 1px solid #fcc200;
+text-decoration: none;
+}
+.mobile-account-graph{
+  width:72%;
+  float:left;
+  margin-top:10px;
+
+}
+.mobile-account-graph li{
+list-style:none;
+  display:block;
+margin-left:-20px;
+  padding-top:10px;
+  text-align:left!important;
+  height:40px;
+
+}
+
+.my-account-info span {
+    font-size: 0.875em;
+    color: #cbcbce;
+    text-transform: uppercase;
+}
+/* my accout information */
+
+/* my accout service section  */
+.my-acount-service-table {
+    background-color: #f2f2f4;
+    padding: 10px 5px;
+    margin-bottom: 8px;
+}
+.my-acount-service-table2 {
+    background-color: #f2f2f4;
+    padding: 10px 5px;
+    margin-bottom: 8px;
+}
+.my-acount-service-table .heading {
+    font-size: 1.500em !important;
+    margin-top: 10px;
+}
+
+.my-acount-service-table .first {
+    display: none;
+}
+
+.my-acount-service-table span {
+    color: #afafb2;
+    font-size: 0.875em;
+    display: block;
+    text-transform: uppercase;
+}
+
+.my-acount-service-table span.big {
+    color: #58585c;
+    font-size: 2.000em;
+}
+.my-acount-service-table2 span {
+    color: #afafb2;
+    font-size: 0.875em;
+    display: block;
+    text-transform: uppercase;
+	
+}
+.my-acount-service-table2 span.big2 {
+    color: #58585c;
+    font-size: 1.5em;
+}
+.my-acount-service-table2 span.big2 .rupee {
+    color: #58585c;
+    font-size: 1em;
+}
+.my-acount-service-table2 span.rupee {
+    display:inline;
+}
+.product-icon-position .inner_img {
+    display: none;
+}
+/* my accout service section  */
+/* my accout app section  */
+.my-acount-app-set {
+    margin-left: 0px;
+}
+
+.product-icon-position {
+    position: relative;
+}
+
+.product-icon-position .text {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+	 
+}
+/* img mouseover div */
+.boxgrid { 
+  
+  overflow: hidden; 
+  position: relative;
+  cursor:pointer;
+}
+			
+.boxcaption{ 
+  float: left; 
+  position: absolute; 
+  background: #eecb50; 
+  height: 260px;   
+  width: 100%; 
+  opacity: .8;
+  /* For IE 8 */
+  -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=8)";
+} 
+/* img mouseover div */
+.product-icon-position .text span:nth-child(1) {
+    color: #2e2e33;
+    font-size: 0.875em;
+    display: block;
+    text-transform: uppercase;
+}
+
+.product-icon-position .text span:nth-child(2) {
+    font-size: 1.500em;
+}
+
+.my-acount-app-set .padding-8 {
+    padding: 0px 4px;
+}
+
+.my-acount-app-set .app-details {
+    padding: 20px;
+    background-color: #f2f2f4;
+    min-height: 218px;
+}
+
+.my-acount-app-set .app-details span {
+    color: #58585c;
+    font-size: 1.5em;
+    display: inline;
+    text-transform: none;
+    padding-left: 10px;
+}
+
+.my-acount-app-set .app-details p span:nth-child(1) {
+    color: #afafb2;
+    font-size: 0.875em;
+    display: block;
+    text-transform: uppercase;
+}
+
+.my-acount-app-set .app-details  p span:nth-child(2) {
+    color: #58585c;
+    font-size: 1.125em;
+    text-transform: none;
+}
+/* my accout app section  */
+
+
+.my-account-search-box {
+    border: 1px solid #c8c8ca;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    text-align: left;
+    color: #525252;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    background-image: url(../images/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.my-account-help p {
+    border-bottom: 1px solid #b2b2b5;
+    padding-bottom: 14px !important;
+padding-top: 2px !important;
+}
+
+.my-account-help a{
+	font-size: 1.125em; 
+	color: #525252 !important;
+	border-bottom:2px solid #fcc200;
+	text-decoration:none !important;
+}
+
+.desktop-account-graph{
+  background-color: #f9f9fa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.my-account-graph-container{
+ 
+ margin:0 auto;
+ width:100%;
+ position:relative;
+background-color: #f9f9fa;
+  height: 315px;
+}
+.my-account-jio-data-graph{
+  
+  top:0px;
+   position:absolute;
+   width:100%;
+  
+}
+
+
+.my-account-4g-graph{
+  
+  top:0px; 
+   position:absolute;
+   width:100%;
+    
+}
+
+.my-account-wifi-graph{
+
+ top:0px;
+  position:absolute;
+  
+   
+  width:100%;
+  
+  
+  
+}
+
+.bar-indicator{
+  left: 106px;
+  padding: 5px;
+  position: absolute;
+  top: 158px;
+  width: 76%;
+}
+
+
+.my-account-mobile-jio-data-graph {
+    position: relative;
+  background-image:url(../images/m-my-service-yellow-circle.png);
+  width:100%;
+  height:28px;
+  background-repeat: no-repeat;
+
+}
+
+.my-account-mobile-jio-data-graph div {
+
+    position: relative;
+  background-image:url(../images/m-my-service-yellow-fill.png);
+  width:100%;
+  height:28px;
+   background-repeat: no-repeat;
+
+}
+
+
+.my-account-mobile-4g-data-graph {
+    position: relative;
+  background-image:url(../images/m-my-service-orange-circle.png);
+  width:100%;
+  height:28px;
+  background-repeat: no-repeat;
+
+}
+ 
+.my-account-mobile-4g-data-graph div {
+
+    position: relative;
+  background-image:url(../images/m-my-service-orange-fill.png);
+  width:100%;
+  height:28px;
+   background-repeat: no-repeat;
+
+}
+
+.my-account-mobile-wifi-data-graph {
+  position: relative;
+  background-image:url(../images/m-my-service-red-circle.png);
+  height:28px;
+  background-repeat: no-repeat;
+
+}
+
+.my-account-mobile-wifi-data-graph div {
+
+    position: relative;
+  background-image:url(../images/m-my-service-red-fill.png);
+  width:100%;
+  height:28px;
+   background-repeat: no-repeat;
+
+}
+ 
+//---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+@media (max-width: 1024px) {
+
+.bar-indicator{
+  left: 181px;
+    padding: 5px;
+    position: absolute;
+    top: 121px;
+    width: 63%;
+}
+
+
+
+
+}
+
+
+@media (max-width: 800px) {
+
+.bar-indicator{
+	
+	top:158px;
+  position:absolute;
+   left:83px;
+  width:86%;
+  padding:5px;
+}
+
+.my-account-jio-data-graph{
+  
+  top:0px;
+   position:absolute;
+   width:100%;
+   left:20px;
+}
+
+
+.my-account-4g-graph{
+  
+  top:0px; 
+   position:absolute;
+   width:100%;
+     left:20px;
+}
+
+.my-account-wifi-graph{
+
+ top:0px;
+  position:absolute;
+  
+   left:20px;
+  width:100%;
+  
+}
+
+
+.desktop-account-graph{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+}
+
+@media (max-width: 640px) {
+
+.bar-indicator{
+	top:130px;
+	bottom:-12px;
+  position:absolute;
+   left:0px;
+  width:100%;
+  padding:5px;
+}
+.my-account-mobile-graph{
+height: 234px!important;
+
+}
+.desktop-account-graph{
+	display:none;
+}
+    
+	.boxcaption
+	{
+		display:none;
+	}
+	 .my-reserve
+	 {
+	 	position: absolute;				 
+	 }
+	 
+	 .my-jio-heading
+	 {
+	 	margin-top:60px;
+		margin-bottom:10px;
+		}
+
+	.my-acount-service-table .second 
+	{
+    	display: none;
+	}
+
+	.my-acount-service-table .table_img 
+	{
+   		margin-bottom: 20px;
+	}
+
+	.grey_bg
+	{
+		background-color: #f2f2f4;
+		padding: 20px 0px;
+		margin-bottom: 10px;    
+	}
+	.product-icon-position {
+		float: left;    
+		position: relative;
+		width: 50%;
+		padding:10px 0px 10px 5px;
+	}
+ 
+	.product-icon-position .inner_img {
+		position: absolute;
+		top: 40%;
+		left: 40%;
+		display: block;
+	}
+	
+	.product-icon-position .text {
+		display: none;
+	}
+	
+	.my-acount-app-set .app-details {
+		float: left;
+		width: 50%; 
+	}
+	
+	.my-acount-app-set .app-details div img {
+		display: none;
+	}
+	
+	.my-acount-app-set .app-details span {
+		font-size: 3.000em;
+	}
+	
+	.my-acount-app-set .app-details .first {
+		display: none;
+	}
+	
+	.my-acount-service-table .heading {
+		font-size: 2.500em !important;
+	}
+	
+	.my-acount-service-table span.big {
+		font-size: 3.000em;
+	}
+	
+	.my-acount-service-table span {
+		font-size: 1.750em;
+	}
+	.hide-640
+	{
+		display:none;
+	}
+	.hide-768
+	{
+		display:none;
+	}
+	
+	.my-acount-service-table2 span {
+		margin-top:10px;  	
+	}
+	.my-acount-service-table2 span.big2 {
+		margin-top:0px !important;  	
+	}
+		
+}
+
+
+//---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+
+   .mobile-account-graph li{
+
+margin-left:-40px;
+ 
+}
+
+    .my-acount-service-table .heading
+	{
+		font-size: 2.0em !important;
+	}
+
+	.my-acount-service-table span {
+		font-size: 0.875em;
+	}
+
+	.my-acount-service-table span.big {
+		font-size: 1.5em;
+	}
+	.my-acount-app-set .app-details span 
+	{
+		font-size: 1.8em;		 
+	}
+	
+	.my-acount-app-set .app-details p span:nth-child(1) 
+	{		 
+		font-size: 0.875em;		 
+	}
+
+	.my-acount-app-set .app-details  p span:nth-child(2) 
+	{		 
+		font-size: 1.0em;		 
+	}
+	.product-icon-position .inner_img 
+	{		 
+		top: 38%;
+		left: 35%;		 
+	}
+			 
+}
+
+
+//---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px)  {
+
+	 .mobile-account-graph li{
+
+      margin-left:-2px;
+ 
+      }
+	  .my-account-info {
+    
+    padding: 10px 10px 10px 0px;
+}
+
+      .my-account-mobile-graph{
+height: 150px!important;
+
+}
+    .my-acount-service-table span
+	{
+		color: #afafb2;
+		font-size: 0.8em;
+		display: block;
+		text-transform: uppercase;
+	}
+
+	.my-acount-service-table span.big 
+	{
+		color: #58585c;
+		font-size: 1.00em;
+	}
+	
+	.my-acount-service-table2 span.big2 
+	{
+		color: #58585c;
+		font-size: 1.00em;
+	}
+	.my-acount-app-set .app-details span 
+	{
+		font-size: 1.1em;		 
+	}
+	.my-acount-app-set .app-details 
+	{
+		min-height:100%;
+		padding-right:0px;
+	}
+	.product-icon-position .inner_img 
+	{		 
+		top: 30%;
+		left: 30%;		 
+	}
+}

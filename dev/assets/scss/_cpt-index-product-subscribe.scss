@@ -1,0 +1,117 @@
+
+.subscribe {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    border-top: 0px solid #E3E3E3;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.subscribe h2 {
+    margin: 20px 0px !important;
+}
+
+.subscribe h3 {
+    margin: 20px 0px !important;
+	font-size:26px !important; 
+}
+
+.email-box {
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    width: 300px;
+    padding: 15px 15px;
+    padding-right:50px;
+  
+}
+
+.subscribe-form .go-btn{
+	background-image: url(../images/but-arrow-right.png);
+	background-color: transparent;
+	width:34px;
+	height:35px;
+	left: 298px!important;
+	position: relative;
+	margin-top: -4px;
+	background-repeat: no-repeat;
+}
+
+.subscribe-form .go-btn:hover{
+    background-color: #fff;
+ background-image: url(../images/but-arrow-right.png);
+ width:34px;
+ height:35px;
+  left: 298px; 
+ position: relative;
+  margin-top: -4px;
+ background-repeat: no-repeat;
+ 
+}
+.subscribe-confirm{
+  display:none;
+}
+//---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.subscribe {
+    margin-bottom: 30px;
+}
+}
+
+//---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+}
+
+//---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+@media (max-width: 375px) {
+ .email-box {
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    width: 250px;
+    padding: 10px 10px;
+    
+    text-transform: uppercase;
+    padding-right:45px;
+}
+
+.subscribe-form .go-btn{
+
+  margin-left: 220px; 
+  left: 35px!important;
+ position:absolute;
+ margin-top:3px;
+}
+.subscribe-form .go-btn:hover{
+
+  margin-left: 200px; 
+}
+}
+
+
+@media (max-width: 320px) {
+.email-box {
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    width: 250px;
+    padding: 10px 10px;
+    
+    text-transform: uppercase;
+    padding-right:45px;
+}
+
+.subscribe-form .go-btn{
+
+  margin-left: 200px; 
+  left: 37px!important;
+ position:absolute;
+ margin-top:3px;
+}
+.subscribe-form .go-btn:hover{
+
+  margin-left: 200px; 
+}
+}

@@ -1,0 +1,246 @@
+.jio-landing {
+    margin: 0px 0px 0px -8px;
+    padding: 0px;
+}
+
+
+.new-bundles-contarea {
+    margin: 0px 0px 0px -16px;
+    padding: 0px;
+}
+.jio-landing .feature-jio h1{
+    padding: 40px 0px 10px 50px !important; 
+    line-height: 60px !important; 
+}
+
+.jio-landing .feature-padding {
+    padding: 30px 0px 0px 30px !important;
+    line-height: 60px !important;
+}
+.feature-padding h3{
+	line-height:1.5em;
+}
+
+.jio-landing .feature-jio p {
+    padding: 10px 20px 0px 50px !important;
+}
+
+.jio-landing .jio-img1 img {
+	padding-left:16px;
+}
+.jio-landing .jio-img1 .featuredapps-apps-container .img-responsive{
+	padding-left:0px;
+}
+
+.jio-landing .jio-img2 img {
+}
+
+.jio-landing .link-container {
+    padding: 10px 0px 0px 0px;
+}
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+.jio-landing .feature-jio h1{
+    padding: 20px 0px 10px 30px !important; 
+    line-height: 60px !important; 
+}
+.jio-landing .feature-jio p {
+    padding: 10px 20px 0px 30px  !important;
+}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.jio-landing { 
+	margin-top: 175px;
+	margin-left: 0px;
+}
+.jio-landing2 { 
+	margin-top: 10px;
+	margin-left: 0px;
+}
+.new-bundles-contarea {
+	margin-left: 0px;
+}
+.jio-landing .feature-jio h1 {
+    padding: 0px 0px 0px 20px !important;
+    position: absolute;
+    top: -1094px;
+}
+.jio-landing .feature-jio p {
+    padding: 10px 10px 30px 10px !important;
+}
+
+.jio-landing .feature-padding {
+    padding: 10px 10px 0px 20px !important;
+}
+
+.jio-landing .jio-img1 img {
+	padding-left:0px;
+}
+
+.jio-landing .jio-img2 img {
+    position: absolute;
+    right: 0px;
+    top: -312px;
+}
+
+.jio-landing .link-container {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+}
+
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+.jio-landing .feature-jio h1 { 
+	padding: 0px 0px 25px 20px;
+    position: absolute;
+    top: -867px;
+}
+
+@-moz-document url-prefix() { 
+  .jio-landing .feature-jio h1{
+     top: -890px;
+  }
+  }
+
+.jio-landing .jio-img2 img {
+    position: absolute;
+    right: 0px;
+    top: -232px;
+}
+@-moz-document url-prefix() { 
+  .jio-landing .jio-img2 img {
+     top: -240px;
+  }
+}
+
+}
+
+
+// ---------------------------------------- Mobile Device Class for 320 width ----------------------------------------
+@media (max-width: 380px) {
+.jio-landing .feature-jio h1 {
+    padding: 0px 0px 25px 20px;
+    position: absolute;
+    top: -645px;
+	line-height:35px !important;
+}
+.jio-landing .jio-img2 img {
+	position: absolute;
+	right: 0px;
+	top: -188px;
+}
+
+.jio-landing {
+margin-top: 65px;
+margin-left: 0px;
+}
+.jio-landing2 { 
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+
+
+}
+
+@media (max-width: 360px) {
+.jio-landing .feature-jio h1 {
+    padding: 0px 0px 25px 20px;
+    position: absolute;
+    top: -620px;
+	line-height:35px !important;
+}
+.jio-landing .jio-img2 img {
+position: absolute;
+right: 0px;
+top: -180px;
+}
+
+.jio-landing {
+margin-top: 70px;
+margin-left: 0px;
+}
+
+
+
+}
+
+@media (max-width: 320px) {
+.jio-landing { 
+	margin-top: 70px;
+}
+.jio-landing2 { 
+	margin-top: 0px;
+	margin-left: 0px;
+}
+@-moz-document url-prefix() {
+    .jio-landing {
+        margin-top: 100px;
+    }
+}
+.jio-landing .inspire_heading {
+	margin-top: 84px !important;
+}
+.jio-landing .inspire_heading h1 {
+    padding: 0px 0px 0px 20px;
+    position: absolute;
+    top: -650px !important;
+}
+.jio-landing .feature-jio h1 {
+    padding: 0px 0px 25px 20px;
+    position: absolute;
+    top: -542px;
+	line-height:35px !important;
+}
+
+@-moz-document url-prefix() { 
+  .jio-landing .feature-jio h1 {
+     top: -568px !important;
+  }
+}
+ 
+.btn-readMore-container {
+  display: block;
+  margin: 0px 0px 20px 0px;
+}
+
+.jio-landing .link-container {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.jio-landing .jio-img2 img {
+    position: absolute;
+    right: 0px;
+    top: -152px;
+}
+
+@-moz-document url-prefix() {
+    .jio-landing .jio-img2 img {
+        position: absolute;
+        right: 0px;
+        top: -160px;
+    }
+}
+}
+
+@media screen and (max-device-width: 320px) {
+ .jio-landing .feature-jio h1 {
+     top: -565px;
+  }
+ .jio-landing .jio-img2 img {
+        position: absolute;
+        right: 0px;
+        top: -160px;
+    }
+}

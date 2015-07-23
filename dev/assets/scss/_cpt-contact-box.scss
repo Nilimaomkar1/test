@@ -1,0 +1,38 @@
+/* Contact Box SCSS */
+
+.contact-box {
+    display: none;
+    border: 1px solid #e3e3e3;
+    min-height: 150px;
+    position: absolute;
+    top: 60px;
+    width: 200px;
+    z-index: 999999;
+    border-top: none;
+    background: #f9f9fa;
+    margin-bottom: 22px;
+}
+
+.contact-box ul {
+    display: block;
+    list-style: none;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.contact-box li {
+    display: block;
+    list-style: none;
+    width: 100%;
+    border: none;
+    height: auto;
+    padding: 5px 5px 5px 40px !important;
+}
+
+.contact-box li a:hover {
+    color: #000!important;
+}
+
+.contact-box .icon {
+    margin-right: 18px;
+}

@@ -1,0 +1,217 @@
+
+.visualisation-Container{
+width:28%;
+float:left;
+position: absolute;
+top:20px;
+}
+
+.mobile-service-graph{
+  width:72%;
+  float:left;
+  margin-top:10px;
+
+}
+.mobile-service-graph li, .visualisation-Container li {
+  list-style:none;
+  display:block;
+  margin-left:-20px;
+  padding-top:0px;
+  text-align:left!important;
+  height:40px;
+  margin-bottom:15px;
+
+}
+.visualisation-Container li h3 {
+font-size: 24px!important;}
+.visualisation-Container ul {padding-left: 20px;}
+.account-jio-usage, .account-4g-usage, .account-wifi-usage { padding-left: 20px;}
+
+
+span.my-account-title-small {font-size:14px;}
+span.my-account-title-mid {font-size:18px;  color:#2e2e33;}
+
+.visualisation-Container li a{
+  text-decoration:none;
+}
+.visualisation-Container li a:hover{
+  text-decoration:none;
+}
+
+.visualisation-Container li:nth-child(1) h3 a {
+  color:#fcc200!important;
+  text-decoration:none;
+}
+
+.visualisation-Container li:nth-child(2) h3 a {
+  color:#ea5e04!important;
+  text-decoration:none;
+}
+
+.visualisation-Container li:nth-child(3) h3 a{
+  color:#bb1616!important;
+  text-decoration:none;
+}
+
+.service-graph-container{
+  height:451px;
+ margin:0 auto;
+ width:100%;
+ position:relative;
+}
+.service-jio-data-graph{
+  
+  bottom:0px;
+   position:absolute;
+   width:100%;
+}
+.service-4g-graph{
+  
+  bottom:0px;
+ 
+   position:absolute;
+   width:100%;
+  
+}
+
+.service-4g-graph, .service-wifi-graph{
+  
+  bottom:0px;
+ 
+   position:absolute;
+   width:100%;
+  
+}
+
+
+
+p.my-apps-list-fmt {}
+p.my-apps-list-fmt span { line-height: 15px;}
+
+img.faq-note-icon { margin-right: 10px;}
+
+
+.amount-indicator{
+
+ bottom:90px;
+  position:absolute;
+   
+  width:100%;
+  
+}
+
+
+.service-mobile-jio-data-graph {
+    position: relative;
+  background-image:url(../images/m-my-service-yellow-circle.png);
+  width:100%;
+  height:28px;
+  background-repeat: no-repeat;
+
+}
+
+.service-mobile-jio-data-graph div {
+
+    position: relative;
+  background-image:url(../images/m-my-service-yellow-fill.png);
+  width:100%;
+  height:28px;
+   background-repeat: no-repeat;
+
+}
+
+
+.service-mobile-4g-data-graph {
+    position: relative;
+  background-image:url(../images/m-my-service-orange-circle.png);
+  width:100%;
+  height:28px;
+  background-repeat: no-repeat;
+
+}
+
+.service-mobile-4g-data-graph div {
+
+    position: relative;
+  background-image:url(../images/m-my-service-orange-fill.png);
+  width:100%;
+  height:28px;
+   background-repeat: no-repeat;
+
+}
+
+.service-mobile-wifi-data-graph {
+    position: relative;
+  background-image:url(../images/m-my-service-red-circle.png);
+  width:100%;
+  height:28px;
+  background-repeat: no-repeat;
+
+}
+
+.service-mobile-wifi-data-graph div {
+
+    position: relative;
+  background-image:url(../images/m-my-service-red-fill.png);
+  width:100%;
+  height:28px;
+   background-repeat: no-repeat;
+
+}
+
+.mobile-graph{
+  display:none;
+  background-color: #fff;
+}
+
+.desktop-service-graph{
+  background-color: #f9f9fa;
+}
+
+@media (max-width: 767px) {
+   .desktop-service-graph{
+
+display:none;
+ 
+}
+.visualisation-Container{
+position:relative;
+  }
+.mobile-graph{
+  display:block;
+}
+
+  }
+
+
+
+@media (max-width: 480px) {
+   .mobile-service-graph li{
+
+margin-left:-40px;
+ 
+}
+
+  }
+
+  @media (max-width: 400px) {
+  .visualisation-Container li h3 {
+font-size: 16px!important;}
+   .mobile-service-graph li{
+
+      margin-left:-2px;
+ 
+}
+.visualisation-Container {
+  margin-left:-9px;
+  width:30%;
+}
+
+.mobile-account-graph {
+    float: left;
+    margin-top: -5px;
+    width:70%;
+}
+
+  }
+

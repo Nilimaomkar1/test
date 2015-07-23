@@ -1,0 +1,425 @@
+.checkout-btn {
+	background-color: #fdcc00;
+    color: #525252;
+    border: 2px solid #fcc200;
+	border-radius: 48px;
+	font-size: 1em !important;
+	font-family: 'kohinoorbold';
+	padding: 12px 45px;
+	text-transform: uppercase;
+	margin: 20px 70px 0px 0px; 
+	text-align: center;
+}
+.remove-all {
+  font-size: 1em;
+  color: #525252 !important;
+  border-bottom: 2px solid #fcc200;
+  text-decoration: none !important;
+  margin-right:20px;
+}
+.accordion-title-set p:nth-child(3) {
+ width:100%;
+ color: #ababad !important;
+ font-size: 0.8em !important;
+ text-transform: uppercase;
+ float:none;
+}
+.wishlist_btn_bg {
+	background-color: #ebebeb;
+	padding: 20px;
+}
+.all_taxes {
+	width: 100%;
+	color: #ababad !important;
+	font-size: 0.8em !important;
+}
+.addition_plan {
+	width:100%;
+	color: #ababad !important;
+	font-size: 0.8em !important;
+	text-transform: uppercase;
+	float:none;
+}
+.accordion-header {
+	font-family: "Conv_Kohinoor-Book", Sans-Serif !important;
+	background-color: #f2f2f4;
+	position: relative;
+	color: #2e2e33;
+	font-size: 1.500em;
+	text-transform: none;
+	border-bottom: solid 1px #e3e3e6;
+	padding: 25px 0px;
+	position:relative;
+	min-height:80px;
+	cursor:pointer;
+}
+.accordion-header p:nth-child(1) {
+ float:left;
+ width:75%;
+}
+.accordion-header p:nth-child(2) {
+ float:right;
+ width:25%;
+}
+ .accordion-header p:nth-child(3) {
+ width:100%;
+ color: #ababad !important;
+ font-size: 0.8em !important;
+ text-transform: uppercase;
+ float:none;
+}
+.active-header {
+	background: url(../images/mines-icon.png) #ebebeb;
+	background-position: 2% 23px;
+	background-repeat: no-repeat;
+	padding-left:9% !important;
+}
+.active-header:hover {
+	background: url(../images/mines-icon.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: 2% 23px;
+	padding-left:9% !important;
+}
+.inactive-header {
+	background: url(../images/add-btn.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: 2% 23px;
+	padding-left:9% !important;
+}
+.inactive-header:hover {
+	background: url(../images/add-btn.png) #f5f5f5;
+	background-repeat: no-repeat;
+	background-position: 2% 23px;
+	padding-left:9% !important;
+}
+.accordion-content {
+	display: none;
+	background-color:#f2f2f4 !important;
+	width:100%;
+}
+div {
+	text-decoration: none;
+	border: none;
+	outline: none;
+	outline:0;
+	-moz-outline-style:none;
+	-moz-outline-style:0;
+	-ms-outline:none;
+	-ms-outline:0;
+	-o-outline:none;
+	-o-outline:0;
+	-webkit-outline:none;
+	-webkit-outline:0;
+}
+#accordion-2 .collase_heading {
+	background:none;
+	color:#2e2e33;
+}
+#accordion-2 .accordian-description {
+	background-color:#f2f2f4 !important;
+	min-height:100px;
+	height: auto !important;
+	width:100%;
+}
+.ui-accordion .ui-accordion-icons {
+	padding-left:0em !important;
+}
+.ui-accordion .ui-accordion-header {
+	margin:0px !important;
+	padding:0px !important;
+}
+.ui-widget {
+	font-family: "Conv_Kohinoor-Book", Sans-Serif !important;
+	color: #2e2e33;
+	font-size: 1.3em !important;
+}
+.acessory-icon {
+	padding-right:30px;
+}
+.accessories-details {
+	color: #ababad !important;
+	font-size: 0.8em !important;
+	text-transform: uppercase;
+	float: none;
+	margin:0;
+	padding:0;
+	margin-top:-20px
+}
+.acessories-icon {
+	padding-left:20px;
+	margin-right:20px;
+	display:block;
+}
+.sibling-div {
+	display:none;
+}
+.rl-close, .rl-open {
+	float:left;
+	color:#fcc200;
+	font-size:1.7em;
+	padding-right:14px;
+	line-height:30px;
+}
+.cart-set .data-set {
+	padding:25px;
+}
+.cart-set .data-set .product-img {
+	margin:25px;
+	margin-bottom:0px;
+}
+.cart-set .product-description {
+	border-bottom:solid 1px #e3e3e6;
+	padding:25px 0px 45px 25px;
+	font-size:1.500em;
+}
+.cart-set .product-description .left-padding {
+	padding-left:11px;
+}
+.cart-set .product-description .left-padding1 {
+	padding-left:11px;
+}
+.cart-set .category {
+	color:#ababad;
+	text-transform: uppercase;
+}
+.cart-set .product-description .details-txt {
+	font-size:0.900em;
+}
+.cart-set .product-description .left {
+	float:left;
+}
+.cart-set .product-description .right {
+	float:right;
+	text-align:left;
+	margin-right: 100px;
+}
+.cart-set .title {
+	color:#2e2e33;
+	font-size:1.100em;
+	text-transform:none;
+}
+.data-set .img-responsive {
+	width:auto;
+	max-width:100%;
+}
+.ui-accordion .ui-accordion-content {
+	padding:0em !important;
+}
+.cart-set .similar-product {
+	background-color:#f6f6f7;
+	position:relative;
+	width:100%;
+	min-height:250px;
+	padding:20px;
+}
+.cart-set .similar-product .details {
+	padding-bottom:25px;
+}
+.cart-set .similar-product .arrow {
+	position:absolute;
+	top:18px;
+	right:20px;
+}
+.cart-set .product-frame-1 {
+	background-color:#f2f2f4;
+	position:relative;
+}
+.cart-set .product-frame-1 .close-btn {
+	position:absolute;
+	top:20px;
+	right:20px;
+	z-index:9;
+}
+.cart-set .product-frame-2 {
+	background-color:#f9f9fa;
+	position:relative;
+}
+span.cart-product-counter {
+	color:#fcc200;
+}
+.left-zero-padding {
+	padding-left:0px;
+}
+.right-zero-padding {
+	padding-right:0px;
+}
+.clear {
+	clear:both;
+}
+.padding20-640 {
+	display:block;
+}
+.sticky-cart{
+	position:fixed!important;
+	bottom:0px;
+	float:right;
+	border-top:1px solid #c5c5c5;
+	border-bottom:1px solid #c5c5c5;
+	width:100%;
+	background-color:#ffffff!important;
+}
+.sticky-cart h2{
+	padding:5px 0px 0px 35px !important;
+	display:block;
+}
+.text-right-cart {
+	text-align:right;
+}
+
+ @media (max-width: 640px) {
+ .sticky-cart h2{
+	padding:0px 0px 0px 0px !important;
+	font-size:2em !important;
+	text-align:center;
+}
+.checkout-btn {
+	margin: 20px 0px 0px 0px; 
+}
+.text-right-cart {
+	text-align:center;
+}
+.acessories-icon {
+padding-left:10px;
+margin-right:10px;
+display:block;
+}
+.cart-set .left-padding-15 {
+padding-left:15px;
+}
+ .accordion-title-set p {
+font-size: 1.100em !important;
+}
+ .accordion-title-set p:nth-child(2) {
+ width: 70%;
+}
+ .accordion-header p {
+font-size: 1.5em !important;
+}
+ .accordion-title-set p:nth-child(3) {
+ float: right;
+ width: 20%;
+}
+.cart-set .product-description {
+	font-size:2em;
+}
+.padding20-640 {
+ padding-top:20px;
+ display:block;
+}
+.cart-set .title {
+	color:#2e2e33;
+	font-size:1.100em;
+	text-transform:none;
+}
+.cart-set .product-description .left-padding {
+	padding-left:7px;
+}
+}
+ @media (max-width: 480px) {
+ .cart-set .product-description {
+	font-size:1.5em;
+}
+ .cart-set .product-description .right {
+width:100%;
+margin-right:0px;
+}
+ .accordion-title-set p {
+font-size: 1.200em !important;
+}
+ .accordion-title-set p:nth-child(2) {
+ width: 55%;
+}
+ .accordion-title-set p:nth-child(3) {
+ float: right;
+ width: 27%;
+}
+ .accordion-header p:nth-child(1) {
+ font-size:1.3em !important;
+ line-height:30px !important;
+ width:65%;
+}
+ .accordion-header p:nth-child(2) {
+ font-size:1.3em !important;
+ line-height:30px !important;
+}
+
+.cart-set .title {
+color:#2e2e33;
+font-size:1.00em;
+text-transform:none;
+}
+ .cart-set .product-description .right {
+ text-align:right;
+}
+.cart-set .product-frame-1 .close-btn {
+	top:10px;
+	right:0px;
+}
+.cart-set .product-frame-1 .close-btn img {
+	width:80%;
+}
+}
+@media (max-width:400px) {
+.cart-set .product-description {
+	font-size:1.2em;
+}
+.accordion-header {
+	font-size: 1.2em;
+}
+.cart-set .product-frame-1 .close-btn {
+	top:0px;
+	right:-8px;
+}
+.cart-set .product-frame-1 .close-btn img {
+	width:70%;
+}
+ .cart-set .product-description .right {
+ text-align:right;
+}
+ .accordion-title-set p {
+font-size: 1.000em!important;
+}
+ .accordion-header p:nth-child(1) {
+ width:100% !important;
+ font-size:0.9em !important;
+ line-height:normal !important;
+}
+ .accordion-title-set p:nth-child(2) {
+ width: 100%;
+ float:none;
+}
+ .accordion-title-set p:nth-child(3) {
+ float: none;
+ width: 100%;
+}
+ .accordion-header p:nth-child(2) {
+ width:100%;
+ font-size:0.9em !important;
+ line-height:normal !important;
+}
+ .active-header {
+ background-position: 2% 40%;
+ padding-left:17% !important;
+}
+ .active-header:hover {
+ background-position: 2% 40%;
+ padding-left:17% !important;
+}
+ .inactive-header {
+ background-position: 2% 40%;
+ padding-left:17% !important;
+}
+ .inactive-header:hover {
+ background-position: 2% 40%;
+ padding-left:17% !important;
+}
+}
+
+@media (max-width:320px) {
+.cart-set .product-description {
+	font-size:1.1em;
+}
+.accordion-header {
+	font-size: 1.1em;
+}
+}

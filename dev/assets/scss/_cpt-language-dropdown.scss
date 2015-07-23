@@ -1,0 +1,123 @@
+/* Language Dropdown Menu */
+.header-language-space {
+    background-clip: none!important;
+    background-color: #f9f9fa;
+    border: 1px solid #E3E3E3;
+    border-radius: 0;
+    box-shadow: none;
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 17px!important;
+    list-style: outside none none;
+    margin: 2px 0 0;
+    min-width: 180px;
+    height: auto;
+    position: relative;
+    top: 9px!important;
+    z-index: 1000;
+    border-top: none;
+    padding-left: 8px!important;
+}
+
+
+.dropdown-menu {
+    background-clip: none!important;
+    background-color: #f9f9fa;
+    border: 1px solid #E3E3E3;
+    border-radius: 0;
+    box-shadow: none;
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: -7px;
+    list-style: outside none none;
+    margin: 2px 0 0;
+    min-width: 180px;
+    height: auto;
+    position: relative;
+    top: 19px;
+    z-index: 1000;
+    border-top: none;
+    padding-left: 8px!important;
+}
+.dropdown-menu li {
+    border: none;
+    padding: 0px;
+    height: auto;
+    width:100%;
+   
+}
+
+.dropdown-menu li:first-child {
+    margin:0px !important;
+       padding: 0px!important;
+    width:100%;
+    margin-bottom:-20px;
+}
+
+
+
+.dropdown-menu li a {
+    background: none;
+    color: #000!important;
+}
+.dropdown-menu li a:hover {
+    background: none;
+    color: #000!important; 
+}
+
+.dropdown-menu li:hover {
+    background: #f9f9fa !important;
+	 
+}
+
+.header-language-btn {
+    background-image: url("../images/select-arrow.png");
+    background-position: 99px 2px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 0 3px 27px;
+    width:114px;
+	
+	
+}
+
+.header-language-btn:hover {
+    background-image: url("../images/select-arrow-ro.png");
+    background-position: 99px 2px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 0 3px 27px;
+    width:114px;
+	color:#fcd13f;
+}
+
+.top-link-right .rupee{
+font-size:20px;
+
+}
+
+.recharge-dropdown:hover{
+color:#fcd13f;
+}
+
+.header-language-drp {
+    border: medium none;
+    float: right;
+    padding: 0 0px 0 0px;
+    text-align: left;
+    width: 105px;
+}
+
+.menu-bar{
+padding-left:30px!important;
+}
+
+li.header-language-space{
+    border:1px solid red !important;
+}
+
+
+ 
+

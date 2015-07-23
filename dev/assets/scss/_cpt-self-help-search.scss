@@ -1,0 +1,504 @@
+
+.ddsmoothmenu-v {
+  width:1040px; 
+  position:relative;
+}
+.ddsmoothmenu-v ul {
+  margin: 0;
+  padding: 0;
+  width: 170px;
+ /* Main Menu Item widths */
+  list-style-type: none;
+  
+  font-size: 12px;
+}
+.ddsmoothmenu-v ul li {
+  position: relative;
+  float: none;
+  width: 254px;
+}
+
+#help-option1 h2, #help-option2 h2, #help-option3 h2 {
+  font-size:24px !important; 
+}
+.level-title h2 {
+  font-size: 30px !important;
+  width: 270px;
+}
+.level-title1 h2 {
+  width: 250px;
+  font-size:24px !important;
+  line-height:30px !important;
+  padding:0px 0px 10px 0px !important;
+  color: #aeaeb3 !important;  
+}
+.level-title2 h2,.level-title3 h2 {
+  width: 230px;
+  margin-left: -97px!important;
+  display: none;
+  font-size:24px !important;
+  line-height:30px !important;
+  padding:0px 0px 10px 10px !important;
+  color: #aeaeb3 !important;
+}
+
+//----------------------------------------------------------------Top level menu class
+.ddsmoothmenu-v ul li a {
+  display: block;
+  overflow: auto;
+  color: #58585c;
+  height: 145px;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 10px 30px 0px 20px ;
+  margin-bottom: 2px;
+  background-color: #f2f2f4 !important;
+}
+.ddsmoothmenu-v ul li p {
+  font-weight: normal !important;
+  padding-right: 20px !important;
+  line-height: 20px !important;
+  margin-top: 5px !important;
+}
+.ddsmoothmenu-v ul li a:link, .ddsmoothmenu-v ul li a:visited, .ddsmoothmenu-v ul li a:active {
+  background: #1c5a80;
+  color: #58585c; 
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: 220px !important;
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v ul li a.selected {
+  background: #ffdf4c !important;
+  color: #58585c;
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: 220px !important;
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v ul li a:hover {
+  background: #ffdf4c !important;
+  color: #58585c;
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: 220px !important;
+  background-repeat: no-repeat !important;
+}
+
+//----------------------------------------------------------------Second level Sub Menu class
+.ddsmoothmenu-v .ddlevel2 {
+    width:220px; 
+	height:420px; 
+	position:absolute; 
+	left:250px; 
+	top:0px; 
+    font-weight: normal;
+    margin-left: 14px;
+}
+.ddsmoothmenu-v .ddlevel2 ul li a {
+	background-color: #f2f2f4 !important;
+	height: 40px;
+	border-top: 1px solid #e3e3e6;
+	border-collapse: collapse;
+	font-weight: normal;
+}
+.ddsmoothmenu-v .ddlevel2 ul li a:link, .ddsmoothmenu-v .ddlevel2 ul li a:visited, .ddsmoothmenu-v .ddlevel2 ul li a:active {
+  background: #f2f2f4 !important;
+  color: #58585c; 
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: 220px !important;
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v .ddlevel2 ul li a.selected {
+  background: #ffdf4c !important;
+  color: #58585c;
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: 220px !important;
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v .ddlevel2 ul li a:hover {
+  background: #ffdf4c !important;
+  color: #58585c;
+  background-image: url("../images/menu-arrow.png") !important;
+ background-position: 220px !important;
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v .level1, .ddsmoothmenu-v .level2, .ddsmoothmenu-v .level3 {
+  top: 0px !important;
+  width:255px;
+  display:none;
+}
+#carousel {
+	width:255px;
+}
+#ui-carousel-next {
+	position:absolute;
+	bottom:-20px;
+	left: 380px;
+	cursor:pointer;
+	display:none;				
+}
+#ui-carousel-prev {
+	position:absolute;
+	top:-20px;
+	left: 380px;
+	cursor:pointer;
+	display:none;				
+}
+
+//----------------------------------------------------------------Third level Sub Menu class
+.ddsmoothmenu-v .ddsubleve3 {
+	width:254px; 
+	height:auto; 
+	position:absolute; 
+	right:257px; 
+	top:0px; 
+	background-color:#FFF;
+	display:none;
+}
+.ddsmoothmenu-v .ddsubleve3 ul li a {
+  background-color: #f2f2f4 !important;
+  height: 40px;
+  border-top: 1px solid #e3e3e6;
+  border-collapse: collapse;
+  padding: 10px !important;
+  font-weight:normal;
+}
+.ddsmoothmenu-v .ddsubleve3 ul li a:link, .ddsmoothmenu-v .ddsubleve3 ul li a:visited, .ddsmoothmenu-v .ddsubleve3 ul li a:active {
+  background: #f2f2f4 !important;
+  color: #58585c; 
+}
+.ddsmoothmenu-v .ddsubleve3 ul li a.selected {
+  background: #ffdf4c !important;
+  color: #58585c;
+}
+.ddsmoothmenu-v .ddsubleve3 ul li a:hover {
+  background: #ffdf4c !important;
+  color: #58585c;
+}
+
+//----------------------------------------------------------------Third level Content class
+.ddsmoothmenu-v .ddlevel3 {
+	width:511px; 
+	height:292px; 
+	position:absolute; 
+	right:0px; 
+	top:0px; 
+	overflow:auto;
+}
+.ddsmoothmenu-v .ddlevel3 ul li a {
+  background-color: #FFF !important;
+  height: auto;
+  padding: 10px !important;
+  width:500px;
+  border-top: 1px solid #e3e3e6;
+  border-collapse: collapse;
+  font-weight:normal;
+}
+.ddsmoothmenu-v .ddlevel3 ul li a:link, .ddsmoothmenu-v .ddlevel3 ul li a:visited, .ddsmoothmenu-v .ddlevel3 ul li a:active {
+  background: #FFF !important;
+  color: #58585c; 
+}
+.ddsmoothmenu-v .ddlevel3 ul li a.selected {
+  background: #ffdf4c !important;
+  color: #58585c;
+}
+.ddsmoothmenu-v .ddlevel3 ul li a:hover {
+  background: #ffdf4c !important;
+  color: #58585c;
+}
+.ddsmoothmenu-v .item-suggestion {
+  padding: 10px 0px 20px 10px;
+ font-family: 'kohinoorbold';
+  font-size:1.5em;
+  width:400px;
+  color: #58585c;
+}
+
+//----------------------------------------------------------------Third level Scroll Class
+.sp-scrollbar {
+  width: 10px;
+  background-color: #FFF;
+  cursor: pointer;
+}
+.sp-scrollbar .sp-thumb {
+  background-color: #dbdbdb;
+  transition: height 0.2s ease-in-out;
+}
+.sp-scrollbar.active .sp-thumb {
+  background-color: #999;
+}
+.scrollhand{
+  border-radius: 0px;
+  padding-right:10px;
+}
+.scrollhand .sp-scrollbar{
+  border-radius: 5px;
+}
+.scrollhand .sp-scrollbar .sp-thumb{
+  border-radius: 5px;
+}
+.scrollbar-hide {
+    visibility: hidden;
+}
+
+//----------------------------------------------------------------Back Button class
+.ddsmoothmenu-v .back-btn {
+	display:none;	
+}
+
+//----------------------------------------------------------------Trending Question Class
+.trending-question	li {
+  padding: 15px 10px !important;
+  border-top: 1px solid #e3e3e6;
+  border-collapse: collapse;
+  margin-top: 0px !important;
+  overflow: hidden;
+  width: 100%;
+  list-style: none!important;
+}
+.trending-title {
+  position: absolute;
+  display: block;
+  top: -90px;
+  width: 300px;
+  left: 50px;
+  font-size: 24px;
+  font-family: 'kohinoor';
+  color: #aeaeb3;
+}
+.trending-question li  a {
+  color: #58585c;
+}
+.trending-question1 li  a {
+  color: #58585c;
+}
+.video-help h2 {
+  padding: 20px!important;
+}
+
+//----------------------------------------------------------------Holly Hack for IE
+* html .ddsmoothmenu-v ul li {
+  float: left;
+  height: 1%;
+}
+* html .ddsmoothmenu-v ul li a {
+  height: 1%;
+}
+
+//----------------------------------------------------------------CSS classes applied to down and right arrow images
+.downarrowclass {
+  position: absolute;
+  top: 10px;   
+  right: 7px;
+}
+.rightarrowclass {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.more-load {
+    background-color: #fed200 !important;
+    border: 2px solid #fcc200;
+    border-radius: 40px;
+    color: #525252;
+    font-family: "kohinoorbold";
+    font-size: 1em;
+    padding: 20px 45px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+//---------------------------------------- Mobile Device Class for 1024 width ----------------------------------------
+
+@media (max-width: 1024px) {
+.level-title2 h2 {
+  margin-left: -50px!important;
+}
+.level-title3 h2 {
+  margin-left: -20px!important;
+}
+.ddsmoothmenu-v {
+  width:930px; 
+}
+.ddsmoothmenu-v .ddlevel3 {
+	width:400px; 
+}
+.ddsmoothmenu-v .ddlevel3 ul li a {
+  width:400px;
+}
+.ddsmoothmenu-v .ddsubleve3 {
+	right:148px; 
+}
+.trending-title {
+	top:-90px;
+}
+}
+
+//---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+//----------------------------------------------------------------Top level menu class
+.ddsmoothmenu-v {
+  width:100%; 
+  height:420px;
+}
+.ddsmoothmenu-v ul {
+  width: 100%;
+}
+.ddsmoothmenu-v ul li {
+  width: 100%;
+}
+.ddsmoothmenu-v ul li a {
+  display: block;
+  width:100%;
+}
+#help-option1 h2, #help-option2 h2, #help-option3 h2 {
+  font-size:3.2em !important; 
+  font-weight:normal !important;
+}
+.ddsmoothmenu-v ul li p {
+  font-size:14px !important;
+}
+.ddsmoothmenu-v ul li a:link, .ddsmoothmenu-v ul li a:visited, .ddsmoothmenu-v ul li a:active {
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: center right 20px !important;
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v ul li a.selected {
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: center right 20px !important;
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v ul li a:hover {
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: center right 20px !important;
+  background-repeat: no-repeat !important;
+}
+
+//----------------------------------------------------------------Second level Sub Menu class
+.ddsmoothmenu-v .ddlevel2 {
+    width:100%;  
+	height:420px; 
+	overflow:auto;
+	left:0px; 
+    margin-left: 0px;
+	display:none;
+}
+.ddsmoothmenu-v .ddlevel2 ul li a:link, .ddsmoothmenu-v .ddlevel2 ul li a:visited, .ddsmoothmenu-v .ddlevel2 ul li a:active {
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: center right 20px !important;  
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v .ddlevel2 ul li a.selected {
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: center right 20px !important;  
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v .ddlevel2 ul li a:hover {
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: center right 20px !important;  
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v .level1, .ddsmoothmenu-v .level2, .ddsmoothmenu-v .level3 {
+  top: 0px !important;
+  width:100% !important; 
+  display:block;
+}
+#carousel {
+	display:none;	
+}
+#ui-carousel-next {
+	display:none;				
+}
+#ui-carousel-prev {
+	display:none;				
+}
+
+//----------------------------------------------------------------Third level Sub Menu class
+.ddsmoothmenu-v .ddsubleve3 {
+	width:100%; 
+	height:420px; 
+	overflow:auto;
+	right:0px; 
+	display:none;
+}
+.ddsmoothmenu-v .ddsubleve3 ul li a:link, .ddsmoothmenu-v .ddsubleve3 ul li a:visited, .ddsmoothmenu-v .ddsubleve3 ul li a:active {
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: center right 20px !important;  
+  background-repeat: no-repeat !important; 
+}
+.ddsmoothmenu-v .ddsubleve3 ul li a.selected {
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: center right 20px !important;  
+  background-repeat: no-repeat !important;
+}
+.ddsmoothmenu-v .ddsubleve3 ul li a:hover {
+  background-image: url("../images/menu-arrow.png") !important;
+  background-position: center right 20px !important;  
+  background-repeat: no-repeat !important;
+}
+
+//----------------------------------------------------------------Third level Content class
+.ddsmoothmenu-v .ddlevel3 {
+	width:100%; 
+	height:420px;
+	display:none;
+}
+.ddsmoothmenu-v .ddlevel3 ul li a {
+  width:100%;
+}
+
+//----------------------------------------------------------------Back Button class
+.ddsmoothmenu-v .back-btn {
+	padding:15px 40px;
+	font-weight: bold;
+	cursor: pointer;
+	background-image: url("../images/leftarrow.png") !important;
+    background-position: center left 20px !important;  
+    background-repeat: no-repeat !important;
+	display:block;	
+}
+
+//----------------------------------------------------------------Trending Question Class
+.trending-question {
+  margin-top:80px;
+}
+.trending-question ul{
+  padding:0px;
+  margin:0px 0px 0px 20px;
+}
+.trending-question ul li {
+  padding: 10px !important;
+  left: 0px;
+  margin:0px;
+}
+.trending-title {
+  left: 20px;
+  top: -50px;
+}
+
+}
+
+//---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+
+}
+
+//---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+ 
+@media (max-width: 480px) {
+}
+
+//---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+ 
+@media (max-width: 400px) {
+#help-option1 h2, #help-option2 h2, #help-option3 h2 {
+  font-size:2.5em !important; 
+  font-weight:normal !important;
+  margin-top:10px !important;
+}
+.ddsmoothmenu-v ul li p {
+  font-size:14px !important;
+  margin-top:10px !important;
+}
+}

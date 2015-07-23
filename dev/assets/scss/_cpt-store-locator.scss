@@ -1,0 +1,138 @@
+.store_locator_white {     
+    color: #2e2e33;
+    background-color: #fff  !important;
+    padding: 0px;
+    vertical-align: middle !important;
+    border-bottom: 5px solid #f9f9fa;
+    padding-top: 20px;	 
+}
+ .store_locator_white p {
+margin-top: 6px !important;
+line-height: 51px !important;
+}
+ .store_table
+ {
+  	border-bottom: 1px solid #e3e3e6;
+    padding: 10px 5px;
+    vertical-align: top;
+}
+.no-border
+{
+border-bottom:none !important;
+}
+.store_table p.address
+ {
+  width: 50%;
+}
+.store_table p.address a{ color:#2e2e33 !important; text-decoration:none;}
+.walk_icon
+{
+	background-image:url(../images/walk-icon.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:45px !important;
+}
+.bycycle-icon
+{
+	background-image:url(../images/bycycle-icon.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:45px !important;
+}
+.car-icon
+{
+	background-image:url(../images/car-icon.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:45px !important;
+}
+ .resp-tabs-list1 li {
+    font-family: 'kohinoorbold';
+    font-size: 18px;
+    display: inline-block;
+    padding: 18px 30px;
+    margin: -61px 0px 0px;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    background-color: #f9f9fa;
+}
+.resp-tabs-container1 {
+    padding: 15px 20px;
+    background-color: #f9f9fa;
+    clear: left;
+	margin: -8px 0px 0px;
+}
+
+/**********store locator**************/
+	.modal{z-index:9999999 !important; overflow-y:hidden!important;}
+	.modal-backdrop{z-index:999999 !important;}
+	.store-location-details .modal-header{border-bottom:0px solid #e5e5e5 !important; min-height:75px;}
+	.store-location-details .modal-body{padding-top:0px; color:#525252;}
+	.store-location-details .close, .store-location-details .close:focus, .store-location-details .close:hover{ color:#fcc206; font-size: 60px;  font-weight: normal; opacity:1.0;}
+	
+	.store-location-details .modal-dialog{ max-width:850px; width:100%;}
+	.store-location-details .modal-body .top-margin{ margin-top:10%;}
+	.store-location-details .modal-dialog .modal-body img{width:auto; max-width:100%;}
+	.store-location-details .modal-body .top-border-div{ border-top:solid 1px #525252; padding-top:8px; padding-bottom:8px;}
+	.store-location-details .modal-body .bottom-border-div{ border-bottom:solid 1px #525252; padding-top:8px; padding-bottom:8px; margin-bottom:12px;}
+	.dark-color{ color:#525252;}
+	.light-color{ color:#adadad;}
+	.store-location-details .modal-body p{line-height:20px !important;}
+	.store-location-details .modal-body a{text-decoration:none; border-bottom:solid 2px #fcc200; color:#adadad;}
+	.store-location-details .modal-body .bottom-border-div{border-bottom:solid 1px #525252; padding-top:8px; padding-bottom:8px; margin-bottom:12px;}
+	#show-nxt-row{display:none;}
+	.store_table .load-more 
+	{
+		background-color: #fff;
+		color: #58585c;
+		border: 1px solid #c8c8ca;
+		border-radius: 48px;
+		font-size: 1.4em;
+		font-weight: normal;
+		padding: 15px 26px;
+		text-transform: uppercase;
+		margin:10px auto 10px auto;
+		background-image: url("../images/btn-down-arrow.png");
+		background-repeat: no-repeat;
+		background-position: right center;
+		text-align: left;
+		width: 25%;
+		outline: none;
+	}
+	/**********store locator end**************/
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media(max-width: 640px) {
+
+	.store_table p.address
+ {
+  	width: 100%;
+  
+}
+.store_table .load-more 
+	{
+		width: 70%;
+	}
+	 
+ 
+}
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+ .resp-tabs-list1 li {
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: -36px 0px 0px -20px;
+
+}
+}

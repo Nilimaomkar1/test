@@ -1,0 +1,99 @@
+.usage-alerts-container {
+	position:relative;
+	background:#fff;
+}
+.usage-alerts-detail-container {
+	padding:70px;
+	background:#f1f1f1;
+	position: relative;
+}
+.usage-alerts {
+	margin:0px;
+	padding:0px;
+	width:70%;
+}
+.set-auto-topup {
+	width:100% !important;
+}
+.usage-alerts .usage-info {
+	width:70%;
+}
+.usage-alerts .usage-range {
+	margin-top:40px;
+}
+.usage-alerts .usage-range h3 {
+	color: #8f9091 !important;
+}
+.usage-alerts .usage-range h2
+{
+	font-size:25px !important;
+}
+.usage-alerts .usage-range .range-value {
+	width:85px;
+	height:50px;
+	line-height:50px;
+	border:1px solid #e3e3e6 !important;
+	font-size:1em !important;
+	background-color:#FFF;
+	text-align:center;
+}
+.usage-alerts .usage-range .range-slider {
+	margin-top:30px;
+}
+.usage-alerts .usage-range .range-slider-value {
+	font-size: 1.5em;
+	color: #54545d;
+	margin-top:10px;
+}
+.usage-alerts .usage-range .alertby {
+	font-size: 1.5em;
+	color: #54545d;
+}
+
+/* ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------*/
+
+@media (max-width: 768px) {
+.usage-alerts {
+	width:80%;
+}
+}
+
+/* ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------*/
+
+@media (max-width: 640px) {
+.usage-alerts-detail-container {
+	padding:30px;
+}
+.usage-alerts {
+	width:100%;
+}
+.usage-alerts .usage-info {
+	width:100%;
+}
+}
+
+/* ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------*/
+
+@media (max-width: 480px) {
+}
+
+/* ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------*/
+
+@media (max-width: 400px) {
+.usage-alerts-detail-container {
+	padding:10px;
+}
+.usage-alerts .usage-range .range-value {
+	width:50px;
+	height:40px;
+	line-height:40px;
+}
+.usage-alerts .usage-range .alertby {
+	font-size: 1.0em;
+	color: #54545d;
+}
+.usage-alerts .usage-range h2
+{
+	font-size:19px !important;
+}
+}

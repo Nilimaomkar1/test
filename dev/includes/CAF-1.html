@@ -1,0 +1,370 @@
+<div class="payment-content">
+  <div class="row m_bottom_11">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 yellow_border-top"><span>Step 1/4</span></div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grey_border-top "></div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grey_border-top "></div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 grey_border-top "></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 login-heading">
+      <h1>Personal Details</h1>
+      <p class="show-640">What type of customer are you?</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 grey_bg_container">
+      <div class="login-box">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="login-form">
+              
+              <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">individual<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)" onClick="showProduct(1);">individual</a></li>
+                    <li><a href="javascript:void(0)" onClick="showProduct(2);">foreigner</a></li>                   
+                     <li><a href="javascript:void(0)" onClick="showProduct(3);">out station</a></li>
+                     <!-- <li><a href="javascript:void(0)">Corporate</a></li>
+                      <li><a href="javascript:void(0)">Bulk</a></li>-->
+                  </ul>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <!-- individual dropdown --->
+               <div id="rechare1">
+              <form class="login-form" name="loginform" >
+             
+              
+                
+                <input type="text" onKeyup="checkform()" placeholder="First name" >
+                <input type="text" onKeyup="checkform()" placeholder="Middle name" >
+                <input type="text" onKeyup="checkform()" placeholder="Surname" >
+                <div class="row">
+              &nbsp;
+              </div>
+              <div class="row">
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-5 no-space">
+               <p><input type="radio" name="radiog_lite1" id="radio3" checked  class="css-checkbox" /><label for="radio3" class="css-label radGroup2">male</label></p>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-3 col-xs-7">
+               <p><input type="radio" name="radiog_lite1" id="radio4"  class="css-checkbox" /><label for="radio4" class="css-label radGroup2">female</label></p>
+               </div>
+               </div>
+               <input type="text" onKeyup="checkform()" placeholder="Mobile no" >
+               <input type="text" onKeyup="checkform()" placeholder="Email id" >
+               <table width="100%">
+                  <tr>
+                    <td width="65%"><input type="text" onKeyup="checkform()" placeholder="Date of birth" ></td>
+                    <td width="5%"></td>
+                    <td width="30%" valign="bottom"><button class="btn-change-address">Select Date</button></td>
+                  </tr>
+                </table>
+                <input type="text" onKeyup="checkform()" placeholder="Alternate no" >
+                  <div class="row">
+              &nbsp;
+              </div>
+                <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">marital status<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)">single</a></li>
+                    <li><a href="javascript:void(0)">married</a></li>      
+                  </ul>
+                </div>
+                 
+              </div>
+                <input type="text" onKeyup="checkform()" placeholder="Occupation" >
+                 <div class="row">
+              &nbsp;
+              </div>
+                <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">relationship details<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)">husband/father</a></li>
+                    <li><a href="javascript:void(0)">mother</a></li>                   
+                     <li><a href="javascript:void(0)">guardian</a></li>
+                     
+                  </ul>
+                </div>
+                 
+              </div>
+              
+                <input type="text" onKeyup="checkform()" placeholder="Relationship's first name" >
+                <input type="text" onKeyup="checkform()" placeholder="Relationship's last name" >
+                 <div class="row">
+              &nbsp;
+              </div>
+                 <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  no-space">
+              <p>preferred communication channel</p>
+              </div>
+              </div>
+              
+              <div class="row">
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite3" id="radio5" checked class="css-checkbox" /><label for="radio5" class="css-label radGroup3">email</label></p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite3" id="radio6" class="css-checkbox" /><label for="radio6" class="css-label radGroup3">mobile</label></p>
+               </div>
+               </div>
+              </form>
+              </div>
+               <!-- individual dropdown --->
+                <!-- foreigner dropdown --->
+               <div id="rechare2" style="display:none;">
+              <form class="login-form" name="loginform" >
+              
+                <input onKeyup="checkform()" placeholder="Passport number" class="error-input">
+                 <span class="right error-massage">Error: Not a valid passport number, please re-enter</span>
+                
+                <input type="text" onKeyup="checkform()" placeholder="Visa no" >
+                
+                <table width="100%">
+                  <tr>
+                    <td width="65%"><input type="text" onKeyup="checkform()" placeholder="Date of issue" ></td>
+                    <td width="5%"></td>
+                    <td width="30%" valign="bottom"><button class="btn-change-address">Select Date</button></td>
+                  </tr>
+                </table>
+                
+              
+                
+                <input type="text" onKeyup="checkform()" placeholder="First name" >
+                <input type="text" onKeyup="checkform()" placeholder="Middle name" >
+                <input type="text" onKeyup="checkform()" placeholder="Surname" >
+                <div class="row">
+              &nbsp;
+              </div>
+              <div class="row">
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite5" id="radio9" checked class="css-checkbox" /><label for="radio9" class="css-label radGroup5">male</label></p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite5" id="radio10" class="css-checkbox" /><label for="radio10" class="css-label radGroup5">female</label></p>
+               </div>
+               </div>
+               <input type="text" onKeyup="checkform()" placeholder="Mobile no" >
+               <input type="text" onKeyup="checkform()" placeholder="Email id" >
+               <table width="100%">
+                  <tr>
+                    <td width="65%"><input type="text" onKeyup="checkform()" placeholder="Date of birth" ></td>
+                    <td width="5%"></td>
+                    <td width="30%" valign="bottom"><button class="btn-change-address">Select Date</button></td>
+                  </tr>
+                </table>
+                <input type="text" onKeyup="checkform()" placeholder="Alternate no" >
+                  <div class="row">
+              &nbsp;
+              </div>
+                <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">marital status<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)">single</a></li>
+                    <li><a href="javascript:void(0)">married</a></li>      
+                  </ul>
+                </div>
+                 
+              </div>
+                <input type="text" onKeyup="checkform()" placeholder="Occupation" >
+                 <div class="row">
+              &nbsp;
+              </div>
+                <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">relationship details<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)">husband/father</a></li>
+                    <li><a href="javascript:void(0)">mother</a></li>                   
+                     <li><a href="javascript:void(0)">guardian</a></li>
+                     
+                  </ul>
+                </div>
+                 
+              </div>
+              
+                <input type="text" onKeyup="checkform()" placeholder="Relationship's first name" >
+                <input type="text" onKeyup="checkform()" placeholder="Relationship's last name" >
+                 <div class="row">
+              &nbsp;
+              </div>
+                 <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  no-space">
+              <p>preferred communication channel</p>
+              </div>
+              </div>
+              
+              <div class="row">
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite6" id="radio11" checked class="css-checkbox" /><label for="radio11" class="css-label radGroup11">sms</label></p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite6" id="radio12" class="css-checkbox" /><label for="radio12" class="css-label radGroup12">mobile</label></p>
+               </div>
+               </div>
+                 
+              </form>
+              </div>
+              <!-- foreigner dropdown --->
+               <!-- out station dropdown --->
+              <div id="rechare3" style="display:none;">
+            <form class="login-form" name="loginform" >
+            <h3>Reference Detials</h3>
+              
+                
+                <input type="text" onKeyup="checkform()" placeholder="First name" >
+                <input type="text" onKeyup="checkform()" placeholder="Surname" >
+                <input type="text" onKeyup="checkform()" placeholder="Email id" >
+               <input type="text" onKeyup="checkform()" placeholder="Contact no" >                
+                 <input type="text" onKeyup="checkform()" placeholder="House / Flat no." >
+                  <input type="text" onKeyup="checkform()" placeholder="Building no" >
+                   <input type="text" onKeyup="checkform()" placeholder="Street name" >
+                    <input type="text" onKeyup="checkform()" placeholder="Land mark" >
+                     <input type="text" onKeyup="checkform()" placeholder="Area" >
+                      <input type="text" onKeyup="checkform()" placeholder="PIN" >
+                       <div class="row">
+              &nbsp;
+              </div>
+                <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">city<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)">mumbai</a></li>
+                    <li><a href="javascript:void(0)">pune</a></li>                   
+                   
+                     
+                  </ul>
+                </div>
+                 
+              </div>
+                     
+                        <div class="row">
+              &nbsp;
+              </div>
+                <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">district<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)">mumbai</a></li>
+                    <li><a href="javascript:void(0)">thane</a></li>                   
+                   
+                     
+                  </ul>
+                </div>
+                 
+              </div> 
+               
+                        <div class="row">
+              &nbsp;
+              </div>
+                <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">state<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)">maharashtra</a></li>
+                    <li><a href="javascript:void(0)">gujarat</a></li>                   
+                   
+                     
+                  </ul>
+                </div>
+                 
+              </div> 
+            
+            <h3>Personal Details</h3>
+              
+              
+                
+                <input type="text" onKeyup="checkform()" placeholder="First name" >
+                <input type="text" onKeyup="checkform()" placeholder="Middle name" >
+                <input type="text" onKeyup="checkform()" placeholder="Surname" >
+                <div class="row">
+              &nbsp;
+              </div>
+              <div class="row">
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite9" id="radio19" checked class="css-checkbox" /><label for="radio19" class="css-label radGroup9">male</label></p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite9" id="radio20" class="css-checkbox" /><label for="radio20" class="css-label radGroup9">female</label></p>
+               </div>
+               </div>
+               <input type="text" onKeyup="checkform()" placeholder="Mobile no" >
+               <input type="text" onKeyup="checkform()" placeholder="Email id" >
+               <table width="100%">
+                  <tr>
+                    <td width="65%"><input type="text" onKeyup="checkform()" placeholder="Date of birth" ></td>
+                    <td width="5%"></td>
+                    <td width="30%" valign="bottom"><button class="btn-change-address">Select Date</button></td>
+                  </tr>
+                </table>
+                <input type="text" onKeyup="checkform()" placeholder="Alternate no" >
+                  <div class="row">
+              &nbsp;
+              </div>
+                <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">marital status<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)">single</a></li>
+                    <li><a href="javascript:void(0)">married</a></li>      
+                  </ul>
+                </div>
+                 
+              </div>
+                <input type="text" onKeyup="checkform()" placeholder="Occupation" >
+                 <div class="row">
+              &nbsp;
+              </div>
+                <div class="caf-dropdown">
+                <div class="dropdown plan-product">
+                  <div class="dropdown-toggle filter-dropdown" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">relationship details<span class="caret2"></span></div>
+                  <ul class="dropdown-menu plan-menu" role="menu" aria-labelledby="dropdownMenu1">
+                   <li><a href="javascript:void(0)">husband/father</a></li>
+                    <li><a href="javascript:void(0)">mother</a></li>                   
+                     <li><a href="javascript:void(0)">guardian</a></li>
+                     
+                  </ul>
+                </div>
+                 
+              </div>
+              
+                <input type="text" onKeyup="checkform()" placeholder="Relationship's first name" >
+                <input type="text" onKeyup="checkform()" placeholder="Relationship's last name" >
+                 <div class="row">
+              &nbsp;
+              </div>
+                 <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  no-space">
+              <p>preferred communication channel</p>
+              </div>
+              </div>
+              
+              <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite11" id="radio21" checked class="css-checkbox" /><label for="radio21" class="css-label radGroup10">sms</label></p>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
+               <p><input type="radio" name="radiog_lite11" id="radio22" class="css-checkbox" /><label for="radio22" class="css-label radGroup10">mobile</label></p>
+               </div>
+               </div>
+              </form>
+              </div>
+               <!-- out station dropdown --->
+              <div class="login-button">
+                <input value="Continue" class="login-btn"  id="submitbutton" type="submit"  onclick="location.href=('address-identity.html')" />
+              </div>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row caf_grey_bg m_top_17">
+    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-10 no-space">See our privacy policy</div>
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 text-right"><img src="assets/images/icon-plus.png"/></div>
+  </div>
+</div>

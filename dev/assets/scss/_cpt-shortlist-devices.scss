@@ -1,0 +1,183 @@
+
+.shortlist_table td {border-bottom:1px solid #ddd; padding:20px !important; height:85px; }
+.shortlist_table_btn td {border-bottom:0px solid #ddd; padding:20px !important; }
+.shortlist_table_btn .price-bundle {font-size:14px; color: #ababad;  margin-top: 10px; text-transform:uppercase; }
+.shortlist_table td  .price-bundle2 {font-size:18px!important;}   
+.shortlist_table td .price-bundle {font-size:1em; color: #ababad;  margin-top: 10px; text-transform:uppercase; }
+
+.app-pro-unit .shortlist-close {
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+.shortlist-product-set .pro-title {
+font-size: 18px !important;
+  line-height: 20px !important;
+  height: 60px;
+padding-left:22px;
+margin-top:20px; 
+
+}
+
+.top-space {margin-top: 45px !important;}
+
+.shortlist-product-set {
+    
+    margin-left: 0px;
+}
+
+.shortlist-product-set .scroll-div {
+		width:100%;		
+}
+.shortlist-product-set .app-pro-unit {
+    /*background-image: url("../images/app-pro-bg.png");*/     
+    height: 255px;	
+    background-color: #f2f2f4;  
+}
+.shortlist-product-set .app-pro-unit .product-icon-position {
+   height: 200px;
+	padding: 30px;
+	width: 100%;
+}
+
+.shortlist-product-set .padding-8 {
+    padding:0px 4px;
+}
+
+
+
+.btn-more-app-set {
+    display: none;
+}
+
+.btn-more-app-set2 {
+    display: none;
+}
+
+.btn-register-interest {
+  font-family: 'kohinoorbold';
+  background-color: #fdcc00;
+  color: #525252;
+  border: 2px solid #fcc200;
+  border-radius: 40px;
+  font-size: 1em;
+  padding: 5px 25px;
+  text-transform: uppercase;
+  outline: none !important;
+  
+}
+
+@media (max-width: 768px) {
+	.shortlist-product-set .pro-title {
+		font-size: 18px !important;
+		line-height: 20px !important;
+		padding-left:20px;
+		height:55px;
+	}
+    .shortlist-product-set {
+        margin-left: 0px;	
+    }
+
+    .shortlist-product-set .app-pro-unit {
+        width: 100%;
+    }
+
+    .shortlist-product-set .hide-pro-col-sm {
+        display: none;
+    }
+
+    .btn-more-app-set {
+        display: block;
+    }
+
+    .btn-more-app-set2 {
+        display: block;
+    }
+
+    a:hover, a:active, a:focus, button {
+        outline: 0;
+    }
+
+    .shortlist-product-set .right-padding-8 {
+        padding-right: 8px;
+    }
+
+    .shortlist-product-set .left-padding-8 {
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 640px) {
+	.shortlist-product-set .pro-title {
+		font-size: 18px !important;
+		line-height: 20px !important;
+		height:40px;
+		margin-top:40px; 
+	}
+	.shortlist-product-set {
+        margin-left: 0px;		
+    }
+	.shortlist-product-set .scroll-div {
+		width:180%;		
+    }
+
+	.shortlist-product-set .padding-8 {
+   	 	padding:0px 8px;
+	}
+	.compare-margin-bottom-40
+	{
+		margin-bottom:40px;
+	}
+}
+
+@media (max-width: 480px) {
+	.shortlist-product-set .pro-title {
+		font-size: 18px !important;
+		line-height: 20px !important;
+		height:60px;
+		margin-left:-10px; 
+		margin-top:40px; 
+		
+		
+	}
+    .btn-more-app-set  .btn-more-app {
+        width: 70%;
+        padding: 10px 26px;
+    }
+	.shortlist_table td {border-bottom:1px solid #ddd; padding:10px !important; height:85px; }
+}
+
+@media (max-width: 360px) {
+	.shortlist-product-set .pro-title {
+		font-size: 14px!important;
+		margin-left:-10px;
+		height:40px;
+		margin-top:40px; 
+	}
+	.shortlist_table_btn .price-bundle {font-size:12px; color: #ababad;  margin-top: 10px; text-transform:uppercase; }
+.shortlist_table td  .price-bundle2 {font-size:14px!important;} 
+.btn-register-interest {
+  font-size: 0.8em;  
+  padding: 5px 10px;
+}
+.shortlist-product-set .app-pro-unit {
+    /*background-image: url("../images/app-pro-bg.png");*/     
+    height: 128px;	
+    background-color: #f2f2f4;  
+}
+.shortlist-product-set .app-pro-unit .product-icon-position {
+   height: 100px;
+	padding:20px 20px 0px;
+	width: 100%;
+}
+.shortlist-product-set .app-pro-unit .product-icon-position img {
+    width:35%;   
+} 
+}
+ 
+@media (max-width: 320px) {
+.shortlist-product-set .app-pro-unit .product-icon-position img {
+    width:40%;   
+} 	 
+}

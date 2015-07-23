@@ -1,0 +1,159 @@
+.app-product-set{ 
+	margin-left:0px;
+}
+.app-product-set .app-pro-unit{
+	/*background-image: url("../images/app-pro-bg.png");*/
+	position:relative;
+	height:255px;
+	background-color:#f2f2f4; 
+}
+
+.app-product-set .padding-8{ 
+	padding:0px 4px;
+}
+.app-product-set .p.app-product-set .app-detailsdding-8{ 
+	padding:0px 4px;
+}
+.app-product-set .app-details{ 
+	padding:22px 0px 0px 20px;
+}
+.app-product-set .app-details1{ 
+	padding:22px 0px 0px 20px;
+}
+.app-product-set .app-details1 h3{ 
+	font-size:22px !important;
+	color:#52525d !important;
+	margin-bottom:6px !important;
+}
+.app-details h4 { 
+	margin:5px 0px 10px 0px !important; 
+}
+.app-details ul { 
+	margin:0px; 
+	padding:0px; 
+	list-style:none; 
+}
+.app-details ul li { 
+	font-size:1.125em; 
+	padding:2px 0px; 
+}
+.app-details a { 
+	margin:0px 0px 10px 0px !important; 
+	display:block; 
+	font-size:1.5em; 
+}
+.app-product-set .app-pro-unit .product-icon-position {
+	position:absolute; 
+	bottom:14px;
+	width:100%;
+	padding:0px 20%;
+}
+
+.product-img-pos {
+	
+	padding:0px 0%!important;
+}
+ 
+.app-product-set p{margin:0px !important;}
+
+ 
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px){
+.app-product-set { 
+	margin-left:0px;
+}
+.app-product-set .app-pro-unit {
+	width:100%;
+	height:330px;
+	margin-top:20px;
+}
+.app-product-set .app-details{ 
+	padding:16px 0px 0px 20px;
+}
+.app-product-set .app-details .app-details-para { 
+	font-size:1.5em;
+}
+.app-product-set .right-padding-8{ 
+	padding-right:8px;
+}
+.app-product-set .left-padding-8{ 
+	padding-left:8px;
+}
+.app-product-set .app-details2 {
+	height:130px !important; 
+}
+
+}
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px){
+.app-product-set .app-pro-unit{
+	height:300px;
+}
+.app-details a { 
+	margin:0px 0px 36px 0px; 
+	display:block; 
+	font-size:1.875em;
+}
+.app-product-set .app-details1 {
+	height:350px !important;
+}
+.app-product-set .app-details1 h3{ 
+	font-size:24px !important;
+}
+.app-product-set .app-details2 {
+	height:155px !important;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+ 
+@media (max-width: 480px){
+.btn-more-app-set  .btn-more-app { 
+	width:100%; 
+	padding:10px 26px; 
+	font-size:1.5em;
+}
+.btn-more-app-set2  .btn-more-app { 
+	width:100%; 
+	padding:10px 26px; 
+	font-size:1.5em;
+}
+.app-product-set .app-pro-unit .product-icon-position img { 
+	max-width:80%;
+}
+.app-product-set .app-pro-unit{
+	height:450px;
+	margin-top:40px;
+}
+.app-product-set .col-xs-6 {
+width: 100%;
+}
+.app-product-set .app-details1 {
+	height:auto !important;
+	margin-bottom:20px;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+ 
+@media (max-width: 400px){
+.app-product-set .app-pro-unit{
+	height:280px;
+	margin-top:10px;
+}
+.app-product-set .app-details{ 
+	padding:12px 0px 0px 20px;
+}
+.app-details a { 
+	font-size:1.5em;
+}
+@-moz-document url-prefix() {
+    .app-product-set .app-details{ 
+	padding:50px 0px 0px 20px;
+}
+}
+}
+ 

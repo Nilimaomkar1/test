@@ -1,0 +1,241 @@
+/* got jio landing page */
+
+.register_now a
+{
+	color: #525252;
+	border-bottom: 2px solid #fcc200; 
+	text-decoration: none;
+}
+/* got jio landing page */
+/* got jio login page */
+.got-jio-login
+{
+	position:relative;
+}
+.got-jio-login-container
+{
+ 	position: absolute;
+	top: 10px;
+	width: 100%;
+	border-top: none;
+	left: 0px;
+	font-size: 16px;
+	padding-top: 30px !important;
+	color:#fff;
+}
+ 
+.got-jio-login-container h3 {
+	color: #fff !important;
+}
+.got-jio-login-container .login-form input[type=text] {
+	border: none !important;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #fff !important;
+	background-color:transparent;
+	width: 100%;
+	color: #fff !important;
+	height: 30px;
+	padding-bottom: 0px !important;
+}
+
+.got-jio-login-container .login-form input[type=password] {
+	border: none !important;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #fff !important;
+	background-color:transparent;
+	width: 100%;
+	color: #fff !important;
+	height: 30px;
+	padding-bottom: 0px !important;
+}
+
+.got-jio-login-container  .remember-me {
+	color: #d0d0d3 !important;
+}
+.got-jio-login-container .login-button {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.got-jio-login-container .login{
+ 	padding: 10px 40px;
+	text-transform: uppercase;	 
+}
+ 
+
+/* got jio helptips */
+
+ 
+.got-jio-tip-bg
+{
+	background-color:#f9f9fa;
+	padding:25px;
+	min-height: 303px;
+	
+	}
+ 
+ .tipinfo p span:nth-child(1) {
+    color: #afafb2;
+    font-size: 0.875em;
+    display: block;
+    text-transform: uppercase;
+}
+
+.tipinfo p span:nth-child(2) {
+    color: #58585c;
+    font-size: 1.125em;
+    text-transform: none;
+}
+.tipinfo2 p:nth-child(1)
+{
+	font-size:1.500em !important;
+}
+.tipinfo2 p span {
+font-family: 'kohinoorbold';
+ 
+ 
+}
+
+.got-jio-login-container .captcha-container{
+ border:1px solid #54545d;
+ height:50px;
+ background: #fff;
+text-align: center;
+padding:5px;
+ 
+margin:10px auto 0px;
+
+ 
+
+ }
+
+.got-jio-login-container .captcha-text-container{
+    width:100%;
+    height:auto;
+ }
+.got-jio-login-container .captcha-controls{
+position: absolute;
+top:250px;
+right:0px;
+
+}
+.got-jio-login-container .captcha-controls a{
+    text-decoration: none !important;
+    border:none!important;
+    padding-right:15px;
+    padding-bottom:3px;
+    margin-bottom:3px;
+
+}
+.got-jio-login-container .login-form .create-ac-link {
+color: #fff !important;
+text-align: center;
+font-size: 16px;
+display: block;
+width: 100%;
+position: relative;
+float: left;
+padding-top: 20px;
+}
+.got-jio-login-container .login-form .create-ac-link a {
+color: #fff !important;
+}
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+
+/* got jio landing page */
+	.register_now
+	{
+		 
+		text-align:center;
+	}
+/* got jio landing page */
+/* got jio login page */
+	.got-jio-login-container
+	{
+		top: 0px;
+		padding-top: 30px !important;
+	}	
+	.got-jio-login-container .login 
+	{	 
+		 
+		padding: 10px 40px;
+		 
+	}
+	 
+	.got-jio-login-container .login-form input[type=text] 
+	{
+	 
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #fff !important; 
+	}
+
+	.got-jio-login-container .login-button
+	{
+		padding-top:30px;
+	}
+	/* got jio login page */
+	
+	.got-jio-tip-bg
+	{
+		margin-bottom:10px;
+			min-height: 100px;
+	}
+	/* got jio helptips */
+
+ 
+.got-jio-tip-bg
+{
+	background-color:#f9f9fa;
+	padding:25px 10px;
+	
+	}
+	 .got-jio-login-container .captcha-controls{
+position: absolute;
+top:230px;
+right:0px;
+
+}
+	
+}
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+	 /* got jio login page */
+	 
+	.got-jio-login-container h3 {
+	font-size:1.25em !important;
+	 
+	}
+	 
+	/* got jio login page */
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.tipinfo2 p:nth-child(1)
+{
+	font-size:1.00em !important;
+}
+.got-jio-login .banner2
+	{
+		width:100%;
+		height:250px !important; 
+	}
+@media screen and (max-device-width: 400px) {
+.got-jio-login .banner
+	{
+		width:100%;
+		height:500px;
+	}
+	
+}
+
+}

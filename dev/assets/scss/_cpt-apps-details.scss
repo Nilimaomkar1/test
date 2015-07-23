@@ -1,0 +1,70 @@
+/*apps-details-review start*/
+.reviews-section{ background-color:#f2f2f4; padding:20px; min-height:300px; font-family: 'kohinoorbold'; position: relative; margin-bottom:15px;}
+.reviews-section p{ font-weight: normal !important;
+font-family:Kohinoor !important; padding-top: 60px !important;}
+.reviews-section img{
+	position: absolute; 
+	top:20px; 
+	right:20px;
+	border-radius: 192px;
+	-moz-border-radius: 192px;
+	-webkit-border-radius: 192px;
+	border: 0px solid #000000;
+}
+/*apps-details-review end*/
+/*jio beats*/
+#product-step1 .product-jio-details{ position:absolute; z-index:9; top:35px; right:10%; width:38%;} 
+ 
+#product-step1 .product-jio-details h4, #product-step1 .product-jio-details h1, #product-step1 .product-jio-details p, #product-step1 .product-jio-details h3{ color:#fff !important;}
+/*jio beats end*/
+
+.jio-setting-img{
+width:100%;
+}
+
+
+// ---------------------------------------- Mobile Device Class for 640px width ----------------------------------------
+@media (max-width:768px){
+#product-step1 .product-jio-details{ width:38%!important;}
+}
+@media (max-width:640px){
+	.reviews-section p {
+		position:relative;
+		padding-top:60px !important;
+		font-weight: normal !important;
+font-family:Kohinoor !important;
+		
+	}
+	
+	.reviews-section{
+	min-height:228px;
+	}
+	#product-step1 .product-jio-details{ 
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		width: 100% !important;
+		right:inherit;
+		top:10px;
+		margin-bottom:40px;
+		margin-top:20px;
+		padding:10px 20px 0px 25px
+		 
+	}
+	#product-step1 .product-jio-details h4, #product-step1 .product-jio-details h1, #product-step1 .product-jio-details p, #product-step1 .product-jio-details h3{ color:#2e2e33 !important; padding-top:10px;}
+	
+	 
+	
+}
+
+
+
+
+// ---------------------------------------- Mobile Device Class for 480px width ----------------------------------------
+@media (max-width:480px){}
+
+
+
+// ---------------------------------------- Mobile Device Class for 400px width ----------------------------------------
+@media (max-width:400px){}

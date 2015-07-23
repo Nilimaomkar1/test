@@ -1,0 +1,418 @@
+.quick-recharge-container{
+	position:relative;
+	background:#fff;
+}
+
+.quick-recharge-cont-container{
+
+padding:70px;
+background:#f1f1f1;
+position: relative;
+
+}
+
+.usage-close {
+	padding-top:30px;
+	cursor:pointer;
+}
+.plan-recharge
+{
+position: relative!important;
+
+}
+
+.plan-recharge .filter-dropdown {
+color: #2e2e33;
+border-bottom: solid 2px #9a9394;
+background-image: url("../images/select-arrow.png");
+background-position: right center;
+background-repeat: no-repeat;
+cursor: pointer;
+padding-right:20px;
+}
+
+.plan-recharge .dropdown-menu {
+position: absolute !important;
+z-index: 999;
+margin-top: 45px;
+width: 100%;
+margin-left: 7px;
+padding-left: 0px !important; 
+
+}
+
+.plan-recharge input[type=text]{
+font-size: 3em;
+/*height: 51px;
+margin-top: 8px;*/
+background:none;
+border:none;
+border-bottom:2px solid #9a9394 !important;
+}
+
+.plan-recharge span {
+float: left;
+font-size: 3.000em;
+}
+
+.plan-recharge span {
+color: #fff;
+}
+
+.plan-recharge input.btn-main {
+font-family:'kohinoorbold';
+font-size: 1em !important;
+margin-top: 70px;
+padding: 20px 65px;
+}
+
+.plan-recharge span.opacity {
+color: #939396;
+padding-right: 5px;
+}
+
+.plan-recharge  .is-number {
+ 
+float:left;
+padding-left:10px;  
+}
+.plan-recharge .dropdown-menu li:hover
+{
+background: #F7EB03 !important;  
+}
+
+.recharge-list-table{
+font-size:2em;
+}
+.recharge-list-table table tr:hover{
+background: #ffe04c;
+
+}
+
+#quick-recharge-table .product-table { 
+	 margin:30px 0px 20px 0px; 
+}
+#quick-recharge-table .product-table td:nth-child(1) { 
+	 width:8%; 
+}
+#quick-recharge-table .product-table td:nth-child(2) { 
+	 width:67%; 
+}
+ 
+#quick-recharge-table .product-table td:nth-child(3) { 
+	 width:15%; 
+}
+#quick-recharge-table .product-table td:nth-child(2) span.text2{ 
+	font-size:0.6em !important;
+	text-transform:none;
+	line-height: 22px;
+	 
+}
+#quick-recharge-table .product-table td { 
+	 padding: 15px 8px; 
+     border-top:none;
+	  
+	 color:#525252;  
+}
+#quick-recharge-table .product-table tr:hover{ 
+	 background-color:#ffe04c; 
+     cursor:pointer; 
+}
+#quick-recharge-table .product-table tr:nth-child(odd):hover td, tbody tr.odd:hover td{ 
+	 background-color:#ffe04c; 
+     cursor:pointer; 
+}
+
+
+.recharge-list-table table td{
+
+padding:20px 20px 20px 0px;
+}
+
+.recharge-list-table .regular-checkbox + label 
+{ 
+margin-right:0px;
+}
+
+.recharge-list-table table td:first-child 
+{
+padding:20px 0px 20px 20px;
+}
+
+
+.recharge-list-table table label 
+{
+margin-bottom: 0px;
+}
+
+.recharge-list-table h2 span 
+{ 
+float: left;
+}
+
+
+h2 input[type=text], td.col3 input[type=text]  {
+font-size: 3em;
+height: 51px;
+margin-top: 8px;
+background: none;
+border: none;
+border-bottom: 2px solid #9a9394 !important;
+
+}
+
+td.col3 input[type=text] {
+font-size: 1.00em;
+height: auto;
+margin-top: 0px;
+width: 100px;
+}
+
+.recharge-list-table .product-table span { float: right;}
+.recharge-list-table .product-table span.rupee { float: left; margin-right:5px;}
+
+.quick-recharge-cont-container .login-button input.btn-main {
+font-family: 'kohinoorbold';
+background-color: #f9f9fa !important;
+border: 2px solid #e3e3e3;
+border-radius: 40px;
+color: #525252;
+font-size: 1.00em;
+padding: 20px 35px 20px 55px ;
+text-transform: uppercase;
+background-image: url("../images/plus-icon.png");
+background-position: 5% 50%;
+background-repeat: no-repeat;
+
+}
+
+.quick-recharge-header h1 { margin: 20px 0px !important; font-size:3.750em !important;}
+.quick-recharge-header h1 span { cursor:pointer;}
+.plan-recharge .filter-dropdown {
+padding: 0px 40px 0px 15px;	
+
+}
+
+.quick-recharge-cont-container table { text-align: left; font-size:0.875em; line-height: 1.500em;}
+.quick-recharge-cont-container img.icon-left-p  { padding-right: 20px;} 
+.quick-recharge-cont-container .opacity a, .quick-recharge-cont-container .opacity a:hover{ color:#2e2e33; border-bottom: 2px solid #fcc200; text-decoration: none;} 	
+
+
+
+.quick-recharge-cont-container td.col3 { width: 120px;}
+.quick-recharge-cont-container .login-button{ text-align:right; float:right;}
+
+
+
+/* DND CSS start here */
+
+.dnd-table { 
+	 margin:30px 0px 20px 0px;
+	 font-size:2em; 
+}
+.dnd-table td:nth-child(1) { 
+	 width:5%; 
+}
+.dnd-table  td:nth-child(2) { 
+	 width:95%; 
+}
+ 
+ 
+.dnd-table  td { 
+	 padding: 15px 8px; 
+     border-top:none;
+	  
+	 color:#525252;  
+}
+.dnd-table  tr:hover{ 
+	 background-color:#ffe04c; 
+     cursor:pointer; 
+}
+.dnd-table  tr:nth-child(odd):hover td, tbody tr.odd:hover td{ 
+	 background-color:#ffe04c; 
+     cursor:pointer; 
+}
+ 
+
+.dnd-dropdown .filter-dropdown {
+color: #2e2e33;
+border-bottom: solid 2px #9a9394;
+background-image: url("../images/select-arrow.png");
+background-position: right center;
+background-repeat: no-repeat;
+cursor: pointer;
+padding-right:20px;
+ 
+}
+
+.dnd-dropdown .dropdown-menu {
+position: absolute !important;
+z-index: 999;
+margin-top: 45px;
+width: 100%;
+margin-left: 7px;
+padding-left: 0px !important; 
+
+}
+
+.dnd-dropdown input[type=text]{
+font-size: 3em;
+height: 51px;
+margin-top: 8px;
+background:none;
+border:none;
+border-bottom:2px solid #9a9394 !important;
+}
+
+.dnd-dropdown span {
+float: left;
+font-size: 3.000em;
+}
+ 
+.dnd-dropdown span.opacity {
+color: #939396;
+padding-right: 15px;
+}
+
+.dnd-table  table td{
+
+padding:20px 20px 20px 0px;
+}
+
+/* DND CSS end here */
+
+
+@media (max-width: 640px) {
+#quick-recharge-table .product-table td:nth-child(2) span.text2{ 
+	font-size:0.8em !important;
+	line-height: 25px;  
+}
+.quick-recharge-cont-container{
+padding:30px;
+}
+.quick-recharge-cont-container .login-button { text-align:center; float:none;}
+/*.plan-recharge input[type=text] { width: 100%;}*/
+.plan-recharge .filter-dropdown {width: 400px;}
+.plan-recharge  .is-number { 
+float: left; 
+padding-left:0px; 
+}
+
+} 
+
+
+
+
+@media (max-width: 480px) { 
+.quick-recharge-header h1 {
+font-size: 2.75em !important;
+}
+
+.recharge-list-table {
+font-size: 1.5em;
+}
+/* DND CSS start here */
+.dnd-table { 
+	 font-size: 1.5em;
+}
+/* DND CSS end here */
+
+.quick-recharge-cont-container td.col3 {
+width: 60px;
+}
+
+td.col3 input[type=text] {
+width: 60px;
+}
+
+.recharge-list-table table td:first-child 
+{
+padding:15px;
+}
+
+.recharge-list-table table td{
+
+padding:15px 15px 15px 0px;
+}
+.dnd-dropdown input[type=text]{
+font-size: 2.000em;
+ 
+}
+
+.dnd-dropdown span {
+ 
+font-size: 2.000em;
+}
+
+}
+
+
+@media (max-width: 400px) {
+#quick-recharge-table .product-table td:nth-child(2) span.text2{ 
+	font-size:1em !important;
+	line-height: 25px;
+}
+.quick-recharge-cont-container{
+padding:30px;
+}
+.usage-close {
+	padding-top:5px;
+	cursor:pointer;
+}
+.quick-recharge-header {
+margin-top: 20px;
+}
+.plan-recharge .is-number {
+float: left; 
+width: 100%;
+}
+.plan-recharge input[type=text]
+{
+font-size:1.5em;
+width:100%;
+}
+.quick-recharge-header h1 {
+margin: 10px 0px !important;
+font-size: 2em !important;}
+
+.plan-recharge span {
+font-size: 1.5em;}
+
+.recharge-list-table {
+font-size: 1em;
+}
+/* DND CSS start here */
+.dnd-table { 
+	 font-size: 1em;
+}
+/* DND CSS end here */
+
+.quick-recharge-cont-container td.col3 {
+width: 55px;
+}
+
+td.col3 input[type=text] {
+width: 55px;
+}
+
+.quick-recharge-cont-container {
+padding: 17px;
+}
+
+
+.quick-recharge-cont-container .login-button input.btn-main {
+font-size: 0.75em;
+padding: 20px 26px 20px 42px;}
+
+.recharge-list-table table td{
+
+padding:15px 15px 15px 0px;
+}
+
+.recharge-list-table table td:first-child 
+{
+padding:15px;
+}
+
+
+}

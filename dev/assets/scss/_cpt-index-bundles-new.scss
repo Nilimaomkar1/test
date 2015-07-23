@@ -1,0 +1,327 @@
+.index-device-margin
+{
+	margin-top:60px;
+}
+.index-device-margin-1280
+{
+	margin-top:60px;
+}
+.index-device-wrap { 
+	margin-top:50px;
+}
+.index-device-coverage { 
+	margin-top:40px;
+}
+
+.index-device-new { 
+	height:428px;   
+	background-color:#f3f3f3; 
+	background-image: url("../images/app-pro-bg.png");
+	background-repeat: repeat;
+}
+.index-device-new_bundle { 
+	height:428px;
+	position:relative;
+}
+.index-device-new_bundle img { 
+	height:428px;
+	position:relative;
+}
+.index-device-new_bundle .index-device_bundle_title  h2 {	 
+	position:absolute;
+	top:10px;
+	right:10px;
+	color:#fff !important; 
+}
+.index-device-new_bundle .index-device_bundle_title2  h2 {	 
+	position:absolute;
+	bottom:20px;
+	left:10px; 
+	color:#FFF !important;
+	font-size:20px !important;
+}
+.index-device-new .device-img { 
+	width:100%;
+	height:350px;
+	text-align:center;
+	padding:20px 40px;
+}
+.index-device-new .device-img img { 
+	width:55%;
+}
+.index-device-new .device-info { 
+	height:140px;
+	padding:0px 30px;
+}
+.index-device-new .device-details {
+    float: left;	
+	width:100px;
+	margin:10px 0px 10px 0px;
+}
+.index-device-new .device-details2 {    
+	width:160px; 
+}
+.index-device-new .device-details h2 {
+    font-size:14px !important;
+	color: #888888 !important; 
+	padding:0px 0px 5px 0px !important;
+}
+.index-device-new .device-details h3 {
+    font-size:18px !important;
+	color:#000000 !important;
+	height:34px !important;
+}
+.index-bundles1-new {
+	height:210px;
+	background-color:#f2f2f4;
+	cursor:pointer;
+}
+.index-bundles2-new {
+	height:210px;
+	background-color:#333;
+	cursor:pointer;	
+}
+.index-bundles1-new .bundles-img, .index-bundles2-new .bundles-img {
+	height:auto;
+}
+.index-bundles1-new .bundles-img, .index-bundles2-new .bundles-img img{
+	height:155px;
+	width:100%;
+}
+.index-bundles2-new2 {
+	height:260px;
+	background-color:#333;
+	cursor:pointer;	
+}
+.index-bundles2-new2 .bundles-img img{
+	height:auto;
+	width:100%;
+}
+.index-bundles1-new .bundles-title {
+	width:100%;
+	height:45px; 
+	line-height:45px;
+	margin-top:4px;
+	padding:0px 20px;
+	font-size:18px;
+	color:#222222;
+	background-image: url("../images/grey-arrow.png");
+	background-repeat: no-repeat;
+	background-position: center right 20px;
+}
+.index-bundles2-new .bundles-title {
+	width:100%;
+	height:45px; 
+	line-height:45px;
+	margin-top:4px;
+	padding:0px 20px;
+	font-size:18px;
+	color:#FFF;
+	background-image: url("../images/white-arrow.png");
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+.margin-bottom-8-new
+{
+margin-bottom:8px !important; 
+}
+.index-device-new_bundle .show-640{
+ 	display:none;
+}
+.bundle-hr-line{
+ 	padding:0px;
+	margin:40px 0px;
+}
+.index-coverage-new h2 { 
+	font-size:26px !important;
+}
+.index-coverage-new p { 
+	font-size:14px !important;
+}
+ 
+@media (max-width: 1024px) {
+.index-device-new .device-details {	
+	width:80px;
+}
+.index-device-new .device-details2 {	
+	width: 170px !important;  
+}
+}
+ 
+@media (max-width: 768px) {
+.full-width {
+	clear:both;
+}
+.index-device-new .device-details2 {	
+	width:auto;  
+}
+.index-bundles1-new .bundles-img, .index-bundles2-new .bundles-img img{
+	height:auto;
+	width:100%;
+}
+.index-device-new_bundle, .index-device-new_bundle img { 
+	height:516px;
+}
+.index-device-new_bundle .index-device_bundle_title2  h2 {	 
+	bottom:20px;
+	left:20px;
+}
+.index-device-new { 
+	height:390px;
+	margin-bottom:8px;
+}
+.index-device-new .device-img { 
+	height:320px;
+	padding:10px 40px;
+}
+.index-device-new .device-info { 
+	height:160px;
+	padding:0px 20px;
+}
+.index-device-new .device-details {
+	margin:0px 0px 10px 0px;
+}
+.index-device-new .device-img img { 
+	width:50%;
+}
+.index-device-new .device-details h2 {
+    line-height:20px !important;
+}
+.index-device-new .device-details h3 {
+    line-height:20px !important;
+}
+.index-bundles1-new {
+	height:auto;
+}
+.index-bundles2-new {
+	height:auto;
+}
+.index-bundles2-new:nth-child(1) {
+	border-right:4px solid #FFF;
+}
+.index-bundles2-new:nth-child(2) {
+	border-left:4px solid #FFF;
+}
+.index-coverage-new h2 { 
+	font-size:26px !important;
+	line-height:22px !important;
+}
+.index-coverage-new p { 
+	font-size:14px !important;
+	line-height:22px !important;
+}
+}
+
+
+@media (max-width: 640px) {
+.index-device-wrap { 
+	margin-top:50px;
+}
+.index-device-new_bundle, .index-device-new_bundle img { 
+	height:466px;
+}
+.index-device-new_bundle .index-device_bundle_title2  h2 {	 
+	bottom:0px;
+}
+.index-device-new { 
+	height:370px;
+}
+.index-device-new .device-img { 
+	height:300px;
+}
+.index-device-margin
+{
+	margin-top:30px;
+}
+.index-device-margin-1280
+{
+	margin-top:0px; 
+}
+}
+
+
+@media (max-width: 480px) {
+.index-device-wrap { 
+	margin-top:30px;
+}
+.index-device-wrap .col-xs-6 { 
+	width:100% !important;
+}
+.index-device-new .device-info { 
+	padding:0px 20px;
+}
+.index-device-new .device-details {
+	width:230px;
+}
+.index-device-new .device-img { 
+	height:300px;
+}
+.index-device-new .device-img img { 
+	width:35%;
+}
+.index-device-new_bundle, .index-device-new_bundle img { 
+	height:372px;
+}
+.index-device-new_bundle .index-device_bundle_title2  h2 {	 
+	bottom:10px;
+	line-height:24px !important;
+}
+.index-device-margin
+{
+	margin-top:20px; 
+}
+.index-bundles2-new:nth-child(1) {
+	border-right:0px solid #FFF;
+}
+.index-bundles2-new:nth-child(2) {
+	border-left:0px solid #FFF; 
+}
+.index-device-coverage { 
+	margin-top:30px;
+}
+}
+
+
+
+@media (max-width: 360px) {
+.index-device-new_bundle .index-device_bundle_title2  h2 {	 
+	bottom:20px;
+}
+.index-device-new .device-img img { 
+	width:45%;
+}
+.index-device-new .device-details {
+	width:100%;
+	margin:0px;
+}
+.index-device-new .device-img { 
+	height:280px;
+}
+.index-device-new { 
+	height:410px; 
+	margin-bottom:8px;
+}
+}
+
+@media (max-width: 320px) {
+
+.index-device-new .device-img img { 
+	width:45%;
+}
+.index-device-new .device-img { 
+	height:250px;
+}
+.index-device-new { 
+	height:380px; 
+	margin-bottom:8px;
+}
+.index-device-new_bundle .index-device_bundle_title2  h2 {	 
+	bottom:20px;
+}
+ 
+.index-device-new .device-details {
+	width:100%;
+	margin:0px;
+}
+ 
+}

@@ -1,0 +1,195 @@
+
+
+ul.main-menu {
+	list-style-type: none;
+	margin: 0 0 10px -8px;
+	padding: 0px;
+	font-size:16px;
+}
+
+ul.main-menu a{
+	color:#000;
+	text-decoration:none!important;
+}
+ul.main-menu > li {
+	font-family:'kohinoorbold';
+	display: inline;
+	list-style-type: none;
+	margin-top:11px!important;
+	padding-left: 16px ;
+	padding-right:16px;
+	padding-bottom:2px;
+	vertical-align: middle;
+	cursor: pointer;
+	outline: none;
+	display: block;
+	float: left;
+	height:35px;
+
+}
+
+ul.main-menu > li:hover
+{
+	
+	border-bottom:3px solid #fbc509;
+}
+
+ul.main-menu .activemenu
+{
+	border-bottom:3px solid #fbc509;
+}
+
+ul.main-menu > li.active-menu {
+	
+}
+
+ul.main-menu ul {
+	margin-top:20px;
+}
+ul.main-menu ul li a, ul.main-menu ul li {
+	color: #696971 !important;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	font-weight: normal;
+	padding-top:3px;
+	
+	
+}
+
+li.nav1 ul li {
+	margin-left:0px!important;
+}
+
+li.nav2 ul li {
+	padding-left:115px!important;
+}
+
+li.nav3 ul li {
+	padding-left:200px!important;
+}
+
+.nav1 .submenu ul li{
+     margin-left: -160px!important;
+     padding-top:0px !important;
+     padding-bottom:2px !important;
+}
+
+.nav2 .submenu ul li{
+     margin-left: -160px!important;
+     padding-top:0px !important;
+     padding-bottom:2px !important;
+}
+
+.nav3 .submenu ul li{
+     margin-left: -120px!important;
+     padding-top:0px !important;
+     padding-bottom:2px !important;
+}
+
+
+ul.main-menu ul li a:hover, ul.main-menu ul li:hover {
+	 
+	  color: #000 !important;
+		
+}
+
+ul.main-menu ul li img{
+
+	margin-left:50px;
+	position: relative;
+
+}
+
+
+
+ul.main-menu li ul li a span {
+	color: #999;
+	float: right;
+	right: 10px;
+	left: auto;
+	position: absolute;
+}
+/* SUBMENU */
+ul.main-menu > li ul {
+    font-size:14px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+	background-color: #fff;
+	margin-top:-100px;
+	
+	
+}
+ul.main-menu li ul li {
+	display: list-item;
+	margin: 0;
+	line-height: 1.8em;
+	padding-right: 10px;
+	width: 50%;
+	cursor: pointer;
+	text-indent: 30px;
+	white-space: nowrap;
+}
+ul.main-menu li:hover {
+}
+ul.main-menu li.active-menu:hover {
+
+}
+ul.main-menu li ul li.disabled, ul.main-menu li ul li.disabled:hover, ul.main-menu li ul li.disabled a {
+	color: #ddd;
+	cursor: default;
+}
+.submenu {
+
+}
+.active-sub-menu {
+	position: relative;
+	top: 0px;
+	
+}
+ul.main-menu li ul {
+	font-family:'Kohinoor';
+	width: 100%;
+	background: #fdfdfe;
+	min-height: 150px;
+	cursor: default !important;
+	
+}
+
+ul.main-menu li ul{
+  margin-top:9px;
+}
+
+ul.main-menu li ul li {
+	display: block;
+}
+ul.main-menu li ul li ul {
+	font-family:'Kohinoor';
+	
+	background: #fdfdfe;
+	min-height: 150px;
+	
+}
+
+@media (max-width: 768px) {
+.nav1 .submenu ul li{
+     margin-left: -40px!important;
+     padding-top:0px !important;
+     padding-bottom:2px !important;
+}
+
+.nav2 .submenu ul li{
+     margin-left: -40px!important;
+     padding-top:0px !important;
+     padding-bottom:2px !important;
+}
+
+.nav3 .submenu ul li{
+     margin-left: -40px!important;
+     padding-top:0px !important;
+     padding-bottom:2px !important;
+}
+
+}

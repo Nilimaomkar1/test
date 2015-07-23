@@ -1,0 +1,382 @@
+#service-filter {
+	font-size: 1.125em;
+}
+#service-filter .filter-dropdown {
+	color: #2e2e33;
+	padding-bottom: 0px !important;
+	border-bottom: solid 2px #2e2e33;
+	background-image: url("../images/select-arrow.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+	font-size: 34px;
+	cursor: pointer;/*width:100%;*/
+	
+}
+ 
+
+.unbill_text {
+	margin-top: 15px;
+}
+.service-graph {
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+#service-filter .dropdown-menu {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	margin-left: 0px;
+}
+
+.service-graph .right-pillar-space {
+	margin: 0px;
+	padding: 0px 0px 0px 8px;
+}
+.service-graph .right-padding-8 {
+	padding-right: 8px;
+}
+.service-graph a.service-details-btn {
+	background-color: #f2f2f4;
+	display: block;
+	padding: 9px 10px 9px 25px;
+	margin-bottom: 8px;
+	color: #333;
+}
+.service-graph a.service-details-btn:hover {
+	text-decoration: none;
+}
+.service-graph .device-detail-corner {
+	background-color: #f9f9fa;
+	padding: 20px 20px 18px;
+}
+.service-graph .device-detail-corner a.service-details-btn {
+	background-color: #f9f9fa;
+	display: block;
+	padding: 0px;
+	margin-bottom: 0px;
+	color: #333;
+}
+.service-graph .device-detail-corner .left {
+	float: left;
+}
+.service-graph .device-detail-corner .right {
+	float: right;
+}
+.service-graph .device-detail-corner .clear {
+	clear: both;
+}
+.service-graph .device-detail-corner .device-img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.service-graph .left-zero-padding {
+	padding-left: 0px;
+}
+/*dropdown*/
+.mifi-service-filter {
+}
+.mifi-service-filter .filter-dropdown {
+	color: #fff;
+	border-bottom: solid 2px #9a9394;
+	background-image: url("../images/select-arrow.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-right: 20px;
+}
+.mifi-service-filter .dropdown-menu {
+	position: absolute !important;
+	z-index: 999;
+	margin-top: 45px;
+	width: 100%;
+	margin-left: 7px;
+	padding-left: 0px !important;
+}
+.mifi-service-filter .dropdown-menu li:hover {
+	background: #F7EB03 !important;
+}
+/*dropdown end*/  
+
+
+ 
+
+/*service plan*/
+.service-plan {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+.service-plan h1 {
+	color: #fcc200 !important;
+}
+.service-plan .padding-8 {
+	padding: 0px 4px;
+}
+.service-plan .plan-box {
+	padding: 22px;
+	background-color: #f9f9fa;
+	color: #58585c;
+	min-height: 220px;
+}
+.service-plan .plan-box h1 {
+	font-size: 55px!important;
+	margin-top: 45px!important;
+	line-height: 50px!important;
+}
+.service-plan .first-row h1 {
+	color: #bb1616!important;
+}
+.service-plan .second-row h1 {
+	color: #ea5e04!important;
+}
+.service-plan .third-row h1 {
+	color: #fcc200!important;
+}
+.service-plan .forth-row h1 {
+	color: #525252!important;
+}
+.service-plan .plan-box a {
+	display: block;
+	bottom: 20px;
+	color: #333;
+	position: absolute;
+}
+.service-plan .plan-box .date {
+	display: block;
+	bottom: 20px;
+	color: #333;
+	position: absolute;
+}
+.additional-plan .plan-box h4 {
+	bottom: 40px;
+	position: absolute;
+}
+/*service plan end*/
+
+.manage-device-text {
+	float: left;
+	padding: 10px 40px 10px 0;
+	font-size: 1.125em;
+}
+.manage-device-text span {
+	font-size: 0.875em;
+	color: #a8a8ab;
+	text-transform: uppercase;
+}
+.show-maring-40 {
+	display: none;
+}
+.my-statement .filter-dropdown {
+	color: #2e2e33;
+	border-bottom: solid 2px #9a9394;
+	background-image: url("../images/select-arrow.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-right: 70px;
+	margin-right: 15px;
+}
+.my-statement .dropdown-menu {
+	position: absolute !important;
+	z-index: 999;
+	margin-top: 15px;
+	width: 100%;
+	margin-left: 7px;
+	padding-left: 0px !important;
+}
+.my-statement input[type=text] {
+	font-size: 1.5em;
+	height: 51px;
+	margin-top: 8px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #9a9394 !important;
+}
+.my-statement span {
+	float: left;
+	font-size: 1.5em;
+	color: #2e2e33;
+	padding-right: 20px;
+}
+.my-statement span.opacity {
+	color: #939396;
+	padding-right: 20px;
+}
+.my-statement .dropdown-menu li:hover {
+	background: #F7EB03 !important;
+}
+.my-statement .align-left {
+	float: none;
+}
+.my-statement-btn div {
+	display: inline;
+}
+.addition-plan a {
+	font-size: 1.125em;
+	color: #525252;
+	border-bottom: 2px solid #fcc200;
+	text-decoration: none;
+}
+.service-plan-table {
+	background-color: #f2f2f4;
+	padding: 20px 5px 10px;
+	margin-bottom: 8px;
+}
+.service-plan-table span {
+	color: #afafb2;
+	font-size: 1.0em;
+	display: block;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.service-plan-table span.marron-text {
+	color: #bb1616;
+	font-size: 2.000em;
+	text-transform: none !important;
+	margin-bottom: 10px;
+}
+.service-plan-table span.orange-text {
+	color: #ea5e04;
+	font-size: 2.000em;
+	text-transform: none !important;
+	margin-bottom: 10px;
+}
+.service-plan-table span.yellow-text {
+	color: #fcc200;
+	font-size: 2.000em;
+	text-transform: none !important;
+	margin-bottom: 10px;
+}
+.service-plan-table span.grey-text {
+	color: #525252;
+	font-size: 2.000em;
+	text-transform: none !important;
+}
+.btn-recharge-service {
+	font-family: 'kohinoorbold';
+	background-color: #fdcc00;
+	color: #525252;
+	border: 2px solid #fcc200;
+	border-radius: 40px;
+	font-size: 1em;
+	padding: 5px 25px;
+	text-transform: uppercase;
+	outline: none !important;
+	margin-top: 15px;
+}
+
+
+
+
+
+/* ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------*/
+
+@media (max-width: 640px) {
+/*service plan */
+#service-filter .filter-dropdown{width:100%; margin-bottom:30px;}
+.service-graph a.service-details-btn{ font-size:2.000em;}
+#service-filter{font-size:1.750em;}
+.service-graph .left-zero-padding {
+	padding-left:15px; 
+}
+.service-graph .right-padding-8 {
+	padding-right:15px;
+}
+.service-graph .right-pillar-space{
+	margin:0px;
+	padding:15px;
+}
+.service-plan .padding-8 {
+	padding: 0px 15px;
+	margin-bottom:15px;	
+}
+/*service plan end */
+.show-maring-40 {
+margin-top:40px;
+display:block;    
+}
+.my-statement .align-left {
+float:left;
+padding-bottom:10px;
+}
+ .my-statement-btn div
+{
+display:block;
+margin-top:20px;
+}
+.unbill_text
+{
+margin-top:0px;
+}
+.service-plan-table span {    
+	margin-bottom:0px;
+ }
+}
+
+
+/* ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------*/
+
+@media (max-width: 480px) {
+#service-filter  .filter-dropdown {
+ font-size:28px !important; 
+ 
+}  
+.my-statement span { 
+font-size: 1.5em; 
+}
+.my-statement .filter-dropdown {
+ 
+padding-right:45px;
+margin-right:10px;
+ 
+} 
+.my-statement span { 
+ 
+padding-right: 15px;
+}
+#service-filter .dropdown-menu{
+	 
+	top:40px;
+	 
+} 
+}
+
+
+/*---------------------------------------- Mobile Device Class for 400 width ----------------------------------------*/
+
+@media (max-width: 400px) {
+.my-statement span { 
+font-size: 1.0em; 
+}
+.my-statement .filter-dropdown {
+padding-right:17px;
+margin-right:0px;
+}
+ #service-filter  .filter-dropdown {
+ margin-top:30px !important;
+ 
+} 
+ 
+.service-plan-table span {
+    color: #afafb2;
+    font-size: 0.875em;
+	margin-bottom:0px;
+ }
+.service-plan-table span.marron-text {
+    
+    font-size: 1.5em;
+	 
+}
+.service-plan-table span.orange-text {
+    font-size: 1.5em;
+}
+.service-plan-table span.yellow-text {
+    font-size: 1.5em;
+}
+.service-plan-table span.grey-text {
+    font-size: 1.5em;
+}
+
+ 
+
+}

@@ -1,0 +1,46 @@
+
+.unsubscribed-text, .unsubscribed-text1 { margin-left: 62px;}
+#active-successMessage
+{
+background-color: #ffe04c;
+width: 100%;
+padding: 20px 0px;
+color: #FFF;
+font-size: 3em;
+ 
+}
+.resend-opt
+ {
+ float:right;
+ } 
+@media (max-width:640px){
+#active-successMessage
+{
+background-color: #ffe04c;
+width: 100%;
+padding: 20px 0px;
+color: #FFF;
+font-size: 2.5em;
+ }
+  .unsubscribed-text, .unsubscribed-text1 { margin-left: 22px;}
+ 
+}
+
+ @media (max-width:480px){
+#active-successMessage
+{
+background-color: #ffe04c;
+width: 100%;
+padding: 20px 0px;
+color: #FFF;
+font-size: 1.5em;
+ 
+}
+
+ 
+}
+
+ @media (max-width:400px){
+ .unsubscribed-text, .unsubscribed-text1 { margin-left: 22px;}
+ 
+ }

@@ -1,0 +1,36 @@
+.custom-checkbox{
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	top: 3px;
+	background-color:#FFF;
+	cursor:pointer;
+	margin-right:10px;
+	border: 1px solid #c5c5c8;
+}
+.custom-checkbox:hover{
+	background-color:#fffdf1;
+	cursor:pointer;
+}
+.custom-checkbox.selected{
+	background-image: url("../images/right-img.jpg");
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+.custom-checkbox input[type="checkbox"]{
+	margin: 0;
+	position: absolute;
+	z-index: 2;            
+	cursor: pointer;
+	outline: none;
+	opacity: 0;
+	/* CSS hacks for older browsers */
+	_noFocusLine: expression(this.hideFocus=true); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+}
+

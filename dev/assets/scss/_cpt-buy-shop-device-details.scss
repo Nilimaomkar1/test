@@ -1,0 +1,429 @@
+
+.device-detail-wrap h1 {
+	font-size:60px !important;
+	padding:0px 25px !important;
+	margin:40px 0px !important;
+}
+.device-detail-wrap .device-main-pics {
+	text-align:left;
+	height:370px;
+	margin-left:40px;
+	margin-top:5px;
+}
+.device-detail-wrap .device-pics-thumb {
+	margin:0px 0px 20px 15px;
+	text-align:center;
+}
+.device-detail-wrap .device-pics-thumb ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.device-detail-wrap .device-pics-thumb ul li {
+	width:60px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	background-color:#efeff1;
+	border:1px solid #dcdcdc;
+	margin:12px 15px;
+	cursor:pointer;
+}
+.device-detail-wrap .device-pics-thumb ul li.view360 {
+	background-color:#fcc200;
+}
+.device-detail-wrap .device-wishlist-wrap {
+	padding:0px 42px;
+	margin-top:50px;
+}
+.device-detail-wrap .device-wishlist-wrap .device-wishlist {
+	padding:15px 0px;
+	border-top:1px solid #eaeaea;
+	border-bottom:1px solid #eaeaea;
+	font-size:13px;
+	color:#b9b9ba;
+}
+.device-detail-wrap .device-wishlist-wrap .device-wishlist a {
+	font-size:13px;
+	color:#b9b9ba;
+	text-decoration:none;
+}
+.device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons1 {
+	text-align:left;
+}
+.device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons2 {
+	text-align:center;
+}
+.device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons3 {
+	text-align:right;
+}
+.device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons1 img, .device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons2 img {
+	padding-right:5px;
+}
+.device-detail-wrap .device-specs {
+	margin:0px;
+	padding:0px;
+}
+.device-detail-wrap .device-specs .specs-heading {
+	font-size:36px;
+	color:#54545d;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+}
+.device-detail-wrap .specs-heading-mobile {
+	font-size:36px;
+	color:#54545d;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	display:none;
+}
+.device-detail-wrap .device-specs .specs-content {
+	font-size:14px;
+	color:#54545d;
+	margin:0px 0px 20px 0px;
+}
+.device-detail-wrap .device-specs .specs-grid {
+	border-bottom:1px solid #eaeaea;
+	height:auto;
+	padding:20px;
+}
+.device-detail-wrap .device-specs .specs-grid .buynow-btn {
+	background-color: #fed200 !important;
+    border: 2px solid #fcc200;
+    border-radius: 36px;
+    color: #525252;
+    font-family: "kohinoorbold";
+    font-size: 1em;
+    padding: 16px 40px;
+    text-transform: uppercase;
+}
+.device-detail-wrap .device-specs .specs-grid .title {
+	font-size:14px;
+	color:#b9b9ba;
+	height:25px;
+	line-height:25px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-cap {
+	margin:0px;
+	padding:0px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-cap ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-cap ul li {
+	float:left;
+	border:2px solid #eaeaea;
+	width:80px;
+	border-radius:40px;
+	text-align:center;
+	font-size:14px;
+	color:#54545d;
+	padding:2px 0px;
+	margin-right:15px;
+	cursor:pointer;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-cap ul li:hover {
+	border:2px solid #ffd801;
+	font-weight:bold;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-cap li.selected {
+	border:2px solid #ffd801;
+	font-weight:bold;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-qty {
+	position: relative!important;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-qty .filter-dropdown {
+	color: #2e2e33;
+	border-bottom: solid 1px #bfbec3;
+	background-image: url("../images/select-arrow.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 0px 40px 0px 20px;	
+	margin-left:60px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-qty .dropdown-menu {
+	position: absolute !important;
+	z-index: 999;
+	margin-top: 2px;
+	width:100%;
+	margin-left: 65px;
+	padding-left: 0px !important; 
+}
+.device-detail-wrap .device-specs .specs-grid .specs-qty .dropdown-menu li:hover {
+	background: #F7EB03 !important;  
+}
+.device-detail-wrap .device-specs .specs-grid .specs-qty input[type=text]{
+	font-size: 3em;
+	background:none;
+	border:none;
+	border-bottom:2px solid #9a9394 !important;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-qty span {
+	float: left;
+	font-size: 14px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-qty span.opacity {
+	padding-right: 5px;
+	font-size:14px;
+	color:#b9b9ba;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color {
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .title {
+	font-size:14px;
+	color:#b9b9ba;
+	margin-right:40px;
+	float:left;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-title {
+	font-size:14px;
+	color:#b9b9ba;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .spec-color-option ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .spec-color-option ul li {
+	float:left;
+	border:2px solid #eaeaea;
+	width:25px;
+	height:25px;
+	margin-right:10px;
+	cursor:pointer;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .spec-color-option ul li.white {
+	background-color:#FFF;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .spec-color-option ul li.black {
+	background-color:#000;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .spec-color-option ul li.other {
+	background-color:#b62649;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .spec-color-option ul li:hover {
+	border:2px solid #ffd801;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .spec-color-option ul li.selected {
+	border:2px solid #ffd801;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-input .textfield {
+	background-color:transparent;
+	color: #2e2e33;
+	border-bottom: solid 1px #bfbec3;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	padding:0px 10px;
+	float:left;
+	margin-left:20px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-input .status {
+	float:left;
+	margin-left:20px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-input .status span {
+	color:#529c44;
+	font-weight:bold;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-price {
+	font-size:36px;
+	color:#54545d;
+	text-align:left;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-opt {
+	font-size:14px;
+	color:#b9b9ba;
+	margin:15px 0px 0px 0px;
+	padding-left:0px;
+}
+.btn-register-interest-small {
+  font-family: 'kohinoorbold';
+  background-color: #fdcc00;
+  color: #525252;
+  border: 2px solid #fcc200;
+  border-radius: 40px;
+  font-size: 1em;
+  padding: 5px 25px;
+  text-transform: uppercase;
+  outline: none !important;  
+}
+
+
+@media (max-width: 768px) {
+.device-detail-wrap .device-main-pics {
+	text-align:center;
+}
+.device-detail-wrap .device-pics-thumb {
+	margin-top:20px;
+}
+.device-detail-wrap .device-pics-thumb ul li {
+	margin:5px 20px;
+	display:inline-block;
+}
+.device-detail-wrap .device-wishlist-wrap {
+	margin-top:40px;
+}
+.device-detail-wrap .device-specs {
+	margin:0px 0px 10px; 
+	padding:0px 20px; 
+}
+.device-detail-wrap .device-specs .first-row{
+	border-top: 1px solid #eaeaea;
+}
+.device-detail-wrap .device-specs .reg-btn{  
+  padding-top: 24px;  
+}
+a.txtLink {
+  font-size:16px;
+}
+.device-detail-wrap .device-specs .specs-heading {
+	display:none;
+}
+.device-detail-wrap .specs-heading-mobile {
+	padding:10px;
+	display:block;
+}
+
+}
+
+@media (max-width: 640px) {
+.device-detail-wrap .device-specs .specs-grid .specs-color {
+	margin-top:0px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .title {
+	margin-right:50px;
+}
+}
+
+@media (max-width: 480px) {
+.device-detail-wrap .device-pics-thumb ul li {
+	margin:12px 10px;
+}
+.device-detail-wrap .device-pics-thumb ul li:nth-child(1){
+	margin-left:0px !important;
+}
+.device-detail-wrap .device-wishlist-wrap {
+	padding:0px 25px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-cap {
+	width:100% !important;
+	margin-top:10px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-input .textfield {
+	margin-bottom:10px;
+}
+.device-detail-wrap .device-specs .specs-grid .buynow-btn {
+    border-radius: 36px;
+    font-size: 1em;
+    padding: 16px 20px;
+	margin-left:10px;
+}
+.device-detail-wrap .device-wishlist-wrap {
+	margin-top:20px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-title {
+	padding-left:30px;
+	
+}
+.device-detail-wrap .specs-heading-mobile {
+	font-size:28px;
+}
+}
+
+@media (max-width: 360px) {
+.device-detail-wrap h1 {
+	font-size:36px !important;
+	padding:0px 20px !important;
+	margin:20px 0px 40px 0px !important;
+}
+.device-detail-wrap .device-specs .specs-heading {
+	font-size:24px;
+}
+.device-detail-wrap .device-pics-thumb ul li {
+	width:50px;
+	height:50px;
+	line-height:50px;
+	margin:5px 5px;
+}
+.device-detail-wrap .device-wishlist-wrap {
+	padding:0px 10px;
+}
+.device-detail-wrap .device-specs .specs-grid .title
+{
+width:100%;
+}
+.device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons1, .device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons2, .device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons3 {
+	text-align:center;
+}
+.device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons1 span, .device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons2 span, .device-detail-wrap .device-wishlist-wrap .device-wishlist .specs-icons3 span {
+	text-align:center;
+	display:block;
+	margin-top:5px;
+}
+.device-detail-wrap .device-pics-thumb ul li img {
+	width:50px;
+	height:50px;
+}
+.device-detail-wrap .device-specs .specs-grid {
+	padding:20px 0px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-cap {
+	padding-left:0px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-cap ul li {
+	margin:0px 7px 10px 0px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-price {
+	font-size:28px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-opt {
+	margin:8px 0px 0px 0px;
+	padding-left:10px;
+	font-size:12px;
+}
+.device-detail-wrap .device-specs .specs-grid .buynow-btn {
+    border-radius: 36px;
+    font-size: 0.8em;
+    padding: 10px 10px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .title {
+	margin-right:10px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-title {
+	padding-left:10px;
+}
+}
+
+@media (max-width: 320px) {
+.device-detail-wrap .device-pics-thumb ul li {
+	width:45px;
+	height:45px;
+	line-height:45px;
+	margin:5px 5px;
+}
+.device-detail-wrap .device-pics-thumb ul li img {
+	width:40px;
+	height:40px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-opt {
+	display:block;
+	width:100%;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-color .spec-color-option ul li {
+	width:20px;
+	height:20px;
+	margin-right:5px;
+}
+.device-detail-wrap .device-specs .specs-grid .specs-title {
+	padding-left:0px;
+	font-size:13px;
+}
+}

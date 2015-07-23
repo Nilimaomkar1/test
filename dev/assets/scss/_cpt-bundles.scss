@@ -1,0 +1,257 @@
+.bundle-wrap{
+	position:relative;
+}
+
+.white-rup-icon { color: #fff !important;}
+.bundles-bottom-heading { margin-bottom: 20px; }
+.bundle-shortlist{
+	position:absolute; 
+	top:0px; 
+	right:4px;
+    z-index:99999;
+}
+.bundles-tile-container {
+    color: #fff;
+    font-size: 1.125em;
+    margin: 0px;
+    padding: 0px 0px 8px 0px;
+}
+
+.bundles-product-info .rupee{
+color:#333;
+font-size:1em;
+}
+
+.col-padding-none {
+    margin: 0px -8px 0px 0px;
+}
+
+.bundles-tile-container h2, .bundles-tile-container h3 {
+    color: #fff !important;
+}
+
+.bundles-tile-container h2 {
+    font-size: 2.375em !important;
+}
+
+.bundles-tile-container h3 {
+    font-size: 2.250em !important;
+}
+
+.bundles-tile-container ul {
+    list-style-type: none;
+    margin: 15px 0;
+}
+
+.bundles-tile-container ul li {
+    line-height: 38px;
+    padding: 0 0 13px 0;
+}
+
+.bundles-tile-container ul li span {
+    padding-left: 13px;
+}
+
+.bundles-tile-container .bundles-top-cont {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 2;
+    text-align: right;
+}
+
+.bundles-tile-container .bundles-top-cont h2 {
+    margin-top:20px !important;
+}
+
+.bundles-tile-container .bundles-bottom-cont, .bundles-tile-container .bundles-bottom-title {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    z-index: 2;
+    text-align: left;
+}
+
+.bundles-tile-container .bundles-bottom-title {
+    bottom: 175px;
+}
+
+.bundles-bottom-title h2 {
+    margin:10px 0px !important;
+}
+
+.bundles-product-info {
+    float: left;
+    padding: 10px 40px 10px 0;
+}
+
+.bundles-product-info span {
+    font-size: 0.875em;
+    color: #cbcbce;
+    text-transform: uppercase;
+}
+
+.bundles-app-bg {
+	background-image: url("../images/app-pro-bg.png");
+	height:516px;
+	position:relative;
+	background-color:#f2f2f4;
+}
+.bundles-app-img {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+}
+.bundles-app-txt {
+	position:absolute;
+	top:40px;
+	left:40px;
+}
+
+// ---------------------------------------- Mobile Device Class for 1024 width ----------------------------------------
+@media (max-width: 1024px) {
+.bundles-app-bg {
+	margin-bottom:20px;
+	height:454px;
+}
+.bundles-app-bg img {
+	width:90%;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+.bundles-app-bg {
+	margin-bottom:20px;
+	height:516px;
+}
+.bundles-app-bg img {
+	width:80%;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+
+
+.white-rup-icon { color: #333 !important;}
+.bundles-bottom-heading { margin-bottom: 20px;
+ }
+
+.bundles-tile-container {
+    margin: 0px;
+}
+
+.bundles-tile-container .bundles-bottom-cont {
+    background: #eeeeef;
+    color: #2e2e33;
+    padding: 30px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    font-size: 36px;
+	margin-top: -33px;
+}
+
+.bundles-product-info span {
+    color: #8e8e91;
+    font-size: 28px;
+}
+
+.bundles-tile-container .bundles-bottom-title {
+    bottom: 66px;
+    left: 30px;
+	position: relative;
+	z-index: 9;
+}
+
+.bundles-tile-container .bundles-bottom-title h3 {
+    font-size: 2em !important;
+}
+
+.bundles-tile-container .bundles-top-cont {
+    right: 44px;
+}
+
+.bundles-app-bg {
+	margin-bottom:16px;
+}
+ 
+ 
+}
+
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+
+.bundles-tile-container .bundles-bottom-cont {
+    font-size: 30px;
+}
+
+.bundles-product-info span {
+    color: #8e8e91;
+    font-size: 20px;
+}
+
+.bundles-tile-container .bundles-bottom-title {
+	width: 100%;
+	
+}  
+
+.bundles-tile-container .bundles-bottom-title h3 {
+    font-size: 1.4em !important;
+}
+
+.bundles-tile-container .bundles-top-cont {
+    right: 44px;
+}
+.bundles-app-bg {
+	margin-bottom:20px;
+	height:450px;
+}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.bundles-tile-container .bundles-bottom-cont {
+    font-size: 18px;
+}
+
+.bundles-product-info span {
+    color: #8e8e91;
+    font-size: 14px;
+}
+.bundles-tile-container .bundles-top-cont {
+    top: 10px;
+    right: 10px;
+}
+.bundles-tile-container .bundles-bottom-title {
+	left:10px;
+}
+.bundles-product-info {
+    padding: 5px 20px 5px 0;
+}
+.bundles-app-bg {
+	height:300px;
+}
+.bundles-app-img img {
+	width:100%;
+	padding:0px 15px;
+}
+.bundles-app-txt {
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+.bundles-tile-container .bundles-bottom-title h3 {
+    font-size: 1em !important;
+}
+
+
+}

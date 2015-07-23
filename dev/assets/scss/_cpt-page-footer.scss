@@ -1,0 +1,228 @@
+.jio-footer {
+    border-top: solid 1px #ececec;
+    margin-top: 60px;
+}
+.jio-footer.jio-top-space {
+	margin-top:60px;
+}
+
+.social-icons {
+    font-family:'kohinoorbold';
+    cursor: pointer;
+}
+
+ul.social-links{
+
+    list-style: none!important;
+    display: inline!important;
+}
+
+ul.social-links li{
+ font-size:1em!important;
+ width: auto!important;
+  float: left!important;
+}
+
+
+
+.footer-city {
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+    width:280px;
+}     
+
+.footer-city-drp {
+    width: auto;
+    padding: 0px 0px 0px 0px;
+    float: right;
+    text-align: left;
+}
+
+.footer-city-space {
+    margin: 0px 0px 20px 0px;
+}
+
+#copyright {
+    display: none;
+}
+
+.jio-footer > .container {
+    max-width: 1049px;
+}
+
+.footer-city-drp .dropdown-menu {
+    border: 1px solid #E3E3E3 !important;
+    background: #fff;
+    position: absolute!important;
+    left: -148px !important;
+    min-width: 120px !important;
+    background: #f9f9fa!important;
+
+}
+
+.footer-city-drp .dropdown-menu {
+color:red!important;
+    }
+
+.import-city-drp .dropdown-menu li {
+    border-bottom: 1px solid #E3E3E3 !important;
+    padding-left: 0px;
+    width: 100%;
+    right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:red!important;
+}
+
+
+
+
+.footer-city-drp .dropdown-menu li
+.footer-city-drp .dropdown-menu li:last-child {
+    border-bottom: none !important;
+}
+
+
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow: auto;
+    background: #dedeec !important;
+}
+
+.scrollable-menu1 {
+    height: auto;
+    max-height: 140px;
+    overflow: auto;
+    background: #dedeec !important;
+}
+
+.footer-city-btn {
+    background-image: url("../images/select-arrow.png") !important;
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 22px 0px 0px !important;
+	min-width: 50px;
+	font-size:14px;
+}
+#footer  {padding-top: 20px!important;}
+#footerlink  {padding-left: 20px!important;}
+
+
+
+@media (max-width: 768px) {
+	.jio-footer h2 {
+		margin-top: 20px !important;
+		line-height:20px !important;
+	}
+	/*#footerlink{ min-height:165px; }*/
+    .jio-footer {
+        display: none;
+        border: none;
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+	.jio-footer.jio-top-space {
+		margin-top:60px !important;
+	}
+    #footer .title {
+        margin-top: 25px;
+    }
+
+    .social-icons {
+        font-family:'kohinoorbold';
+        padding: 10px 0px 10px 20px !important;
+        border: 0px;
+        width:100%;
+        display:block;
+    }
+
+    #copyright {
+        display: block;
+		margin-top:35px;
+    }
+
+    #copyright .copyright-text {
+        margin: 25px 0px 0px 0px;
+        border-top: 1px solid #E3E3E3;
+        padding: 20px 0px 18px 0px;
+        position: relative;
+        font-size: 16px !important;
+    }
+
+    #copyright .copyright-icon {
+        position: absolute;
+        top: 16px;
+        right: 0px;
+        cursor: pointer;
+        margin-top: 8px;
+        background-image: url(../images/icon-plus.png);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+    }
+
+    #copyright .copyright-icon1 {
+        position: absolute;
+        top: 17px;
+        right: 0px;
+        cursor: pointer;
+        margin-top: 5px;
+        background-image: url(../images/icon-minus.png);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-city {
+        display: none;
+    }
+	
+	/* --- for SDL Home Page Start --- */
+	.footer-sublinks ul {
+		margin-bottom: 25px;
+	}
+	.footer-sublinks {
+		margin-top: 25px;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	/* --- for SDL Home Page End --- */
+}
+
+@media (max-width: 640px) {
+#copyright {
+	margin-top:5px;
+}
+}
+
+@media (max-width: 400px) {
+	#footerlink>li{ float:none; padding:0px;}
+    .jio-footer a {
+        font-size: 12px;
+    }
+
+    .social-icons {
+        width: auto;
+		padding: 0px 0px 0px 20px;
+    }
+	
+	/* --- for SDL Home Page Start --- */
+	.footer-sublinks ul {
+		min-height: 110px !important;
+		margin-bottom: 25px;
+	}
+	ul.social-links li {
+		padding-right: 5px;
+	}
+	/* --- for SDL Home Page End --- */
+
+   
+
+
+}
+
+

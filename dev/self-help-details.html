@@ -1,0 +1,187 @@
+
+<% include includes/html-head.html %>
+<div id="wrap">
+	       <div class="main-bg"> 
+          <% include includes/site-header.html %>   <!-- Includes Nav Menu for Desktop and Mobile -->
+		  <% include includes/breadcrumbs.html %>
+   </div>
+   <!-- Wrap Starts --> 
+   <div class="container">
+      <!-- Container Starts -->
+      <div class="body-container">
+          <div id="check-activator" class="activate-1"></div>
+          <% include includes/menu-support.html %>
+      </div>
+        
+       <div class="body-container">
+        
+         <% include includes/self-help-search-result-details.html%>
+       	
+          <% include includes/search-help-video.html %>
+         <% include includes/self-help-need.html %>
+         <!-- Main Body Includes Ends --> 
+         <% include includes/site-footer.html %> <!-- Includes footer links and Social media icons -->
+      </div>
+   </div>
+   <!-- container end -->
+</div>
+<!-- Wrap end -->
+<% include includes/html-footer.html %>
+
+<script type="text/javascript">
+
+//Self Help Page Script start
+	$('#help-option1').click( function() {
+				
+		if($(window).width() > 768)
+   		 {
+		   $('#ui-carousel-prev').fadeIn();
+		   $('#ui-carousel-next').fadeIn();
+		   $('.level1').show();
+		   $('.level3').hide();
+		   $('.level2').hide();
+		   $('.ddlevel3').fadeOut();
+		   $('.ddsubleve3').fadeOut();
+		   $(".trending-question").hide();
+		   $(".level-title2 h2").fadeIn();
+		   $(".level-title3 h2").css('display', 'none');
+		   $(".level1").rcarousel({
+			orientation: "vertical"
+			});
+		 };
+		 
+		 if($(window).width() < 768)
+   		 {	  
+		   $('.ddlevel1').hide("slide", { direction: "left" }, 500);
+		   $('.ddlevel2').show("slide", { direction: "right" }, 500);
+		   $('.level1').show();
+		   $('.level3').hide();
+		   $('.level2').hide();
+		 };
+		 
+	});
+	$('#help-option2').click( function() {
+		
+		if($(window).width() > 768)
+   		 {
+			$('#ui-carousel-prev').fadeIn();
+			$('#ui-carousel-next').fadeIn();
+			$('.level1').hide();
+			$('.level3').hide();
+			$('.level2').show();	  
+			$('.ddlevel3').fadeOut();
+			$('.ddsubleve3').fadeOut();
+			$(".trending-question").hide();
+			$(".level-title2 h2").fadeIn();
+			$(".level-title3 h2").css('display', 'none');
+			$(".level2").rcarousel({
+			orientation: "vertical"
+			});
+		 };
+		 
+		 if($(window).width() < 768)
+   		 {	  
+		   $('.ddlevel1').hide("slide", { direction: "left" }, 500);
+		   $('.ddlevel2').show("slide", { direction: "right" }, 500);
+		   $('.level1').hide();
+		   $('.level3').hide();
+		   $('.level2').show();
+		 };
+	   
+	});
+	$('#help-option3').click( function() {
+		
+		if($(window).width() > 768)
+   		 {
+			$('#ui-carousel-prev').fadeIn();
+			$('#ui-carousel-next').fadeIn();
+			$('.level3').show();
+			$('.level1').hide();
+			$('.level2').hide();
+			$('.ddlevel3').fadeOut();
+			$('.ddsubleve3').fadeOut();
+			$(".trending-question").hide();
+			$(".level-title2 h2").fadeIn();
+			$(".level-title3 h2").css('display', 'none');
+			$(".level3").rcarousel({
+			orientation: "vertical"
+			});
+		 };
+		 
+		 if($(window).width() < 768)
+   		 {	  
+		   $('.ddlevel1').hide("slide", { direction: "left" }, 500);
+		   $('.ddlevel2').show("slide", { direction: "right" }, 500);
+		   $('.level1').hide();
+		   $('.level2').hide();
+		   $('.level3').show();
+		 };
+	   
+	});
+	
+	$('.ddlevel2 li').click( function() {
+		
+		if($(window).width() > 768)
+   		 {
+			$('.ddlevel3').fadeIn();
+			$(".ddlevel3").removeClass("scrollbar-hide");
+			$('.ddsubleve3').fadeOut();
+			$(".level-title3 h2").css('display', 'block');
+		 };
+		 
+		 if($(window).width() < 768)
+   		 {
+			$('.ddlevel2').hide("slide", { direction: "left" }, 500);
+			$('.ddlevel3').show("slide", { direction: "right" }, 500);	
+			$(".ddlevel3").removeClass("scrollbar-hide");
+
+		 };
+			 
+	});
+	$('#active3').click( function() {
+		
+		if($(window).width() > 768)
+   		 {
+			 $('.ddsubleve3').fadeIn();
+		 };
+		 
+		 if($(window).width() < 768)
+   		 {
+			$('.ddlevel2').hide("slide", { direction: "left" }, 500);
+			$('.ddlevel3').hide();
+			$('.ddsubleve3').show("slide", { direction: "right" }, 500);	
+		 };
+	   
+	});
+	
+	$('.ddsubleve3 li a').click( function() {
+		
+		if($(window).width() > 768)
+   		 {
+			 $('.ddsubleve3').fadeOut();
+		 }
+		 
+		 if($(window).width() < 768)
+   		 {
+			$('.ddsubleve3').hide("slide", { direction: "left" }, 500);
+			$('.ddlevel3').show("slide", { direction: "right" }, 500);
+		 }
+	   
+	});
+	
+	$('#ddlevel2-back').click( function() {
+	   $('.ddlevel1').show("slide", { direction: "left" }, 500);
+	   $('.ddlevel2').hide("slide", { direction: "right" }, 500);
+	});
+	$('#ddlevel3-back').click( function() {
+	   $('.ddlevel2').show("slide", { direction: "left" }, 500);
+	   $('.ddlevel3').hide("slide", { direction: "right" }, 500);
+	});
+	$('#ddsubleve3-back').click( function() {
+	   $('.ddlevel2').show("slide", { direction: "left" }, 500);
+	   $('.ddsubleve3').hide("slide", { direction: "right" }, 500);
+	});
+	
+//Self Help Page Script end
+
+</script>

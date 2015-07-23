@@ -1,0 +1,292 @@
+
+.jio-matrix {
+   position:relative;
+   margin-bottom:80px;
+}
+.jio-matrix .matrix01{
+   position:relative;
+   height:513px;
+   background:url(../images/app-grp-bg-icon.jpg); 
+   background-repeat:repeat;
+   cursor:pointer;
+}
+.jio-matrix .matrix01 .title{
+   position:absolute;
+   font-size:24px;
+   color: #54545d;	
+   top:25px;
+   left:25px;
+}
+.jio-matrix .matrix01 .img{
+   height:513px;
+   line-height:513px;
+}
+.jio-matrix .matrix02{
+   padding-left:8px;
+}
+.jio-matrix .matrix03{
+   position:relative;
+   background:url(../images/app-grp-bg-icon.jpg); 
+   background-repeat:repeat;
+   height:254px;
+   cursor:pointer;
+}
+.jio-matrix .matrix03 .title{
+   position:absolute;
+   font-size:24px;
+   line-height:26px;
+   color: #54545d;	
+   bottom:25px;
+   left:25px;
+   width:50%;
+}
+.jio-matrix .matrix04{
+   position:relative;
+   height:254px; 
+   border-right:8px solid #FFF;
+   cursor:pointer;
+}
+.jio-matrix .matrix04 .title{
+   position:absolute;
+   font-size:24px;
+   color: #FFF;	
+   top:25px;
+   left:25px;
+}
+.jio-matrix .matrix04 .img{
+   position:absolute;
+   width:100%;
+   height:254px;
+   line-height:254px;
+}
+.jio-matrix .matrix05{
+   position:relative;
+   background:url(../images/app-grp-bg-icon.jpg); 
+   background-repeat:repeat;
+   height:251px;
+   cursor:pointer;
+}
+.jio-matrix .matrix05 .title{
+   position:absolute;
+   font-size:24px;
+   color: #54545d;	
+   bottom:25px;
+   left:25px;
+}
+.jio-matrix .img{
+   margin-bottom:20px;
+}
+.jio-matrix .pad-bottom-8 {
+   padding-bottom:8px;
+}
+
+// ---------------------------------------- Mobile Device Class for 1024 width ----------------------------------------
+
+@media (max-width: 1024px) {
+.jio-matrix {
+   position:relative;
+   margin-bottom:46px;
+}
+.jio-matrix .matrix01{
+   height:448px;
+}
+.jio-matrix .matrix03{
+   height:220px;
+}
+.jio-matrix .matrix05{
+   height:220px;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+.jio-matrix {
+   position:relative;
+   margin-bottom:-20px;
+}
+.jio-matrix .matrix01{
+   height:340px;
+}
+.jio-matrix .matrix01 .title{
+   font-size:20px;
+   top:10px;
+   left:15px;
+}
+.jio-matrix .matrix01 .img{
+   height:340px;
+   line-height:340px;
+}
+.jio-matrix .matrix03{
+   height:166px;
+}
+.jio-matrix .matrix03 .title{
+   font-size:20px;
+   line-height:22px;
+   bottom:10px;
+   left:15px;
+}
+.jio-matrix .matrix03 .img img{
+   width:70%;
+}
+.jio-matrix .matrix04 .img{
+   height:200px;
+   line-height:200px;
+}
+.jio-matrix .matrix04 .img img{
+   width:70%;
+}
+.jio-matrix .matrix04 .title{
+   font-size:20px;
+   top:10px;
+   left:15px;
+}
+.jio-matrix .matrix05{
+   height:166px;
+}
+.jio-matrix .matrix05 .title{
+   font-size:20px;
+   bottom:10px;
+   left:15px;
+}
+.jio-matrix .matrix05 .img img{
+   width:70%;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.jio-matrix {
+	padding:0px 8px;
+	margin-bottom:105px;
+}
+.jio-matrix .matrix01{
+	margin-bottom:8px;
+	height:513px;
+}
+.jio-matrix .matrix01 .title{
+   font-size:24px;
+   top:25px;
+   left:25px;
+}
+.jio-matrix .matrix01 .img{
+   height:513px;
+   line-height:513px;
+}
+.jio-matrix .matrix01 .img img{
+   width:40%;
+}
+.jio-matrix .matrix02{
+	padding-left:0px;
+}
+.jio-matrix .matrix03{
+	height:254px;
+	border-right:8px solid #FFF;
+}
+.jio-matrix .matrix03 .title{
+   font-size:24px;
+   line-height:26px;
+   bottom:25px;
+   left:25px;
+}
+.jio-matrix .matrix04{
+	height:254px; 
+	border-right:0px solid #FFF;
+	margin-bottom:60px;
+	
+}
+.jio-matrix .matrix04 .title{
+   font-size:24px;
+   top:25px;
+   left:25px;
+}
+.jio-matrix .matrix04 .img{
+   height:300px;
+   line-height:300px;
+}
+.jio-matrix .matrix05{
+    height:254px;
+	right:0px;
+	top:0px;
+	position:absolute;
+	margin-bottom:100px;
+}
+.jio-matrix .matrix05 .title{
+   font-size:24px;
+   bottom:25px;
+   left:25px;
+}
+.jio-matrix .matrix05 .img img{
+   width:100%;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+.jio-matrix {
+	margin-bottom:0px;
+}
+.jio-matrix .matrix04{
+   margin-bottom:-50px;
+}
+.jio-matrix .matrix05{
+	margin-bottom:0px;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.jio-matrix .matrix01{
+	height:350px;
+}
+.jio-matrix .matrix01 .title{
+   font-size:20px;
+   top:15px;
+   left:15px;
+}
+.jio-matrix .matrix01 .img{
+   height:350px;
+   line-height:350px;
+}
+.jio-matrix .matrix01 .img img{
+   width:50%;
+}
+.jio-matrix .matrix03 .title{
+   font-size:20px;
+   line-height:22px;
+   bottom:20px;
+   left:15px;
+}
+.jio-matrix .matrix04{
+   margin-bottom:-102px;
+}
+.jio-matrix .matrix04 .title{
+   font-size:20px;
+   top:15px;
+   left:15px;
+}
+.jio-matrix .matrix04 .img{
+   height:200px;
+   line-height:200px;
+}
+.jio-matrix .matrix05 .title{
+   font-size:20px;
+   bottom:20px;
+   left:15px;
+}
+.jio-matrix .matrix05 .img img{
+   width:65%;
+}
+}
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 320px) {
+ 
+.jio-matrix .matrix04{
+   margin-bottom:-125px;
+}
+ 
+}

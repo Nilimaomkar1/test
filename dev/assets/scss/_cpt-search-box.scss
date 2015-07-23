@@ -1,0 +1,251 @@
+.search_bg
+{
+	padding:10px 0px !important; 
+	border-bottom:1px dotted #cacaca
+}
+.search_bg .result_heading
+{ 
+	color:#cacaca !important;
+	padding:0px 20px !important;
+	font-size:16px!important;
+}
+.desktop-search-box, .desktop-search-box1 {
+    display: none;
+    border: 1px solid #fff;
+    min-height: 100px;
+    position: relative;
+    max-width: 1049px;
+    z-index: 999999;
+    border-top: none;
+    background: #fff;
+    padding: 24px;
+    left: 0px;
+    margin:0 auto;
+}
+.desktop-search-box:target, .desktop-search-box:target + .lightbox-overlay{ 
+    display:block; opacity:2; 
+}
+.desktop-search-box1:target, .desktop-search-box1:target + .lightbox-overlay{ 
+    display:block; opacity:2; 
+} 
+.divider{
+    width:100%; 
+    height:1px; 
+    border:1px solid #000; 
+    margin-top:-2px;
+}
+.search-close {
+    float: right;
+    text-align: right;
+}
+.close-btn-img {
+    position: absolute;
+    cursor: pointer;
+    float:right;
+    margin-right: 50px; 
+    margin-top: 10px;
+    z-index: 9999999999999;
+    right:0px;
+}
+.desktop-search-area {
+    background: #FFF;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.desktop-search-result {
+	padding:40px 0px 0px 0px;
+}
+.search-result{
+    max-height:420px;
+    overflow: auto;
+}
+.search-result hr.seach-divider{border-top:1px #ccc solid;}
+.search-result h1{
+    margin:0px 0px !important;
+}
+.search-result1{
+    height:auto;
+    overflow: hidden;
+}
+.search-result .icon, .search-result1 .icon{
+	width:100px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #ffe04c;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+}
+.search-result .title-txt p, .search-result1 .title-txt p {
+    font-size: 18px!important;
+    color: #58585c!important;
+	 
+}
+.search-result .title-txt, .search-result1 .title-txt {
+    font-size: 24px;
+    color: #8f9091;
+    padding: 10px 0 0 0px;
+}
+.search-result .title-txt2 p, .search-result1 .title-txt2 p {
+    font-size: 14px!important;
+    color: #58585c!important;
+	 
+}
+.search-result .title-txt2, .search-result1 .title-txt2 {
+    font-size: 20px;
+    color: #8f9091;
+    padding: 10px 0 0 0px;
+}
+.search-result .odd-result
+{
+	background-color:#fafafa !important;	 
+	padding:0px 20px;	
+}
+.search-result .even-result
+{
+	background-color:#ffffff !important;	 
+	padding:0px 20px;	
+}
+ .search-result h2
+ {
+  padding:5px 20px 0px !important;
+  font-size:24px !important;
+ }
+ 
+.search-result .row, .search-result1 .row {
+    margin-top: 8px;
+    background: #FFF;
+}
+.search-result .first-child, .search-result1 .first-child {
+    background: none;
+}
+
+
+
+
+input {
+    outline: none;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+
+input[type=search] {
+    font-family:'kohinoorbold';
+    border: medium none;
+    font-size: 34px;    
+    height: 50px;
+    margin-left: -15px;
+    padding: 0px;
+    width: 100%;
+}
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+
+input:-moz-placeholder {
+    color: #999;
+    text-transform: lowercase!important;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+    text-transform: lowercase!important;
+}
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.desktop-search-box, .desktop-search-box1 {
+    padding: 10px;
+}
+.desktop-search-result {
+	font-size:10px !important;
+	padding:30px 0px 20px 0px;
+}
+.search-result p
+{
+line-height:24px !important;
+}
+.search-result{
+    max-height:345px;
+    overflow: auto;
+}
+.close-btn-img {
+    
+    margin-right: 20px;  
+    
+}
+.search-result h2
+ {
+   line-height:24px !important;
+ }
+}
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+.search-result .title-txt p, .search-result1 .title-txt p {
+    font-size: 14px!important;
+    color: #58585c!important;
+	line-height:20px !important;
+}
+.search-result .title-txt, .search-result1 .title-txt {
+    font-size: 24px;
+    color: #58585c;
+    padding: 10px 0 0 0px;
+}
+.search-result{
+    max-height:330px;
+    overflow: auto;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 320 width ----------------------------------------
+
+@media (max-width: 320px) {
+.desktop-search-result {
+	font-size:14px !important;
+	padding:30px 0px 20px 0px;
+}
+.search-result .icon, .search-result1 .icon{
+	width:70px;
+	height: 70px;
+	line-height: 70px;
+}
+.search-result .icon img, .search-result1 .icon img{
+	width:50%;
+}
+.search-result{
+    max-height:240px;
+    overflow: auto;
+}
+.search-result .title-txt p, .search-result1 .title-txt p {
+    font-size: 12px!important;
+    color: #58585c!important;
+	line-height:15px !important;
+}
+.search-result .title-txt, .search-result1 .title-txt {
+    font-size: 16px;
+    color: #58585c;
+    padding: 0px 0 0px 0px;
+	line-height:30px;
+}
+.close-btn-img {
+	width:10%;
+    margin-right: 20px;
+    margin-top: 17px;
+}
+input[type=search] {
+    font-size: 16px;    
+}
+}

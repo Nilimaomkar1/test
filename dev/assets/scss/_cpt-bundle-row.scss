@@ -1,0 +1,75 @@
+.bundle-row-wrap {
+	margin:0px;
+	padding:0px;
+}
+.bundle-row-wrap .main-row {
+	width:100%;
+	height:auto;
+	background-color:#f1f1f1;
+	font-size:2em;
+	color:#525252; 
+	padding:10px 40px;
+	margin:10px 0px;
+	cursor:pointer;
+	border:1px solid #FFF;
+}
+.bundle-row-wrap .main-row-default {
+	width:100%;
+	height:auto;
+	background-color:#f1f1f1;
+	font-size:2em;
+	color:#525252; 
+	padding:10px 40px;
+	margin:10px 0px;
+}
+.bundle-row-wrap .main-row-default:nth-child(even) {
+	background-color:#fff;
+}
+.bundle-row-wrap .main-row:hover {
+	border:1px solid #fbc509;
+}
+.bundle-row-wrap .row-selected {
+	background-color:#fbc509 !important;
+}
+.bundle-row-wrap .sub-heading {
+	font-size:0.6em;
+	color:#ababad; 
+}
+
+@media (max-width: 768px) {
+.bundle-row-wrap .main-row {
+	padding:10px 20px;
+	font-size:1.5em;
+}
+.bundle-row-wrap .main-row-default {
+	font-size:1.5em;
+	padding:10px 20px;
+}
+.bundle-row-wrap .sub-heading {
+	font-size:0.8em;
+}
+}
+
+@media (max-width: 480px) {
+.bundle-row-wrap .main-row {
+	font-size:1.3em;
+}
+.bundle-row-wrap .main-row-default {
+	font-size:1.3em;
+}
+}
+
+@media (max-width: 360px) {
+.bundle-row-wrap .main-row {
+	font-size:1em;
+	padding:10px 20px;
+}
+.bundle-row-wrap .main-row-default {
+	font-size:1em;
+	padding:10px 20px;
+}
+.bundle-row-wrap .sub-heading {
+	font-size:0.8em;
+}
+}
+

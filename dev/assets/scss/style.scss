@@ -1,0 +1,82 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "type";
+
+@import "cpt-nav-mobile";
+@import "cpt-nav-desktop";
+
+// Adding components css of self help page 
+@import "cpt-self-help-search-suggestion";
+@import "cpt-self-help-search";
+@import "cpt-self-help";
+@import "cpt-self-help-details";
+
+// Adding components css of contact us pages
+@import "cpt-contact-us"; 
+
+// Adding components css of Checkout
+@import "cpt-checkout-payment";
+@import "cpt-checkout-review";
+@import "cpt-checkout-confirmation";
+@import "cpt-service-graph";
+@import "cpt-checkout-delivery";
+
+// Adding components css of FAQ article
+@import "cpt-faq-article";
+
+// Adding components css of guided help pages
+@import "cpt-guided-help";
+
+// Adding components css of Featured Apps pages
+@import "cpt-featured-apps";
+@import "cpt-jio-matrix"; 
+
+// Adding components css of plan finder page
+@import "cpt-plan-finder";
+@import "cpt-plan-finder-details";
+
+// Adding components css of Coverage page
+@import "cpt-coverage-checker";
+
+// Adding components css of store locator page
+@import "cpt-store-locator";
+
+//Support Ticket CSS
+@import "cpt-support-ticket-accordion"; 
+
+// Adding components css of bundles page
+@import "cpt-bundles";
+
+// Adding components css of bundles details page
+@import "cpt-bundles-details";
+
+//Index Subscribe Class
+@import "cpt-index-product-subscribe";
+
+// Adding components css of Product pages
+@import "cpt-product-gallery-filter";
+@import "cpt-product-grid";
+
+//Index Main Video Class
+@import "cpt-video";
+
+//Footer Class
+@import "cpt-page-footer";
+@import "cpt-jio-footer"; 
+
+//Landing Page Class
+@import "cpt-index-footer-module";
+@import "cpt-index-bundles";
+@import "cpt-buyjio-apps";
+@import "cpt-gotjio";
+@import "cpt-my-account";
+@import "cpt-explore-topics"; 
+
+//Bootstrap Class
+@import "tmp-bootstrap-min";
+@import "tmp-bootstrap-custom";   
+@import "tmp-mix-class"; 
+
+
+ 

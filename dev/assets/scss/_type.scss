@@ -1,0 +1,661 @@
+
+.clear {
+    clear: both !important;
+}
+textarea {
+    resize: none;
+}
+
+img{
+	outline: none;
+	outline:0;
+	-moz-outline-style:none;
+	-moz-outline-style:0;
+	-ms-outline:none;
+	-ms-outline:0;
+	-o-outline:none;
+	-o-outline:0;
+	-webkit-outline:none;
+	-webkit-outline:0;
+}
+
+h1 {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 3.750em !important;
+    font-weight: normal !important;
+    color: #54545d !important;
+    line-height: 70px !important;
+}
+jiobold{
+ font-family: 'kohinoorbold' !important;
+ color:#54545d!important ;
+}
+
+h2 {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 2.250em !important;
+    color: #54545d !important;
+    line-height: 60px;  
+}
+
+h3 {
+    margin: 0px !important;
+    padding: 0px !important;
+    color: #2e2e33 !important;
+    font-size: 1.5em !important;
+}
+
+h4 {
+    margin: 0px !important;
+    padding: 0px !important;
+    color: #8f9091 !important;
+    font-size: 1em !important;
+}
+
+h5 {
+    font-family: 'kohinoorbold' !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 0.7em !important;
+    color: #54545d !important;
+  
+}
+
+h6 {
+    font-family: 'kohinoorbold' !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 0.8em !important;
+    text-transform: uppercase !important;
+    color: #54545d !important;
+    line-height: 26px !important;
+}
+
+p {
+    
+    margin: 0px 0px 10px 0px !important;
+    padding: 0px !important;
+    font-size: 1em !important;
+    font-weight: normal !important;
+    color: #2e2e33 !important;
+    line-height: 26px !important;
+}
+
+button {
+	outline:none !important;
+}
+
+a.txtLink {
+    color: #525252;
+  border-bottom: 2px solid #fcc200;
+  text-decoration: none;
+  display:inline-block!important;
+
+}
+a.txtLink:hover {
+     color: #525252;
+    text-decoration: none;
+}
+a.txtLink2 {
+    color: #263382 !important; 
+	 
+	border-bottom: none!important;
+}
+a.txtLink2:hover {
+     color: #263382;
+    text-decoration: none;
+}
+
+
+
+#product-feature a {
+    font-family: 'kohinoorbold';
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.125em;
+    line-height: 26px;
+     border-bottom: 2px solid #fcc200;
+    color: #525252;
+    text-decoration: none;
+	display:inline-block!important;
+}
+
+
+#product-feature a:hover {
+    text-decoration: none;
+}
+
+.pics-thumb a{
+border:none!important;
+
+}
+
+.rupee {
+    font-family: 'rupee';
+}
+
+
+.mini-header .rupee {
+ font-size:1.0em;
+}
+.btn-main {
+    font-family: 'kohinoorbold';
+    background-color: #fdcc00;
+    color: #525252;
+    border: 2px solid #fcc200;
+    border-radius: 40px;
+    font-size: 1em;
+    padding: 20px 65px;
+    text-transform: uppercase;
+	outline:none !important;
+}
+
+.btn-main-sml {
+    background-color: #fdcc00;
+    color: #525252;
+    border: 2px solid #fcc200;
+    border-radius: 40px;
+    font-size: 1em;
+    font-family: 'kohinoorbold';
+    padding: 20px 65px;
+    text-transform: uppercase;
+	outline:none !important;
+}
+
+.btn-readMore-container {
+    display: none;
+}
+
+.btn-cent{ 
+	text-align:center;
+}
+.btn-get {
+  background-color: #fdcc00;
+  color: #525252;
+  border: 1px solid #fcc200;
+  border-radius: 40px;
+  font-size: 16px;
+  font-family: kohinoorbold;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 50px;
+  text-transform: uppercase;
+  margin:10px 0;
+}
+
+
+.hide-div {
+    display: none;
+}
+.hide-div1 {
+    display: none;
+}
+.show-div {
+    display: block !important;
+}
+
+.btn-readMore {
+    border: 1px solid #c5c5c5;
+    border-radius: 20px;
+    width: 160px;
+    padding: 5px 20px;
+    background-color: #FFF;
+    text-align: left;
+    color: #525252;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    background-image: url(../images/select-arrow1.png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+	outline:none !important;
+}
+
+
+.btn-viewmore, .btn-load  {
+    font-family: 'kohinoorbold';
+    border: 1px solid #c5c5c5;
+    border-radius: 55px;
+    width: 200px;
+    padding: 20px 30px;
+    background-color: #FFF;
+    text-align: left;
+    color: #525252;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 20px 0px;
+	background-image: url("../images/accordion-down.png");
+	background-repeat: no-repeat !important;
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+	outline:none !important;
+}
+
+.btn-viewless, .btn-unload {
+    font-family: 'kohinoorbold';
+    border: 1px solid #c5c5c5;
+    border-radius: 55px;
+    width: 200px;
+    padding: 20px 30px;
+    background-color: #FFF;
+    text-align: left;
+    color: #525252;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 20px 0px;
+	background-image: url("../images/accordion-up.png");
+	background-repeat: no-repeat !important;
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+	outline:none !important;
+}
+
+.btn-moreoffers, .btn-moreapps, .btn-moreview, .btn-showmore, .btn-loadmore, .btn-morefilter, .btn-morefilter1, .btn-redirect {
+	background-color: transparent;
+	color: #525252;
+	border: 1px solid #c8c8ca;
+	border-radius: 48px;
+	font-size: 0.875em;
+	font-family: 'kohinoor';
+	padding: 8px 20px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	background-image: url("../images/btn-down-arrow-small.png");
+	background-repeat: no-repeat !important;
+	background-position: right center !important;
+	text-align: left;
+	width: 150px;
+	outline:none !important;
+}
+
+.btn-lessoffers, .btn-lessapps, .btn-moreless, .btn-showless, .btn-loadless, .btn-lessfilter {
+	background-color: transparent;
+	color: #525252;
+	border: 1px solid #c8c8ca;
+	border-radius: 48px;
+	font-size: 0.875em;
+	font-family: 'kohinoor';
+	padding: 8px 20px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	background-image: url(../images/btn-up-arrow-small.png);
+	background-repeat: no-repeat !important;
+	background-position: right center;
+	text-align: left;
+	width: 150px;		 
+	outline:none !important;
+}
+ 
+.btn-getApps {
+    border: 1px solid #c8c8ca;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 20px 10px 35px;
+   	background-color:transparent;
+    text-align: left;
+    color: #525252;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    background-image: url(../images/plus-icon.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+	outline:none !important;
+}
+
+.prod-title {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #2e2e33;
+    line-height: 35px;
+}
+
+.product-container div:first-child{
+    font-size: 2.250em;
+    font-weight: normal;
+    color: #2e2e33;
+    line-height: 35px;
+}
+
+.prod-value {
+    font-size: 1em;
+    font-weight: normal;
+    color: #9d9da0;
+    line-height: 24px;
+}
+
+.product-container div:nth-child(2){
+    font-size: 1.0em;
+    font-weight: normal;
+    color: #9d9da0;
+    line-height: 24px;
+}
+
+.product-container img {
+        
+   display: block;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+.article-title {
+    font-family: 'kohinoorbold';
+    font-size: 2.250em;
+    color: #2e2e33;
+    line-height: 24px;
+}
+.margin-top-80 {
+	margin-top:80px !important;
+}
+.margin-bottom-80 {
+	margin-bottom:80px !important;
+}
+.margin-top-60 {
+	margin-top:60px !important;
+}
+.margin-bottom-60 {
+	margin-bottom:60px !important;
+}
+.margin-top-40 {
+	margin-top:40px !important;
+}
+.margin-bottom-40 {
+	margin-bottom:40px !important;
+}
+.margin-top-20 {
+	margin-top:20px !important;
+}
+.margin-bottom-20 {
+	margin-bottom:20px !important;
+}
+.margin-top-10 {
+	margin-top:10px !important;
+}
+.margin-bottom-10 {
+	margin-bottom:10px !important;
+}
+
+.margin-bottom-5 {
+	margin-bottom:5px !important;
+}
+.padding-left-8 {
+	padding-left:8px !important;
+}
+.padding-right-8 {
+	padding-right:8px !important;
+}
+.padding-left-4 {
+	padding-left:4px !important;
+}
+.padding-right-4 {
+	padding-right:4px !important;
+}
+
+.padding-right-15.padding-right-15 {
+	padding-right:15px !important;
+}
+.padding-top-8 {
+	padding-top:8px !important;
+}
+.padding-bottom-8 {
+	padding-bottom:8px !important;
+}
+.padding-top-4 {
+	padding-top:4px !important;
+}
+.padding-bottom-4 {
+	padding-bottom:4px !important;
+}
+.margin-right-10
+{
+margin-right:10px;
+}
+.cursor {
+	cursor:pointer;
+}
+.cursor-default {
+	cursor:default !important;
+}
+.showmore {
+	display:block;
+}
+.boldtext{
+ font-family:'kohinoorbold';
+}
+
+.filter-button{
+display:block!important;
+}
+.text-center-mobile
+{
+text-align:left;
+}
+/* Mobile 768px Device Guidelines */
+
+@media (max-width: 768px) {
+   
+	h2 {
+        font-size: 1.8em !important;
+    }
+	.btn-main-sml {
+		border-radius: 50px;
+		font-size: 1em;
+		padding: 15px 40px;
+	}
+	.text-center-mobile
+{
+text-align:center;
+}
+}
+
+
+/* Mobile 640px Device Guidelines */
+
+@media (max-width: 640px) {
+.margin-top-80 {
+	margin-top:60px !important;
+}
+.margin-bottom-80 {
+	margin-bottom:60px !important;
+}
+
+.margin-top-60 {
+	margin-top:50px !important;
+}
+.margin-bottom-60 {
+	margin-bottom:50px !important;
+}
+
+     h1 {
+        font-size: 3.750em !important;
+        /*line-height: 74px !important;*/
+		line-height: 55px !important;
+    }
+    h2 {
+        font-size: 3.0em !important;
+        line-height: 62px !important;
+    }
+
+    h5 {
+        font-size: 1.6em !important;
+    }
+
+    p {
+        font-size: 1em !important;
+        font-weight: normal !important;
+        line-height: 24px !important;   
+    }
+
+    a.txtLink {
+        font-size: 2em;
+    }
+
+
+	
+
+	
+    .prod-title {
+        font-size: 2em;
+    }
+
+    .product-container div:first-child{
+        font-size: 3.0em;
+    }
+
+    .prod-value {
+        font-size: 1.8em;
+        line-height: 30px;
+    }
+    .product-container div:nth-child(2){
+        font-size: 2.0em;
+        line-height: 30px;
+    }
+
+    .article-title {
+        font-family: 'kohinoorbold';
+        font-size: 3em;
+        line-height: 24px;
+    }
+	
+	.showmore {
+		display:none;
+	}
+}
+
+/* Mobile 480px Device Guidelines */
+
+@media (max-width: 480px) {
+
+.margin-top-80 {
+	margin-top:30px !important;
+}
+.margin-bottom-80 {
+	margin-bottom:30px !important;
+}
+
+.margin-top-60 {
+	margin-top:30px !important;
+}
+.margin-bottom-60 {
+	margin-bottom:30px !important;
+}
+     h1 {
+        font-size: 3.750em !important;
+        line-height: 74px !important;
+    }
+    h2 {
+        font-size: 3.0em !important;
+        line-height: 62px !important;
+    }
+
+    h5 {
+        font-size: 1.6em !important;
+    }
+
+    p {
+        font-size: 1em !important;
+        font-weight: normal !important;
+        line-height: 24px !important;   
+    }
+
+    a.txtLink {
+        font-size: 1.8em;
+    }
+
+
+
+    .prod-title {
+        font-size: 1.8em;
+    }
+
+    .prod-value {
+        font-size: 1.6em;
+        line-height: 30px;
+    }
+
+    .product-container div:nth-child(2){
+        font-size: 1.6em;
+        line-height: 30px;
+    }
+
+  
+ 
+    .article-title {
+        font-family: 'kohinoorbold';
+        font-size: 2.2em;
+        line-height: 40px;
+    }
+	
+	
+}
+
+/* Mobile 400px Device Guidelines */
+
+@media (max-width: 400px) {
+
+.app-details a {
+    margin: 0 0 10px !important;
+}
+
+	
+	
+	
+	
+      h1 {
+        font-size: 1.875em !important;
+        line-height: 37px !important;
+    }
+    h2 {
+        font-size: 1.5em !important;
+        line-height: 31px !important;
+    }
+
+    h5 {
+        font-size: 1.6em !important;
+    }
+
+    p {
+        font-size: 1em !important;
+        font-weight: normal !important;
+        line-height: 24px !important;
+    }
+
+    a.txtLink {
+        font-size: 1.0em;
+    }
+
+  
+	
+
+    .prod-title {
+        font-size: 1.2em;
+    }
+     .product-container div:first-child{
+        font-size: 1.500em;
+    }
+
+
+    .prod-value {
+        font-size: 1em;
+        line-height: 30px;
+    }
+
+    .product-container div:nth-child(2){
+        font-size: 1.0em;
+        line-height: 30px;
+    }
+
+    .article-title {
+        font-family: 'kohinoorbold';
+        font-size: 1.6em;
+        line-height: 30px;
+    }
+	
+
+
+}

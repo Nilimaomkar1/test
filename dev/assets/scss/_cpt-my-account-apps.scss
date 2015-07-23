@@ -1,0 +1,438 @@
+.account-apps {
+/*	margin-top:60px;*/
+}
+.account-apps .successMessage7 {
+    background-color: #ffe04c;
+    width:100%;
+    height:100px; 
+    padding:28px 50px 0px 50px; 
+    color:#FFF; 
+    font-size:2em; 
+	text-align:left;
+}
+.account-apps .apps-info {
+	margin-bottom:40px;
+	padding-left:20px;
+}
+.account-apps .apps-info span {
+	font-size:16px;
+	color:#a5a5a8;
+}
+.account-apps .apps-info p {
+	font-size:18px !important;
+	color:#58585c !important;
+}
+.account-apps .apps-info .statement {
+	background-color: transparent;
+    color: #2e2e33;
+    border: none;
+    font-size: 16px;
+	padding-left:30px;
+	/*padding-top:30px;*/
+	cursor:pointer;
+	background-image: url(../images/statement-icon.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.account-apps .apps-info .statement:hover
+{
+text-decoration:underline;
+}
+.account-apps .icon {
+	height:100px;
+	line-height:100px;
+	background-color:#ffe04c;
+	text-align:center;
+}
+.account-apps .heading {
+	font-size:24px;
+	color:#58585c;
+	padding:20px 0px 0px 20px;
+}
+.account-apps .heading p {
+	font-size:18px !important;
+	color:#58585c !important;
+}
+.account-apps .heading span {
+	font-size:16px;
+	color:#a5a5a8;
+}
+.account-apps .remaining {
+	padding:22px 0px 0px 0px;
+}
+.account-apps .remaining_recharge {
+	padding:22px 0px 0px 20px;
+}
+.account-apps .remaining_recharge p, .account-apps .remaining_recharge p span {
+	font-size:26px !important;
+	color:#58585c !important; 
+}
+.account-apps .remaining_recharge span { 
+	font-size:14px;
+	color:#a5a5a8;
+	display:block;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+.account-apps .remaining_recharge p span { float: left; padding-right: 5px;}
+
+
+.account-apps .remaining p, .account-apps .remaining p span {
+	font-size:32px !important;
+	color:#58585c !important;
+}
+
+.account-apps .remaining p span { float: left; padding-right: 5px;}
+.account-apps .remaining span {
+	font-size:14px;
+	color:#a5a5a8;
+	display:block;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+.account-apps .txtcontent {
+	border-bottom:1px solid #dddddf;
+	height:100px; 
+	line-height:100px;
+	font-size:24px;
+	color:#58585c;
+	padding:0px 0px 0px 20px;
+}
+.account-apps .txtcontent2 {
+	border-bottom:1px solid #dddddf;	  
+	font-size:24px;
+	color:#58585c;
+	padding:20px 0px 20px 20px;
+}
+.account-apps .txtbtn {
+	border-bottom:1px solid #dddddf;
+	height:100px; 
+	line-height:100px;
+	font-size:24px;
+	color:#58585c;
+	padding:0px 0px 0px 20px;
+}
+
+
+.accordion-header1 {
+	height:100px;
+	background-color: #f2f2f4;
+	padding:0px;
+	cursor: pointer;
+	margin:7px 0px;
+}
+.active-header1 {
+	background: url(../images/accordion-up.png) #f2f2f4;
+	background-position: 98% center;
+	background-repeat: no-repeat;
+	padding-left:0px;
+	background-position-x: right 20px;
+}
+.active-header1:hover {
+	background: url(../images/accordion-up.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	padding-left:0px;
+	background-position-x: right 20px;
+}
+.inactive-header1 {
+	background: url(../images/accordion-down.png) #f2f2f4;
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	padding-left:0px;
+	background-position-x: right 20px;
+}
+.inactive-header1:hover {
+	background: url(../images/accordion-down.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	padding-left:0px;
+	background-position-x: right 20px;
+}
+.accordion-content1 {
+	display: none;
+	background-color:#f2f2f4 !important; 
+	width:100%;
+	margin-top:-7px !important;
+}
+
+.btn-add {
+    background-color: transparent;
+    color: #525252;
+    border: 1px solid #c8c8ca;
+    border-radius: 40px;
+    font-size: 1em;
+    font-family: 'kohinoorbold';
+	height:60px;
+	line-height:60px;
+	padding:0px 50px;
+    text-transform: uppercase;
+	background-image: url(../images/plus-icon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+.btn-goto {
+    background-color: transparent;
+    color: #525252;
+    border: 1px solid #c8c8ca;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: 'kohinoorbold';
+	height:60px;
+	line-height:60px;
+	padding:0px 50px;
+    text-transform: uppercase;
+	background-image: url(../images/goto-icon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+.btn-see {
+    background-color: transparent;
+    color: #525252;
+    border: 1px solid #c8c8ca;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: 'kohinoorbold';
+	height:60px;
+	line-height:60px;
+	padding:0px 50px;
+    text-transform: uppercase;
+	background-image: url(../images/see-icon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+.btn-transparent {
+    background-color: transparent;
+    color: #525252;
+    border: 1px solid #c8c8ca;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: 'kohinoorbold';
+	height:60px;
+	line-height:60px;
+	padding:0px 50px;
+    text-transform: uppercase;	 
+}
+.btn-recharge {
+    background-color: #fdcc00;;
+    color: #525252;
+    border: 1px solid #fcc200;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: 'kohinoorbold';
+	height:60px;
+	line-height:60px;
+	padding:0px 50px;
+    text-transform: uppercase;
+}
+
+.account-apps .my-order-remaining {
+	padding:22px 0px 0px 0px;
+}
+.account-apps .my-order-remaining p {
+	font-size:30px !important;
+	color:#58585c !important;
+}
+.account-apps .my-order-remaining span {
+	font-size:14px;
+	color:#a5a5a8;
+	display:block;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+.account-apps .my-order-text {
+	border-bottom:1px solid #dddddf;
+	height:100px; 
+	line-height:100px;
+	font-size:24px;
+	color:#58585c;
+	padding:0px 0px 0px 20px;
+}
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.account-apps .apps-info {
+	margin-bottom:20px;
+	padding-left:20px;
+}
+.account-apps .icon {
+	height:100px;
+	line-height:100px;
+	background-color:#ffe04c;
+	text-align:center;
+	border-bottom:2px solid #e0e0e2;
+}
+.account-apps .heading {
+	height:100px;
+	padding:12px 0px 0px 20px;
+	border-bottom:2px solid #e0e0e2;
+}
+.account-apps .remaining {
+	padding:22px 0px 0px 40px;
+	border-bottom:2px solid #e0e0e2;
+}
+.account-apps .remaining_recharge {
+	padding: 20px 0px 0px 20px;
+	border-bottom:2px solid #e0e0e2;
+}
+.account-apps .no-border-bottom {
+	border-bottom:2px solid #f2f2f4;	  
+}
+.account-apps .remaining_recharge span {
+	margin-bottom:0px;
+}
+.account-apps .remaining span {
+	margin-bottom:0px;
+}
+.account-apps .txtcontent {
+	border:none;
+	height:50px;
+	line-height:30px;
+	margin-top:20px;
+}
+.account-apps .txtcontent2 {
+	border-bottom:1px solid #dddddf;	  
+	font-size:24px;
+	color:#58585c;
+	padding:20px 0px 20px 20px;
+}
+.account-apps .txtbtn {
+	text-align:center;
+}
+.btn-add {
+	padding:0px 80px;
+	margin-bottom:20px;
+}
+.btn-goto {
+	padding:0px 100px;
+}
+.btn-see {
+    padding:0px 100px;
+}
+.btn-recharge {
+   padding:0px 100px;
+}
+
+.accordion-header1 {
+	height:200px;
+	margin:15px 0px;
+}
+.active-header1 {
+	background: url(../images/accordion-up.png) #f2f2f4;
+	background-position: right 20px bottom 40px;
+	background-repeat: no-repeat;
+	padding-left:0px;
+}
+.active-header1:hover {
+	background: url(../images/accordion-up.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: right 20px bottom 40px !important;
+	padding-left:0px;
+}
+.inactive-header1 {
+	background: url(../images/accordion-down.png) #f2f2f4;
+	background-repeat: no-repeat;
+	background-position: right 20px bottom 40px;
+	padding-left:0px;
+}
+.inactive-header1:hover {
+	background: url(../images/accordion-down.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: right 20px bottom 40px !important;
+	padding-left:0px;
+}
+.accordion-content1 {
+	display: none;
+	background-color:#f2f2f4 !important; 
+	width:100%;
+	margin-top:-15px !important;
+}
+.account-apps .my-order-remaining {
+	padding:22px 0px 0px 30px;
+	border-bottom:2px solid #e0e0e2;
+}
+.account-apps .my-order-remaining span {
+	margin-bottom:0px;
+}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+.account-apps .my-order-remaining {
+	padding:22px 0px 0px 30px;
+}
+.account-apps .my-order-remaining p {
+	font-size:18px !important;
+	color:#58585c !important;
+}
+.account-apps .my-order-remaining span {
+	font-size:12px;
+	color:#a5a5a8;
+	display:block;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+.account-apps .my-order-text {
+	border-bottom:1px solid #dddddf;
+	height:100px; 
+	line-height:100px;
+	font-size:18px;
+	color:#58585c;
+	padding:0px 0px 0px 20px;
+}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.account-apps .apps-info p {
+	font-size:16px !important;
+}
+.account-apps .remaining_recharge {
+	padding:22px 0px 0px 10px;
+}
+.account-apps .remaining p, .account-apps .remaining p span {
+	font-size:16px !important;
+}
+.account-apps .remaining_recharge p, .account-apps .remaining_recharge p span {
+	font-size:16px !important;
+	color:#58585c !important; 
+}
+.accordion-header1 {
+	height:158px;
+	margin:15px 0px;
+}
+.active-header1 {
+	background: url(../images/accordion-up.png) #f2f2f4;
+	background-position: right 10px bottom 30px;
+	background-repeat: no-repeat;
+	padding-left:0px;
+}
+.active-header1:hover {
+	background: url(../images/accordion-up.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: right 10px bottom 30px !important;
+	padding-left:0px;
+}
+.inactive-header1 {
+	background: url(../images/accordion-down.png) #f2f2f4;
+	background-repeat: no-repeat;
+	background-position: right 10px bottom 30px;
+	padding-left:0px;
+}
+.inactive-header1:hover {
+	background: url(../images/accordion-down.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: right 10px bottom 30px !important;
+	padding-left:0px;
+}
+.account-apps .txtcontent2 {
+	border-bottom:1px solid #dddddf;	  
+	font-size:18px !important; 
+	 
+}
+}

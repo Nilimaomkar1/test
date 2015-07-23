@@ -1,0 +1,301 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.masonry {
+  background: #FFF;
+  width: 1060px;
+  margin:0px auto;
+}
+.masonry .item {
+  width:  254px;
+  height: 380px;
+  float: left;
+  background: #f9f9fb;
+  margin:6px 0px;
+  position:relative;
+  border:1px solid #FFF;
+}
+.masonry .item:hover {
+  border:1px solid #fbc509;
+}
+.item.wi2 { width:  518px; }
+.item.hi1 { height: 520px; margin-top:272px; }
+.item.hi2 { height: 380px; }
+
+.masonry .hi1 .img-h, .masonry .hi2 .img-h {
+  width:75%;
+}
+.masonry .hi1 .img-v , .masonry .hi2 .img-v  {
+  width:35%;
+}
+.masonry .wi2 .img-h  {
+  width:70%;
+}
+.masonry .wi2 .img-v {
+  width:35%;
+}
+
+.masonry .device-info {
+    width:100%;
+	height:260px;
+	padding:20px;
+}
+.masonry .height1-top {
+	height:230px;
+	padding:30px 0px;
+}
+.masonry .height1-bottom {
+	height:155px;
+}
+.masonry .device-info h1 {
+    font-size:1.5em !important;
+	line-height:30px !important;
+	height:50px;
+}
+.masonry .device-feature {
+    float: left;	
+	margin:10px 20px 10px 0px;
+}
+.masonry .device-feature h2 {
+    font-size:16px !important;
+	color: #c5c5c8 !important;
+	padding:5px 0px !important;
+}
+.masonry .device-feature h3 {
+    font-size:16px !important;
+	color:#58585c !important;
+}
+
+.shortlist-view {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 8px;
+	background-image: url("../images/icon-star.png") ;
+	width:32px;
+	height:32px;
+	cursor:pointer;
+	z-index:1;
+}
+.shortlist-view.right-space {
+    margin-right:4px;
+}
+.shortlist-view:hover {
+   background-image: url("../images/icon-star-selected.png");                    
+}
+.shortlist-view a {
+    -webkit-transition: all ease 2s;
+    -o-transition: all ease 2s;
+    -moz-transition: all ease 2s;
+    transition: all ease 2s;
+    text-decoration: none;
+}
+.shortlist-view a:hover:after {
+    color: #fcc200;
+    -webkit-transition: all ease 2s;
+    -o-transition: all ease 2s;
+    -moz-transition: all ease 2s;
+    transition: all ease 2s;
+}
+.view-shortlist, .view-shortlist a{
+    display:none;
+    padding:8px 0px 0px 15px;
+    font-size:0.9em;
+    background: #fff;
+    position: absolute;
+    right:0px;
+    height:32px;
+    width:105px;
+    color:#fcc200!important;
+    top:0px;
+}
+
+
+// ---------------------------------------- Mobile Device Class for 1024 width ----------------------------------------
+
+@media (max-width: 1024px) {
+.masonry {
+  width: 920px;
+  margin:0px 10px;
+  padding:0px;
+}
+.masonry .item {
+  width:  300px;
+  margin:6px 0px;
+  padding:0px;
+  border-left:6px solid #FFF;
+  border-right:6px solid #FFF;
+}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+.masonry {
+  width: 702px;
+  margin:0px 3px;
+  padding:0px;
+}
+.masonry .item {
+  width:  348px;
+  margin:6px 0px;
+  padding:0px;
+  border-left:6px solid #FFF;
+  border-right:6px solid #FFF;
+}
+.item.wi2 { width:  696px; }
+.item.hi1 { height: 520px; margin-top:6px; }
+.masonry .hi1 .img-v, .masonry .hi2 .img-v  {
+  width:50%;
+}
+.masonry .wi2 .img-h {
+  width:60%;
+}
+.masonry .wi2 .img-v {
+  width:25%;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.masonry {
+  width: 600px;
+  margin:0px 10px;
+}
+.masonry .item {
+  width:  300px;
+  border-left:6px solid #FFF;
+  border-right:6px solid #FFF;
+}
+.item.wi2 { width:  600px; }
+.item.hi1 { height: 520px; margin-top:6px; }
+
+.masonry .device-info h1 {
+	line-height:auto;
+}
+.masonry .device-feature h2 {
+	padding:0px !important;
+	line-height:50px !important;
+}
+.masonry .device-feature h3 {
+	padding:0px !important;
+	line-height:0px !important;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 600 width ----------------------------------------
+
+@media (max-width: 600px) {
+.masonry {
+  width: 590px;
+  margin:0px 10px 0px 15px;
+}
+.masonry .item {
+  width:  275px;
+}
+.item.wi2 { width:  550px; }
+}
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+.masonry {
+  width: 462px;
+  margin:0px 8px;
+}
+.masonry .item {
+  width:  220px;
+  margin:4px 0px;
+  border-left:0px solid #FFF;
+  border-right:0px solid #FFF;
+}
+.item.wi2 { width:  448px; }
+.masonry .device-info {
+	padding:20px 10px;
+}
+.masonry .device-info h1 {
+    font-size:1.6em !important;
+	height:45px;
+}
+.masonry .device-feature {	
+	margin:0px 20px 0px 0px;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.masonry {
+  width: 286px;
+  margin:0px 8px;
+}
+.masonry .item {
+  width:  286px;
+  margin:5px 0px;
+   height: 460px; 
+  border-left:0px solid #FFF;
+  border-right:0px solid #FFF;
+}
+.item.wi2 { width:  286px; }
+.masonry .wi2 .img-h {
+  width:85%;
+}
+.masonry .wi2 .img-v {
+  width:50%;
+}
+.masonry .device-info h1 {
+	line-height:26px !important; 
+}
+.masonry .device-feature h2 {
+	padding:0px 0px 5px 0px !important;
+}
+.masonry .device-feature {	
+	margin:0px 30px 10px 0px;
+}
+.masonry .height1-top {
+	height:300px;
+}
+.masonry .height1-bottom {
+	height:220px;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 375 width ----------------------------------------
+
+@media (max-width: 375px) {
+.masonry {
+  width: 350px;
+}
+.masonry .item {
+  width:  342px;
+}
+.item.wi2 { width:  342px; }
+}
+
+// ---------------------------------------- Mobile Device Class for 360 width ----------------------------------------
+
+@media (max-width: 360px) {
+.masonry {
+  width: 340px;
+}
+.masonry .item {
+  width:  326px;
+}
+.item.wi2 { width:  326px; }
+}
+
+// ---------------------------------------- Mobile Device Class for 320 width ----------------------------------------
+
+@media (max-width: 320px) {
+.masonry {
+  width: 300px;
+}
+.masonry .item {
+  width:  286px;
+}
+.item.wi2 { width:  286px; }
+}

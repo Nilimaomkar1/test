@@ -1,0 +1,127 @@
+.emp-title {
+  padding: 0px 50px 30px 50px;   
+}
+.emp-plan-table { 
+	 margin:30px 0px 20px 0px; 
+}
+.emp-plan-table td{ 
+	 padding: 15px 8px; 
+     border-bottom:5px solid #fff;
+	 font-size:1.8em;
+	 color:#525252;
+	
+}
+
+.emp-plan-table td span{ 
+	font-size:0.6em !important;
+	display:block;
+	text-transform: uppercase;
+	line-height: 22px;	
+	color: #ababad;	
+}
+.emp-plan-table .col-disription{
+	width:85%;
+	padding-left:5%;
+	vertical-align:top;
+}
+ 
+.emp-plan-table .col-validity{
+	width:15%;
+	vertical-align:top; 
+}
+  
+.emp-plan-table tr:nth-child(odd):hover td, tbody tr.odd:hover td{ 
+     cursor:pointer; 
+}
+.emp-plan-table .table-striped-odd{ 
+     background-color: #f2f2f4 !important; 
+}
+.emp-plan-table .table-striped-even{ 
+     background-color: #f9f9fb !important; 
+}
+.bundle-set-container .bundle-set .bundle-discription2{position:absolute; top:60px; right:50px; width:40%;}  
+.bundle-set-container .bundle-set .bundle-discription3{position:static; margin-top:20px; width:90%; margin-left:40px;}    
+#product-step1 .mifi2 {
+  background-color:transparent !important;
+  padding: 0px 50px 0px 0px !important; 
+} 
+ #product-step1 .deviceback-bg
+{
+background-color:#e3e3e6; 
+}
+.margin-top-device
+{
+margin-top:20px;
+}
+
+a.txtLink2 {
+  color: #525252!important;
+  border-bottom: 2px solid #fcc200!important;
+  text-decoration: none;
+  font-size:14px !important;
+  display: inline-block !important;
+}
+p.content {
+margin: 0px 0px 10px 0px !important;
+  padding: 0px !important;
+  font-size: 1em !important;
+  font-weight: normal !important;
+  color: #2e2e33 !important;
+  line-height: 26px !important;
+  }
+@media (max-width: 768px) { 
+	.bundle-set-container .bundle-set .bundle-discription2{	  
+	width:70%; 
+	 right:0px; 
+		top:20px;
+	}
+}
+@media (max-width: 640px){ 
+		
+		.bundle-set-container .bundle-set .bundle-discription3 {
+		  position: relative;
+		  width: 100%;
+		  margin-left:0px;
+		  margin-top:0px;  
+		}
+		 #product-step1 .deviceback-bg
+		{
+		   background-color:transparent !important;
+		   
+		}
+		 
+		.text-align-center
+		{
+		text-align:center;
+		}
+		
+		 
+}
+ @media (max-width: 480px){ 
+.emp-plan-table td {
+  padding: 15px 8px;
+  border-top: none;
+  font-size: 1.6em;
+  color: #525252;
+}
+.emp-plan-table .col-disription{
+	width:70%;
+	padding-left:5%; 
+	 
+}
+ 
+
+.emp-plan-table .col-validity{
+	width:30%;
+	 
+}
+}
+
+@media (max-width: 400px){
+.emp-plan-table td {
+  padding: 15px 8px;
+  border-top: none;
+  font-size: 1.2em;
+  color: #525252;
+}
+}

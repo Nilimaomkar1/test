@@ -1,0 +1,48 @@
+ /* Accodion section */
+.accordion-header2 {	 
+	background-color: #f2f2f4;
+	padding:20px 0px 20px 20px;
+	cursor: pointer;	 
+}
+.active-header2 {
+	background: url(../images/accordion-up.png) #f2f2f4;
+	background-position: 98% center;
+	background-repeat: no-repeat;
+	padding-left:0px;
+}
+.active-header2:hover {
+	background: url(../images/accordion-up.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	padding-left:0px;
+}
+.inactive-header2 {
+	background: url(../images/accordion-down.png) #f2f2f4;
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	padding-left:0px;
+}
+.inactive-header2:hover {
+	background: url(../images/accordion-down.png) #ebebeb;
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	padding-left:0px;
+}
+.accordion-content2 {
+	display: none;
+	background-color:#f2f2f4 !important; 
+	width:100%;
+	padding:20px 20px 40px;
+}
+
+/* Accodion section */
+
+
+@media(max-width:480px){
+.accordion-content2 {
+	display: none;
+	background-color:#f2f2f4 !important; 
+	width:100%;
+	padding:20px 20px 40px;
+}
+}

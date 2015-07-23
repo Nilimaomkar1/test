@@ -1,0 +1,210 @@
+#floatMenu {
+    position:absolute;
+}
+#guided-wrap {
+    position:relative;
+	height:auto;
+}
+#Quiz_02, #Quiz_03, #Quiz_04, #score2{
+	display:none;
+}
+.br-top-bottom {
+	border-top: 2px solid #c8c8ca;
+	border-bottom: 2px solid #c8c8ca;
+	padding:20px;
+}
+.guided-help {
+	
+	margin-bottom:40px;
+}
+.guided-help .icon {
+	height:100px;
+	line-height:100px;
+	background-color:#ffe04c;
+	text-align:center;
+}
+.guided-help .heading {
+	font-size:2em;
+	color:#58585c;
+	padding:10px 0px 0px 0px;
+}
+.guided-help .answer {
+	color:#b6b5ba;
+	padding:10px 0px 0px 27px;
+	display:none;
+	border-bottom: 1px solid #e3e3e5;
+}
+.guided-help .answer p {
+	font-size:18px !important;
+	color:#b6b5ba !important;
+}
+.guided-help .answer a {
+	font-size:14px;
+	color:#a5a5a8;
+	text-transform:uppercase;
+	display:block;
+	cursor:pointer;
+	padding-top:5px;
+}
+.guided-help .txtcontent {
+	font-size:16px;
+	color:#58585c;
+	padding:0px;
+	font-weight:normal;
+}
+.guided-help .txtcontent label {
+	padding:2px 0px 0px 35px !important;
+}
+.guided-help .txtcontent ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	font-weight:normal !important;
+}
+.guided-help .txtcontent ul li {
+	height:60px;
+	line-height:60px;
+	padding-left:20px;
+	background-color:#f1f1f1;
+}
+.guided-help .txtcontent ul li:hover {	 
+	background-color:#fcc200;
+	cursor:pointer;
+}
+.guided-help .txtcontent ul li:nth-child(even) {
+	background-color:#FFF;
+}
+.guided-help .txtcontent ul li:nth-child(even):hover {
+	background-color:#fcc200;
+	cursor:pointer;
+}
+.guided-help .txtcontent .info {
+	background-color:#f9f9fb;
+	padding:20px;
+}
+.guided-help .txtcontent .info a {
+	color:#58585c !important;
+	border-bottom:1px solid #fcc200;
+	text-decoration:none;
+}
+.guided-help-header {
+	height:auto;
+	background-color: #FFF;
+	padding:0px;
+	margin:0px 0px 10px 0px;
+}
+.guided-help-content {
+	display: block;
+	width:100%;
+	padding:0px;
+	height:auto;
+}
+
+.guided-help-score-box { 
+	margin-top:55px; 
+	padding: 0px 20px; 
+}  
+.guided-help-score-box img { 
+	display:block;
+	margin-bottom:10px;
+} 
+.guided-help-score-box p { 
+	font-size:1.4em !important;
+	color:#58585c !important;
+}
+.guided-help-score-box a { 
+	color:#58585c !important;
+	border-bottom:1px solid #fcc200;
+	text-decoration:none;
+}
+.guided-help-score-box ul { 
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	font-weight:normal !important;
+} 
+.guided-help-score-box ul li { 
+	font-size:1.2em;
+	color:#58585c;
+	padding:5px 0px;
+} 
+
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+.guided-help-score-box { 
+	padding: 0px; 
+} 
+}
+
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+#guided-wrap {
+    position:relative;
+	height:auto;
+}
+#floatMenu {
+    position:static;
+}
+.guided-help-score-box { 
+	margin-top:0px; 
+	padding: 0px 20px; 
+}
+.guided-help .txtcontent .info p {
+	font-size:1em !important;
+	line-height:25px !important;
+} 
+}
+
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+.guided-help .txtcontent ul li {
+	height:80px;
+	line-height:60px;
+	padding-left:20px;
+	background-color:#f1f1f1;
+}
+.guided-help .txtcontent label {
+	padding:0px 0px 0px 35px !important;
+}
+.guided-help .answer {
+	padding:10px 0px 0px 0px;
+}
+.guided-help .answer p {
+	line-height:25px !important;
+}
+}
+
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.guided-help .heading {
+	font-size:1.2em;
+	color:#58585c;
+	padding:10px 0px 0px 0px;
+}
+.guided-help .txtcontent {
+	font-size:14px;
+}
+.guided-help .txtcontent ul li {
+	height:60px;
+	line-height:40px;
+	padding-left:10px;
+}
+.guided-help .answer p {
+	font-size:14px !important;
+	color:#b6b5ba !important;
+}
+.guided-help-header {
+	height:auto;
+	background-color: #FFF;
+	padding:0px;
+	margin:7px 0px;
+}
+}

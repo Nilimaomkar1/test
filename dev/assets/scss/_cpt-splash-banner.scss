@@ -1,0 +1,263 @@
+
+.banner-home-img {
+    background-position: right top;
+}
+
+
+.white {
+    color: #fff!important;
+}
+
+/*.shadow {
+    text-shadow: 1px 1px 2px #000; 
+}*/
+
+.top-space-intro {
+    padding-top: 40px;
+}
+
+.banner-title {
+    font-size: 3.750em!important;
+}
+
+.banner-sub-title {
+    font-size: 1em !important;
+	 
+	margin:22px auto !important;
+	text-align:center;
+    font-family: 'Kohinoorbold';
+	z-index:9999999999999;
+ 
+}
+
+.splash-container{
+display:none;
+}
+.banner-sub-title div:nth-child(-n+3)
+{
+display: inline-block;
+}
+  
+.banner-sub-title .filter-dropdown {
+    color: #fff;
+    border-bottom: solid 2px #fff;
+	margin:0px 5px;	 
+    cursor: pointer;
+    text-transform: uppercase;
+  
+
+}
+
+.banner-sub-title .dropdown-menu li{
+font-family: 'Kohinoor' !important;
+
+}
+
+.banner-sub-title .dropdown-menu {
+    position: absolute !important;
+    z-index: 100000000;
+    margin-top: 10px;
+	color: #fff;
+	text-align:left !important;    
+	padding-left: 0px !important;
+	min-width:60px !important; 
+	text-shadow: none !important;
+    text-transform: uppercase;
+    background: #fafaf9 !important;	
+    width:290px;	
+}
+.banner-sub-title .dropdown-menu li:hover
+{
+	background: #F7EB03 !important;	 
+  
+}
+.banner-sub-title .dropdown-menu {
+    position:absolute;
+	
+    margin-top: 3px;
+    left:0px;
+     
+        
+}
+.banner-home-img {
+    position: fixed;
+    width: 100%;
+}
+
+.inner-banner .top-space-set {
+	margin-top:50px;
+}
+
+.inner-banner .down-arrow {
+    margin-top: 5%;
+}
+
+.inner-banner {
+    width: 100%;
+    position: fixed;
+    top: 22%;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 100%;
+
+}
+
+.splash-img-1280 {
+    display: block;
+}
+
+.splash-img-640 {
+    display: none;
+}
+
+.splash-img-320 {
+    display: none;
+}
+
+.splash-img-1280 img, .splash-img-640 img, .splash-img-320 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.down-arrow-btn {
+    z-index: 99999999!important;
+    position: relative;
+    
+}
+
+@media (max-width: 960px) {
+
+    .splash-img-1280 {
+        display: none;
+    }
+
+    .splash-img-640 {
+        display: block;
+    }
+
+    .splash-img-320 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .splash-img-1280 {
+        display: none;
+    }
+
+    .splash-img-640 {
+        display: block;
+    }
+
+    .splash-img-320 {
+        display: none;
+    }
+
+    .inner-banner {
+        font-size: 3.750em;
+    }
+
+    .inner-banner .down-arrow {
+        margin-top: 2%;
+    }
+
+    .banner-title {
+        font-size: 1em!important;
+    }
+
+    .banner-sub-title {
+        font-size: 0.3em !important;
+		 
+    }
+
+}
+
+@media (max-width: 640px) {
+    .inner-banner {
+        width: 100%;
+        position: fixed;
+        top: 30%;
+        left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .splash-img-1280 {
+        display: none;
+    }
+
+    .splash-img-640 {
+        display: block;
+    }
+
+    .splash-img-320 {
+        display: none;
+    }
+
+    .banner-title {
+        font-size: 3.750em!important;
+    }
+
+    .banner-sub-title {
+        font-size: 1em !important;	 
+		margin:15px auto !important;
+		 
+    }
+
+}
+
+@media (max-width: 400px) {
+    .inner-banner {
+        width: 100%;
+        position: fixed;
+        top: 30%;
+        left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 50%;
+    }
+
+    .jio-logo {
+        width: 50%;
+        height: 50%;
+    }
+
+    .splash-img-1280 {
+        display: none;
+    }
+
+    .splash-img-640 {
+        display: none;
+    }
+
+    .splash-img-320 {
+        display: block;
+    }
+
+    .banner-title {
+        font-size: 3.750em!important;
+    }
+
+    .banner-sub-title {
+        font-size: 2em !important;
+		 
+    }
+
+        .banner-sub-title .dropdown-menu {
+    
+position:fixed!important;
+margin:0 auto!important;
+left:10px;
+ right:10px;   
+top:340px; 
+max-height:105px;
+}
+}

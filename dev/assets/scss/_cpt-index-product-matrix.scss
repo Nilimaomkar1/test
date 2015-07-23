@@ -1,0 +1,243 @@
+
+.product-container{
+	padding-top:20px !important;
+	padding-left:20px!important;
+}
+.hm-col-container { 
+	position:relative;
+}
+.hm-colm1 { 
+	margin:0px; 
+	padding:0px; 
+}
+.hm-colm1-1 { 
+	height:265px; 
+	background-color:#f2f2f4; 
+	margin:0px; 
+	padding:0px; 
+	margin-bottom:8px; 
+	position:relative;
+}
+.hm-colm1-2 { 
+	height:265px; 
+	background-color:#f2f2f4; 
+	margin:0px; 
+	padding:0px; 
+	position:relative;
+}
+.hm-colm2 { 
+	padding-left:8px; 
+	padding-right:8px;
+}
+.hm-colm2-1 { 
+	height:265px; 
+	background-color:#f2f2f4; 
+	margin:0px; 
+	padding:0px; 
+	margin-bottom:8px; 
+	position:relative;
+}
+.hm-colm2-2 { 
+	height:265px; 
+	background-color:#f2f2f4; 
+	margin:0px; 
+	padding:0px; 
+	border-right:8px solid #FFF; 
+	position:relative;
+}
+.hm-colm2-3 { 
+	height:265px; 
+	background-color:#f2f2f4; 
+	margin:0px; 
+	padding:0px; 
+	position:relative;
+}
+.hm-colm3 { 
+	height:539px; 
+	background-color:#f2f2f4; 
+	margin:0px; 
+	padding:0px; 
+	position:relative;
+}
+.hm-colm1-1:hover, .hm-colm1-2:hover, .hm-colm2-1:hover, .hm-colm2-2:hover, .hm-colm2-3:hover, .hm-colm3:hover { 
+	cursor:pointer; 
+	background-color:#ffe04c;
+}
+.hm-colm1-1-img { 
+	position:absolute; 
+	bottom:25px; 
+	left:18%;
+}
+.hm-colm2-1-img { 
+	position:absolute; 
+	bottom:30px; 
+	left:16%;
+}
+.hm-colm2-2-img { 
+	position:absolute; 
+	bottom:100px; 
+	left:36%;
+}
+.hm-colm2-3-img { 
+	position:absolute; 
+	bottom:0px; 
+	left:19%;
+}
+.hm-colm3-img { 
+	position:absolute; 
+	bottom:0px; 
+	right:0px;
+}
+.hm-colm-text { 
+	position:absolute; 
+	top:20px; 
+	left:20px; 
+	text-align:left;
+}
+
+
+// ---------------------------------------- Mobile Device Class for 768 width ----------------------------------------
+
+@media (max-width: 768px) {
+.hm-colm1-1-img { 
+	left:10%; 
+	right:10%;
+}
+.hm-colm2-1-img { 
+	left:10%; 
+	right:10%;
+}
+.hm-colm2-2-img { 
+	left:25%; 
+	top:43%;
+}
+.hm-colm2-3-img { 
+	left:10%; 
+	right:10%;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 640 width ----------------------------------------
+
+@media (max-width: 640px) {
+.hm-col-container { 
+	position:relative;
+}
+.hm-colm1 { width:49%; 
+	padding:0px; 
+	border-left:15px solid #FFF;
+}
+.hm-colm1-1 { 
+	border-bottom:5px solid #FFF;
+}
+.hm-colm2 { 
+	width:100%; 
+	margin-top:13px; 
+	padding:0px; 
+	border-left:15px solid #FFF; 
+	border-right:15px solid #FFF;
+}
+.hm-colm2-1 { 
+	border-bottom:5px solid #FFF;
+}
+.hm-colm2-3 { 
+	border-left:5px solid #FFF;
+}
+.hm-colm3 { 
+	width:49%; 
+	top:0px; 
+	right:0px; 
+	position:absolute; 
+	padding:0px; 
+	border-right:15px solid #FFF;
+}
+.hm-colm1-1-img { 
+	left:20%; 
+	right:20%;
+}
+.hm-colm2-1-img { 
+	left:10%; 
+	right:10%;
+}
+.hm-colm2-2-img { 
+	left:40%; 
+	top:43%;
+}
+.hm-colm2-3-img { 
+	left:20%; 
+	right:20%;
+}
+.hm-colm-text { 
+	position:absolute; 
+	top:20px; 
+	left:20px; 
+	text-align:left;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 480 width ----------------------------------------
+
+@media (max-width: 480px) {
+.hm-colm1 { 
+	border-right:5px solid #FFF;
+}
+.hm-colm1-1-img { 
+	left:7%;
+}
+.hm-colm2-1-img { 
+	left:6%;
+}
+.hm-colm2-2-img { 
+	left:32%;
+}
+.hm-colm2-3-img { 
+	left:11%;
+}
+}
+
+// ---------------------------------------- Mobile Device Class for 400 width ----------------------------------------
+
+@media (max-width: 400px) {
+.hm-colm1-1 { 
+	height:220px;
+}
+.hm-colm1-2 { 
+	height:220px;
+}
+.hm-colm2-1 { 
+	height:220px;
+}
+.hm-colm2-2 { 
+	height:220px;
+}
+.hm-colm2-3 { 
+	height:220px;
+}
+.hm-colm3 { 
+	height:448px;
+}
+.hm-colm1-1-img { 
+	left:10%; 
+	right:10%;
+}
+.hm-colm2-1-img { 
+	left:10%; 
+	right:10%;
+}
+.hm-colm2-2-img { 
+	left:25%; 
+	top:43%;
+}
+.hm-colm2-3-img { 
+	left:10%; 
+	right:10%;
+}
+.hm-colm-text {
+	top:10px; 
+	left:15px; 
+	font-size:1.2em;
+}
+.hm-colm-text p { 
+	font-size:0.9em !important;
+}
+}

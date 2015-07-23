@@ -1,0 +1,253 @@
+.navbar-nav > li > a {
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 20px !important;
+    font-family: 'kohinoorbold';
+    height: 60px;
+}
+
+.navbar-collapse {
+    padding-left: 7px !important;
+}
+
+#infostrip ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0px;
+}
+
+.navbar-nav {
+    margin: 1px 1px 1px 10px !important;
+}
+
+#nav{
+    font-family: 'kohinoorbold'!important;
+    position: static;
+    top: -32px;
+    font-size: 1.125em;
+    z-index: 999 !important;
+    font-weight:normal;
+}
+
+.fixed {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 10;
+}
+
+.navbar-nav {
+    margin: 1px 1px;
+}  
+  
+/* customize nav style */
+.navbar-custom {
+    font-family: 'kohinoorbold'!important;
+    background-color: #fff;
+    font-weight: normal;
+    border-width: 0;
+}
+
+.navbar-custom  .navbar-nav>li>a {
+    color: #333;
+    vertical-align: top;
+}
+
+.navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a, .navbar-nav li>a:focus {
+    vertical-align: top;
+    background-color: #fff;
+    color: #333;
+    border-bottom: 3px solid #fcc200;
+}
+
+.navbar-custom .dropdown-menu {
+    right: 0;
+}
+
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+    border-top-color: #999;
+    border-bottom-color: #999;
+}
+
+.navbar-collapse.in {
+ /*3.0.2 bug workaround*/
+    overflow-y: visible;
+}
+
+.navbar-toggle {
+    outline: 0;
+}
+
+.panel {
+    border-width: 0;
+}
+
+
+
+.inner-header{
+    position:relative;
+    background:transparent!important;
+    z-index:0;
+}
+.link-divider{
+    background-image:url(../images/divider.jpg);
+    
+    float:right;
+    margin-right:50px;
+    width: 3px;
+    height:20px;
+}
+.number{
+	position: absolute;
+right: -9px;
+top: -8px;
+width: 15px;
+height: 15px;
+line-height: 17px;
+background-color: #fdc300;
+border-radius: 10px;
+font-size: 10px;
+color: #FFF;
+text-align: center;
+}
+
+.cart-link{
+    background-image: url("../images/top-icon-cart.jpg");
+    background-position: 2px 17px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 0 0px 27px;
+
+
+}
+.cart-link:hover{
+    background-image: url("../images/top-icon-cart-ro.jpg");
+
+
+}
+
+
+.cart-new-link{
+    background-image: url("../images/top-icon-cart.jpg");
+    background-position: 7px 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 0 0px 31px;
+
+
+}
+.cart-new-link:hover{
+    background-image: url("../images/top-icon-cart-ro.jpg");
+    color: #fcd13f; 
+
+}
+
+
+.search-link{
+    background-image: url("../images/top-icon-search.jpg");
+    background-position: 7px 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 0 0px 31px;
+
+
+}
+.search-link:hover{
+    background-image: url("../images/top-icon-search-ro.jpg");
+    color: #fcd13f; 
+
+}
+
+.cart-mobile-icon{
+float:right;
+position:absolute;
+ right:20px;
+ top:20px;
+}
+
+.recharge-mobile-icon{
+float:right;
+position:absolute;
+ right:20px;
+ top:20px;
+ color:#000;
+}
+
+
+.recharge-mobile-icon a{
+color:#2e2e33;
+text-decoration:none;
+
+}
+
+.recharge-mobile-icon a:hover{
+color:#fcc200;
+text-decoration:none;
+
+}
+
+
+.login-link{
+    background-image: url("../images/top-icon-signin.jpg");
+    background-position: 2px 1px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 0 0px 27px;
+	z-index:999999999999;
+}
+.login-link:hover{
+    background-image: url("../images/top-icon-signin-ro.jpg");
+   color: #fcd13f;  
+
+}
+
+.store-link{
+    background-image: url("../images/store-locator-ico.png");
+    background-position: 2px 17px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 0 0px 27px;
+	z-index:999999999999;
+}
+.store-link:hover{
+    background-image: url("../images/store-locator-ico-ro.png");
+   color: #fcd13f;  
+
+}
+
+.coverage-link{
+    background-image: url("../images/coverage-checker-ico.png");
+    background-position: 2px 17px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 0 0px 27px;
+	z-index:999999999999;
+}
+.coverage-link:hover{
+    background-image: url("../images/coverage-checker-ico-ro.png");
+   color: #fcd13f;  
+
+}
+
+
+.login-link a:hover{
+color: #fcd13f;  
+}
+
+@media (min-width: 767px) {
+    .navbar-nav.nav-justified > li {
+        float: none;
+    }
+}
+@media (max-width: 1600px) {
+
+
+}
+
+@media (max-width: 640px) {
+
+
+
+
+}
+
+

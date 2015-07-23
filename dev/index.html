@@ -1,0 +1,54 @@
+<% include includes/html-head.html %>
+<% include includes/splash-header.html %> <!-- Only for Index page -->
+<div class="index-body-container"> </div>
+<div id="wrap" >
+
+    <div class="main-bg">
+         <% include includes/site-header.html %>  
+    </div>
+    
+    <div class="container">
+		<% include includes/video1.html %>
+        <div class="body-container">
+            <% include includes/index-bundles-new.html %>
+			 <div class="row margin-top-60">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-space padding-left-4 padding-right-4">
+            	<% include includes/index-stories1.html %>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-space padding-left-4 padding-right-4">
+            	<% include includes/index-stories2.html %>
+            </div>
+         	</div>
+         	<div class="text-center stories-btn-spacing margin-bottom-40">
+              <input type="button" value="VIEW MORE" class="btn-redirect" onclick="location.href=('explore-topics.html')" />
+         	</div>
+            <% include includes/index-check-coverage-new.html %>    
+        </div>
+    </div>
+    
+    <div class="home-faq-bg-new">
+        <div class="container">				 
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-space">
+                    <% include includes/index-apps-new.html %>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-space">
+                    <% include includes/index-deals-new.html %>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-space">
+                    <% include includes/index-faqs-new.html %>
+                </div>
+             </div> 
+        </div>
+    </div>
+    
+    <div class="container">				 
+        <div class="body-container">  
+         <% include includes/articles-new.html %>    
+         <% include includes/site-footer.html %> 
+        </div>
+    </div>
+    
+</div>
+
+<% include includes/html-footer.html %>
